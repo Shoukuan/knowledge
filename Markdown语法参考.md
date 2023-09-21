@@ -1,3 +1,5 @@
+[Markdwon官方教程](https://markdown.com.cn/intro.html)
+
 >微信公众号排版工具。问题或建议，请公众号留言。**[程序员翻身](#jump_8)**
 
 建议使用 **Chrome** 浏览器，体验最佳效果。
@@ -124,7 +126,7 @@ Markdown是一种轻量级的「标记语言」。
 脚注：[文字](脚注解释 "脚注名字")
 ```
 
-有人认为在[大前端时代](https://en.wikipedia.org/wiki/Front-end_web_development "Front-end web development")[^1]的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。
+有人认为在[大前端时代](https://en.wikipedia.org/wiki/Front-end_web_development "Front-end web development")的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。
 
 [全栈工程师](是指掌握多种技能，并能利用多种技能独立完成产品的人。 "什么是全栈工程师")在业务开发流程中起到了至关重要的作用。
 
