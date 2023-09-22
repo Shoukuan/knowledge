@@ -1,0 +1,1189 @@
+{
+    "root": {
+        "data": {
+            "id": "cvp16gw870o0",
+            "created": 1695343684737,
+            "text": "智能产品性能优化"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cvp176fyjkg0",
+                    "created": 1695343740350,
+                    "text": "硬件",
+                    "layout_mind_offset": {
+                        "x": -6.000015124678498,
+                        "y": 0.500000037252903
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvp17gtyc4w0",
+                            "created": 1695343762964,
+                            "text": "芯片设计"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvp1avxd0140",
+                                    "created": 1695344030914,
+                                    "text": "CPU架构"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp1s4tbpko0",
+                                            "created": 1695345382452,
+                                            "text": "ARM"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp1t77ckwg0",
+                                                    "created": 1695345466018,
+                                                    "text": "ARMv7"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp1tfdkrpk0",
+                                                    "created": 1695345483809,
+                                                    "text": "ARMv8"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4qrequjc0",
+                                                    "created": 1695353738238,
+                                                    "text": "GIC"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp56k0d51s0",
+                                                            "created": 1695354975958,
+                                                            "text": "GICv2",
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp82z2ozao0",
+                                                                    "created": 1695363158623,
+                                                                    "text": "类型",
+                                                                    "expandState": "expand"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp807aar8g0",
+                                                                            "created": 1695362941405,
+                                                                            "text": "SPI"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp8087gkm80",
+                                                                            "created": 1695362943410,
+                                                                            "text": "PPI"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp8090um7c0",
+                                                                            "created": 1695362945187,
+                                                                            "text": "SGI"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp8306tseo0",
+                                                                    "created": 1695363161050,
+                                                                    "text": "组成",
+                                                                    "expandState": "expand"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp81vaieeg0",
+                                                                            "created": 1695363072025,
+                                                                            "text": "Distributor"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp826i3rao0",
+                                                                            "created": 1695363096428,
+                                                                            "text": "CPU interface"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp56o4kxdk0",
+                                                            "created": 1695354984920,
+                                                            "text": "GICv3/4",
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp83g165i00",
+                                                                    "created": 1695363195536,
+                                                                    "text": "类型",
+                                                                    "expandState": "expand"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp80a07f9c0",
+                                                                            "created": 1695362947325,
+                                                                            "text": "新增LPI"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp83hckqe80",
+                                                                    "created": 1695363198404,
+                                                                    "text": "组成",
+                                                                    "expandState": "expand"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp825m4lyo0",
+                                                                            "created": 1695363094495,
+                                                                            "text": "新增Redistributor"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp1s7t2deo0",
+                                            "created": 1695345388967,
+                                            "text": "RISCV"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp1tpq450o0",
+                                                    "created": 1695345506335,
+                                                    "text": "SiFive"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp1tvu5xn40",
+                                                    "created": 1695345519640,
+                                                    "text": "Andes晶芯"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4qvjb8nc0",
+                                                    "created": 1695353747221,
+                                                    "text": "PLIC/CLIC/CLINT"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp1ba9krls0",
+                                    "created": 1695344062128,
+                                    "text": "NoC"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp1ca3nb940",
+                                    "created": 1695344140134,
+                                    "text": "AMBA"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp1smcmd7c0",
+                                            "created": 1695345420624,
+                                            "text": "APB"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp1sn9yp9c0",
+                                            "created": 1695345422640,
+                                            "text": "AHB"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp1so5ngi80",
+                                            "created": 1695345424556,
+                                            "text": "AXI"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp1t377yxc0",
+                                            "created": 1695345457303,
+                                            "text": "ACE"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp1rcuoav40",
+                                    "created": 1695345321584,
+                                    "text": "Cache"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp4p8xf7tk0",
+                                            "created": 1695353619644,
+                                            "text": "一级/二级"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp4qa00tjk0",
+                                            "created": 1695353700342,
+                                            "text": "一致性访问"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp1rgwu7ls0",
+                                    "created": 1695345330422,
+                                    "text": "SRAM"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp4qgk3gig0",
+                                            "created": 1695353714617,
+                                            "text": "高效访问"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp4r8rkxs00",
+                                    "created": 1695353776019,
+                                    "text": "CoreLink"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp4silz93k0",
+                                            "created": 1695353875813,
+                                            "text": "CMN-600"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvp17lqpkzk0",
+                            "created": 1695343773652,
+                            "text": "原理图设计"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvp1957abao0",
+                                    "created": 1695343894377,
+                                    "text": "芯片选型"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp4rlo2gf40",
+                                            "created": 1695353804105,
+                                            "text": "成本"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp4rpsayyo0",
+                                            "created": 1695353813068,
+                                            "text": "指标"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp19atck340",
+                                    "created": 1695343906595,
+                                    "text": "上电时序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp19ir9f8w0",
+                                    "created": 1695343923883,
+                                    "text": "时钟频率"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp4w9dqyog0",
+                                    "created": 1695354169181,
+                                    "text": "硬件接口"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp4yzmqjjc0",
+                                            "created": 1695354383049,
+                                            "text": "音视频",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp4zjwmdzk0",
+                                                    "created": 1695354427182,
+                                                    "text": "视频"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp51bhc3b40",
+                                                            "created": 1695354565572,
+                                                            "text": "HDMI"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp51cdzcq80",
+                                                            "created": 1695354567546,
+                                                            "text": "DP等"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4wvn15rs0",
+                                                    "created": 1695354217631,
+                                                    "text": "MIPI"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp4x12acxk0",
+                                                            "created": 1695354229438,
+                                                            "text": "CSI"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp4x3q5ucg0",
+                                                            "created": 1695354235235,
+                                                            "text": "DSI"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp506az3zk0",
+                                                    "created": 1695354475939,
+                                                    "text": "音频"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp50syrp2o0",
+                                                            "created": 1695354525267,
+                                                            "text": "I2S"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp50tr7b0w0",
+                                                            "created": 1695354526986,
+                                                            "text": "TCM/TDM"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp4z2ogkt40",
+                                            "created": 1695354389683,
+                                            "text": "低速串行",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp4wh7ajeg0",
+                                                    "created": 1695354186205,
+                                                    "text": "CAN"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4wfhx09c0",
+                                                    "created": 1695354182493,
+                                                    "text": "I2C"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4weeu7480",
+                                                    "created": 1695354180130,
+                                                    "text": "SPI"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4x93i56w0",
+                                                    "created": 1695354246925,
+                                                    "text": "LIN"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4xbtsfr40",
+                                                    "created": 1695354252868,
+                                                    "text": "FlexWay"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp50knzpts0",
+                                                    "created": 1695354507201,
+                                                    "text": "UART"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp4zcthoy00",
+                                            "created": 1695354411755,
+                                            "text": "高速串行",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp4xgjslmw0",
+                                                    "created": 1695354263148,
+                                                    "text": "Ethernet"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4wgarwxs0",
+                                                    "created": 1695354184238,
+                                                    "text": "USB"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp4wich5iw0",
+                                                    "created": 1695354188695,
+                                                    "text": "PCIe"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvp17aqlhbs0",
+                    "created": 1695343749700,
+                    "text": "软件",
+                    "layout_mind_offset": {
+                        "x": 28.750011790543567,
+                        "y": -3.2500000558793545
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvp4ye3k7340",
+                            "created": 1695354336178,
+                            "text": "中间件"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvp7rzbl9mg0",
+                                    "created": 1695362297155,
+                                    "text": "AutoSAR"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp7s3u9ka00",
+                                    "created": 1695362306992,
+                                    "text": "核间通信",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp7tk0ccgw0",
+                                            "created": 1695362420552,
+                                            "text": "RpMSG"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7todn8ag0",
+                                            "created": 1695362430063,
+                                            "text": "OpenAMP"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7ujscjp40",
+                                            "created": 1695362498433,
+                                            "text": "DDS"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvp7p05zl1c0",
+                            "created": 1695362063901,
+                            "text": "OS",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvp4usl1fcg0",
+                                    "created": 1695354054252,
+                                    "text": "RTOS"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp7qeu4dsw0",
+                                            "created": 1695362174199,
+                                            "text": "进程管理"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp7qqvhwoo0",
+                                                    "created": 1695362200405,
+                                                    "text": "优先级抢占"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp7qrugdko0",
+                                                    "created": 1695362202518,
+                                                    "text": "时间片轮转"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp7r1ebuoo0",
+                                                    "created": 1695362223310,
+                                                    "text": "FIFO"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7qfo8m0o0",
+                                            "created": 1695362176021,
+                                            "text": "内存管理"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp7rba4o1s0",
+                                                    "created": 1695362244824,
+                                                    "text": "Block"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp7rc3nllc0",
+                                                    "created": 1695362246610,
+                                                    "text": "Byte"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7v2m33ls0",
+                                            "created": 1695362539413,
+                                            "text": "启动",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp7uphhvw00",
+                                                    "created": 1695362510837,
+                                                    "text": "AMP"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp7usy5pg00",
+                                                    "created": 1695362518375,
+                                                    "text": "SMP"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp4un3mzkw0",
+                                    "created": 1695354042316,
+                                    "text": "Linux"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp58tbfz8o0",
+                                            "created": 1695355152947,
+                                            "text": "启动"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp58jrtxr40",
+                                            "created": 1695355132170,
+                                            "text": "内核"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp593y36zk0",
+                                                    "created": 1695355176084,
+                                                    "text": "进程管理"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp5agpeb9s0",
+                                                            "created": 1695355282221,
+                                                            "text": "实时进程"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7n3bv50w0",
+                                                                    "created": 1695361914058,
+                                                                    "text": "优先级抢占"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7n4qpku00",
+                                                                    "created": 1695361917133,
+                                                                    "text": "时间片轮询"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7r69sl0w0",
+                                                                    "created": 1695362233921,
+                                                                    "text": "FIFO"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp5are5lxc0",
+                                                            "created": 1695355305486,
+                                                            "text": "非实时进程"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7nh73lnk0",
+                                                                    "created": 1695361944245,
+                                                                    "text": "CFS"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp7vm07kl40",
+                                                                            "created": 1695362581626,
+                                                                            "text": "优先级"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp7vp8jn5s0",
+                                                                            "created": 1695362588660,
+                                                                            "text": "虚拟运行时间"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp59ddcpls0",
+                                                    "created": 1695355196598,
+                                                    "text": "内存管理"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7e6ic2ps0",
+                                                            "created": 1695361215702,
+                                                            "text": "内核对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7jewejuw0",
+                                                            "created": 1695361625788,
+                                                            "text": "API",
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7h81w6y80",
+                                                                    "created": 1695361454154,
+                                                                    "text": "malloc"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp7ihcrxgg0",
+                                                                            "created": 1695361552767,
+                                                                            "text": "小于128K：sbrk/brk"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp7iidgtnk0",
+                                                                            "created": 1695361554986,
+                                                                            "text": "大于128K：mmap"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7k6ieoww0",
+                                                                    "created": 1695361685892,
+                                                                    "text": "kmalloc"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7kb5zpow0",
+                                                                    "created": 1695361696025,
+                                                                    "text": "vmolloc"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7l14ti6o0",
+                                                            "created": 1695361752550,
+                                                            "text": "分配器"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7l8mq1kg0",
+                                                                    "created": 1695361768870,
+                                                                    "text": "Buddy算法"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7l9lgc4g0",
+                                                                    "created": 1695361770970,
+                                                                    "text": "Slab算法"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7llsr6w00",
+                                                            "created": 1695361797533,
+                                                            "text": "CMA/预分配"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7xibr2lk0",
+                                                            "created": 1695362730345,
+                                                            "text": "回收机制"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7xlij0cw0",
+                                                                    "created": 1695362737285,
+                                                                    "text": "LRU"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7xmc5cko0",
+                                                                    "created": 1695362739076,
+                                                                    "text": "OOM机制"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp5asqv7ao0",
+                                                    "created": 1695355308431,
+                                                    "text": "异常处理"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7lzme1v40",
+                                                            "created": 1695361827623,
+                                                            "text": "一般中断"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7smgap200",
+                                                                    "created": 1695362347506,
+                                                                    "text": "上半部"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7sq6pvm00",
+                                                                    "created": 1695362355634,
+                                                                    "text": "下半部"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp7stoln480",
+                                                                            "created": 1695362363246,
+                                                                            "text": "软中断"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp7sugklkw0",
+                                                                            "created": 1695362364937,
+                                                                            "text": "Tasklet"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cvp7sv89bk00",
+                                                                            "created": 1695362366611,
+                                                                            "text": "工作队列"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cvp7t859bqw0",
+                                                                    "created": 1695362394728,
+                                                                    "text": "中断嵌套"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7m0qzvwg0",
+                                                            "created": 1695361830079,
+                                                            "text": "快速中断"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7m1k9wuw0",
+                                                            "created": 1695361831849,
+                                                            "text": "指令/数据中止模式"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7m34sx740",
+                                                            "created": 1695361835267,
+                                                            "text": "未定义"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7nzu1npk0",
+                                                            "created": 1695361984815,
+                                                            "text": "64位：EL0/1/2/3"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp58zf8mq80",
+                                            "created": 1695355166237,
+                                            "text": "驱动"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvp59h13mvs0",
+                                                    "created": 1695355204564,
+                                                    "text": "平台驱动"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp59ptl6mo0",
+                                                    "created": 1695355223701,
+                                                    "text": "字符驱动"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp59tolg880",
+                                                    "created": 1695355232106,
+                                                    "text": "块驱动"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp59zqdc540",
+                                                    "created": 1695355245274,
+                                                    "text": "网络驱动"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp5a4hn8eg0",
+                                                    "created": 1695355255631,
+                                                    "text": "音视频"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7wkj2v7s0",
+                                                            "created": 1695362656777,
+                                                            "text": "ALSA音频"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cvp7wlony8w0",
+                                                            "created": 1695362659292,
+                                                            "text": "V4L2视频"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvp7wggtc2w0",
+                                                    "created": 1695362647933,
+                                                    "text": "DTS"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvp7paoc8540",
+                                    "created": 1695362086778,
+                                    "text": "同步机制"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvp7pegdul40",
+                                            "created": 1695362095004,
+                                            "text": "信号量"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7pfghsbc0",
+                                            "created": 1695362097188,
+                                            "text": "互斥锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7pg8hoog0",
+                                            "created": 1695362098881,
+                                            "text": "消息"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7ph1opk80",
+                                            "created": 1695362100646,
+                                            "text": "事件"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvp7q4s4ja80",
+                                            "created": 1695362152311,
+                                            "text": "自旋锁"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
