@@ -1,3 +1,5 @@
+# bin的技术小屋关于内存管理的分享
+
 > [聊聊Linux内核](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2MzU3Mjc3Ng==&action=getalbum&album_id=2559805446807928833&scene=173&from_msgid=2247487111&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
 
 [1. 从 Linux 内核角度探秘 JDK NIO 文件读写本质](https://mp.weixin.qq.com/s?__biz=Mzg2MzU3Mjc3Ng==&mid=2247486623&idx=1&sn=0cafed9e89b60d678d8c88dc7689abda&chksm=ce77cad8f90043ceaaca732aaaa7cb692c1d23eeb6c07de84f0ad690ab92d758945807239cee&scene=178&cur_album_id=2559805446807928833#rd)
