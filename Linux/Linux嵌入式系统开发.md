@@ -16,11 +16,11 @@ u-boot官方在线文档 <https://u-boot.readthedocs.io/en/latest/index.html>
 
 在编译uboot时首先执行make xxx_defconfig生成.config文件。  
 
-![make defconfig配置流程简图](make_defconfig配置流程简图.jpg)  
+![make defconfig配置流程简图](images/make_defconfig配置流程简图.jpg)  
 
-![u-boot顶层目标的依赖关系](u-boot顶层目标的依赖关系.jpg)  
+![u-boot顶层目标的依赖关系](images/u-boot顶层目标的依赖关系.jpg)  
 
-![u-boot文件目标依赖](u-boot文件目标依赖.jpg)  
+![u-boot文件目标依赖](images/u-boot文件目标依赖.jpg)  
 
 ### 1.2. source analysis
 
@@ -38,7 +38,7 @@ RoomBoot—>SPL—>u-boot—>linux kernel—>file system——>start application
 
 ### 1.7. uboot-kernel地址空间
 
-![ arm64物理地址与虚拟地址空间](arm64物理地址与虚拟地址空间.jpg)  
+![ arm64物理地址与虚拟地址空间](images/arm64物理地址与虚拟地址空间.jpg)  
 
 ### 1.8. 多核异构平台系统启动分析
 
@@ -46,7 +46,7 @@ RoomBoot—>SPL—>u-boot—>linux kernel—>file system——>start application
 
 [Linux kernel map](https://makelinux.github.io/kernel/map/)
 
-![Linux_Kernel_Map](Linux_Kernel_Map.jpg)  
+![Linux_Kernel_Map](images/Linux_Kernel_Map.jpg)  
 
 ### 2.1. linux kernel debug tools
 
