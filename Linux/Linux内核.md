@@ -3,7 +3,7 @@
 [Linux 内核 5.10.14](https://linux-kernel-labs-zh.xyz/lectures/intro.html)
 
 典型操作系统架构：
-![操作系统架构](典型操作系统架构.jpg)
+![操作系统架构](images/典型操作系统架构.jpg)
 
 以下是 Linux 源代码文件夹的顶层目录：
 
@@ -50,7 +50,7 @@ include**——头文件
 
 **virt**——KVM（内核虚拟机）和 hypervisor（虚拟化管理程序）的位置
 
-![Linux 内核结构](Linux内核结构.jpg)
+![Linux 内核结构](images/Linux内核结构.jpg)
 
 ## 什么是中断？
 
