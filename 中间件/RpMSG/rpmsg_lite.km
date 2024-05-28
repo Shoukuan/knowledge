@@ -1,0 +1,547 @@
+{
+    "root": {
+        "data": {
+            "id": "d1ky83t80u80",
+            "created": 1716866060470,
+            "text": "struct rpmsg_lite_instance",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d1ky8nvd9a80",
+                    "created": 1716866104135,
+                    "text": "struct virtqueue *rvq;                /*!< receive virtqueue */",
+                    "expandState": "expand",
+                    "layout_right_offset": {
+                        "x": -51.999999225139675,
+                        "y": -25.99999961256981
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d1kyecqphk80",
+                            "created": 1716866550094,
+                            "text": "char vq_name[VIRTQUEUE_MAX_NAME_SZ];"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyehfcma80",
+                            "created": 1716866560291,
+                            "text": "uint32_t vq_flags;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyentjju00",
+                            "created": 1716866574210,
+                            "text": "int32_t vq_alignment;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyescz5w00",
+                            "created": 1716866584092,
+                            "text": "int32_t vq_ring_size;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyewdn6co0",
+                            "created": 1716866592840,
+                            "text": "int32_t vq_ring_size;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyezmp4vk0",
+                            "created": 1716866599917,
+                            "text": "void (*callback_fc)(struct virtqueue *vq);"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyf37ax5k0",
+                            "created": 1716866607694,
+                            "text": "void (*notify_fc)(struct virtqueue *vq);"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyf6k9v3c0",
+                            "created": 1716866615008,
+                            "text": "int32_t vq_max_indirect_size;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyfa164800",
+                            "created": 1716866622560,
+                            "text": "int32_t vq_indirect_mem_size;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyfekk3pc0",
+                            "created": 1716866632440,
+                            "text": "struct vring",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d1kyljla5zk0",
+                                    "created": 1716867113552,
+                                    "text": "uint32_t num;"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d1kylkqba7s0",
+                                    "created": 1716867116033,
+                                    "text": "struct vring_desc *desc;",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1kyloy07c00",
+                                            "created": 1716867125206,
+                                            "text": "/* Address (guest-physical). */\nuint64_t addr;"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1kyn4vbxq00",
+                                            "created": 1716867238237,
+                                            "text": "/* Length. */\nuint32_t len;"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1kyn8ej97k0",
+                                            "created": 1716867245928,
+                                            "text": "/* The flags as indicated above. */\nuint16_t flags;"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1kynbgdnvk0",
+                                            "created": 1716867252570,
+                                            "text": "/* We chain unused descriptors via this, too. */\nuint16_t next;"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1kyqnr69d40",
+                                    "created": 1716867514437,
+                                    "text": "static inline void vring_init(struct vring *vr, uint32_t num, uint8_t *p, uint32_t align)\n{\n\tvr->num   = num;\n\tvr->desc  = (struct vring_desc *)(void *)p;\n\tvr->avail = (struct vring_avail *)(void *)(p + num * sizeof(struct vring_desc));\n\tvr->used  = (struct vring_used *)(((uintptr_t)&vr->avail->ring[num] + align - 1UL) & ~(align - 1UL));\n}",
+                                    "font-style": "italic"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1kyqynvw0o0",
+                                            "created": 1716867538182,
+                                            "text": "描述符表，available ring和used ring是连续的内存"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1kylkqaw3c0",
+                                    "created": 1716867116033,
+                                    "text": "struct vring_used *used;",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1kylqc9aps0",
+                                            "created": 1716867128244,
+                                            "text": "uint16_t flags;"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1kyni4pyo80",
+                                            "created": 1716867267103,
+                                            "text": "uint16_t idx;"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1kyni4px7k0",
+                                            "created": 1716867267103,
+                                            "text": "struct vring_used_elem ring[1];"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d1kyno12usw0",
+                                                    "created": 1716867279943,
+                                                    "text": "/* Index of start of used descriptor chain. */\nuint32_t id;",
+                                                    "layout_right_offset": {
+                                                        "x": -1.2499965354800224,
+                                                        "y": -12.499999627471084
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d1kyo29oibs0",
+                                                    "created": 1716867310938,
+                                                    "text": "/* Total length of the descriptor chain which was written to. */\nuint32_t len;"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d1kylkqavio0",
+                                    "created": 1716867116033,
+                                    "text": "struct vring_avail *avail;",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d1kymn2zfv40",
+                                            "created": 1716867199517,
+                                            "text": "uint16_t flags;"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1kymnsxdu00",
+                                            "created": 1716867201086,
+                                            "text": "uint16_t idx;"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d1kymnsx8io0",
+                                            "created": 1716867201086,
+                                            "text": "uint16_t ring[1];"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyfrrtkiw0",
+                            "created": 1716866661177,
+                            "text": "uint16_t vq_queue_index;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyftih7ko0",
+                            "created": 1716866664966,
+                            "text": "uint16_t vq_nentries;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyfx4u9fc0",
+                            "created": 1716866672848,
+                            "text": "uint16_t vq_free_cnt;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyg0gbbgg0",
+                            "created": 1716866680072,
+                            "text": "uint16_t vq_queued_cnt;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyg50hxgg0",
+                            "created": 1716866690000,
+                            "text": "Head of the free chain in the descriptor table.\n If there are no free descriptors, this will be set to be VQ_RING_DESC_CHAIN_END \n uint16_t vq_desc_head_idx;",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyigtn4i80",
+                            "created": 1716866872435,
+                            "text": "/*\n * Last consumed descriptor in the used table,\n * trails vq_ring.used->idx.\n */\n uint16_t vq_used_cons_idx;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyj4sgpq00",
+                            "created": 1716866924607,
+                            "text": "/*\n* Last consumed descriptor in the available table -\n * used by the consumer side.\n */\n uint16_t vq_available_idx;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyjxihg3s0",
+                            "created": 1716866987130,
+                            "text": "boolean avail_read;  /* 8bit wide */"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kykk89zls0",
+                            "created": 1716867036579,
+                            "text": "boolean avail_write; /* 8bit wide */"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kykk8aqig0",
+                            "created": 1716867036580,
+                            "text": "boolean used_read;   /* 8bit wide */"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kykk8api00",
+                            "created": 1716867036580,
+                            "text": "boolean used_write;  /* 8bit wide */"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kykz77f280",
+                            "created": 1716867069166,
+                            "text": "uint16_t padd;       /* aligned to 32bits after this: */"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyl18ddz40",
+                            "created": 1716867073590,
+                            "text": "void *priv;          /* private pointer, upper layer instance pointer */"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d1ky8w9imvc0",
+                    "created": 1716866122405,
+                    "text": "struct virtqueue *tvq;                /*!< transmit virtqueue */",
+                    "layout_mind_offset": {
+                        "x": 763.9999886155131,
+                        "y": 54.99999918043608
+                    },
+                    "expandState": "expand"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1ky9f2wwy00",
+                    "created": 1716866163365,
+                    "text": "struct llist *rl_endpoints;           /*!< linked list of endpoints */",
+                    "layout_mind_offset": {
+                        "x": 853.9999888241292,
+                        "y": 226.99999661743652
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d1kyokzxt880",
+                            "created": 1716867351708,
+                            "text": "void *data;",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyovuyozs0",
+                            "created": 1716867375352,
+                            "text": "uint32_t attr;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyovuzx6w0",
+                            "created": 1716867375354,
+                            "text": "struct llist *next;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyovv0cw80",
+                            "created": 1716867375355,
+                            "text": "struct llist *prev;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kyozwnkco0",
+                            "created": 1716867384161,
+                            "text": "多个端点可以和多个通信"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d1kyagysgbc0",
+                    "created": 1716866245833,
+                    "text": "LOCK *lock;                           /*!< local RPMsg Lite mutex lock */"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1kyakws23k0",
+                    "created": 1716866254419,
+                    "text": "#if defined(RL_USE_STATIC_API) && (RL_USE_STATIC_API == 1)\n\tLOCK_STATIC_CONTEXT lock_static_ctxt; /*!< Static context for lock object creation */\n#endif"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1kyapaa8140",
+                    "created": 1716866263942,
+                    "text": "uint32_t link_state;                  /*!< state of the link, up/down*/"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1kyaw56in40",
+                    "created": 1716866278871,
+                    "text": "char *sh_mem_base;                    /*!< base address of the shared memory */"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1kyazuqrew0",
+                    "created": 1716866286947,
+                    "text": "uint32_t sh_mem_remaining;            /*!< amount of remaining unused buffers in shared memory */"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1kyb3mbpo00",
+                    "created": 1716866295145,
+                    "text": "uint32_t sh_mem_total;                /*!< total amount of buffers in shared memory */"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1kyb7zrc400",
+                    "created": 1716866304665,
+                    "text": "struct virtqueue_ops const *vq_ops;   /*!< ops functions table pointer */",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d1kypo73no80",
+                            "created": 1716867437036,
+                            "text": "void (*vq_tx)(struct virtqueue *vq, void *buffer, uint32_t len, uint16_t idx);"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kypr5eyow0",
+                            "created": 1716867443464,
+                            "text": "void *(*vq_tx_alloc)(struct virtqueue *vq, uint32_t *len, uint16_t *idx);"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kypr5f4480",
+                            "created": 1716867443464,
+                            "text": "void *(*vq_rx)(struct virtqueue *vq, uint32_t *len, uint16_t *idx);"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d1kypr5eytk0",
+                            "created": 1716867443464,
+                            "text": "void (*vq_rx_free)(struct virtqueue *vq, void *buffer, uint32_t len, uint16_t idx);"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d1kybbj4h340",
+                    "created": 1716866312366,
+                    "text": "#if defined(RL_USE_STATIC_API) && (RL_USE_STATIC_API == 1)\n\tstruct vq_static_context vq_ctxt[2];\n#endif"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d1kybfnpzn40",
+                    "created": 1716866321351,
+                    "text": "uint32_t link_id; /*!< linkID of this rpmsg_lite instance */"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-pink-compat",
+    "version": "1.4.43"
+}
