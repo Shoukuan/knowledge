@@ -17,4 +17,9 @@
 对于回放的情形，PCM 数据流向大致是：
 ![回放场景数据流](回放场景数据流.jpg)
 
+**snd_soc_codec_driver**：音频编解码芯片描述及操作函数，如控件/微件/音频路由的描述信息、时钟配置、IO 控制等
+**snd_soc_dai_driver**：音频数据接口描述及操作函数，根据 codec 端和 soc 端，分为 codec_dai 和 cpu_dai
+**snd_soc_platform_driver**：音频 dma 设备描述及操作函数
+**snd_soc_dai_link**：音频链路描述及板级操作函数
+
 ![goni_wm8994 整个音频驱动](goni_wm8994整个音频驱动.png)
