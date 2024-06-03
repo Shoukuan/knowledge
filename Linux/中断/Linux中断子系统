@@ -1,0 +1,61 @@
+# Linux中断子系统
+
+## [【原创】Linux中断子系统（一）-中断控制器及驱动分析](https://www.cnblogs.com/LoyenWang/p/12996812.html)
+
+![GIC_V2结构图](GIC_V2结构图.png)
+GIC-V2从组成上说，主要分为Distributor和CPU Interface两个模块，  
+Distributor主要负责中断源的管理，包括优先级的处理，屏蔽、抢占等，并将最高优先级的中断分发给CPU Interface，  
+CPU Interface主要用于连接处理器，与处理器进行交互；
+
+- 每个中断控制器都对应一个IRQ Domain；
+- 中断控制器驱动通过irq_domain_add_*()接口来创建IRQ Domain；
+- IRQ Domain支持三种映射方式：linear map（线性映射），tree map（树映射），no map（不映射）；
+  - linear map：维护固定大小的表，索引是硬件中断号，如果硬件中断最大数量固定，并且数值不大，可以选择线性映射；
+  - tree map：硬件中断号可能很大，可以选择树映射；
+  - no map：硬件中断号直接就是Linux的中断号；
+
+![中断处理](中断处理.png)
+
+## [【原创】Linux中断子系统（二）-通用框架处理](https://www.cnblogs.com/LoyenWang/p/13052677.html)
+
+![中断数据结构](中断数据结构.png)
+
+Linux内核的中断处理，围绕着**中断描述符结构struct irq_desc**展开，内核提供了两种中断描述符组织形式：
+
+- 打开CONFIG_SPARSE_IRQ宏（中断编号不连续），中断描述符以radix-tree来组织，用户在初始化时进行动态分配，然后再插入radix-tree中；
+- 关闭CONFIG_SPARSE_IRQ宏（中断编号连续），中断描述符以数组的形式组织，并且已经分配好；
+
+设备驱动中，获取到了irq中断号后，通常就会采用**request_irq/request_threaded_irq来注册中断**，其中request_irq用于注册普通处理的中断，request_threaded_irq用于注册线程化处理的中断；
+
+![中断号注册](中断号注册.png)
+![架构中断处理阶段](架构中断处理阶段.png)
+![系统中断处理阶段](系统中断处理阶段.png)
+![中断线程化处理](中断线程化处理.png)
+
+- __handle_irq_event_percpu->__irq_wake_thread将唤醒irq_thread中断内核线程；  
+- irq_thread内核线程，将根据是否为强制中断线程化对函数指针handler_fn进行初始化，以便后续进行调用；  
+- irq_thread内核线程将while(!irq_wait_for_interrupt)循环进行中断的处理，当满足条件时，执行handler_fn，在该函数中最终调用action->thread_fn，也就是完成了中断的处理；
+- irq_wait_for_interrupt函数，将会判断中断线程的唤醒条件，如果满足了，则将当前任务设置成TASK_RUNNING状态，并返回0，这样就能执行中断的处理，否则就调用schedule()进行调度，让出CPU，并将任务设置成TASK_INTERRUPTIBLE可中断睡眠状态；
+
+## [【原创】Linux中断子系统（三）-softirq和tasklet](https://www.cnblogs.com/LoyenWang/p/13124803.html)
+
+在离开硬件中断上下文后，如果!in_interrupt() && local_softirq_pending为真，则进行软中断处理。这个条件有两个含义：1）!in_interrupt()表明不能处在中断上下文中，这个范围包括in_nmi、in_irq、in_softirq（Bottom-half disable）、in_serving_softirq，凡是处于这几种状态下，软中断都不会被执行；2）local_softirq_pending不为0，表明有软中断处理请求；  
+软中断执行的入口就是invoke_softirq，继续分析一波：
+![软中断执行](软中断执行.png)
+Linux内核会为每个CPU都创建一个内核线程ksoftirqd，通过smpboot_register_percpu_thread函数来完成，其中当内核线程运行时，在满足条件的情况下会执行run_ksoftirqd函数，如果此时有软中断处理请求，调用__do_softirq来进行处理；
+![_do_softirq](_do_softirq处理.png)
+
+>tasklet是软中断的一种类型，那么两者有啥区别呢？先说结论吧：
+>软中断类型内核中都是静态分配，不支持动态分配，而tasklet支持动态和静态分配，也就是驱动程序中能比较方便的进行扩展；
+>软中断可以在多个CPU上并行运行，因此需要考虑可重入问题，而tasklet会绑定在某个CPU上运行，运行完后再解绑，不要求重入问题，当然它的性能也就会下降一些；
+![Tasklet数据结构](Tasklet数据结构.png)
+
+## [【原创】Linux中断子系统（四）-Workqueue](https://www.cnblogs.com/LoyenWang/p/13185451.html)
+
+先看看关键的数据结构：
+
+- work_struct：工作队列调度的最小单位，work item；
+- workqueue_struct：工作队列，work item都挂入到工作队列中；
+- worker：work item的处理者，每个worker对应一个内核线程；
+- worker_pool：worker池（内核线程池），是一个共享资源池，提供不同的worker来对work item进行处理；
+- pool_workqueue：充当桥梁纽带的作用，用于连接workqueue和worker_pool，建立链接关系；
