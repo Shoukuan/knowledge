@@ -57,5 +57,23 @@ Linux内核会为每个CPU都创建一个内核线程ksoftirqd，通过smpboot_r
 - work_struct：工作队列调度的最小单位，work item；
 - workqueue_struct：工作队列，work item都挂入到工作队列中；
 - worker：work item的处理者，每个worker对应一个内核线程；
-- worker_pool：worker池（内核线程池），是一个共享资源池，提供不同的worker来对work item进行处理；
+- worker_pool：worker池（内核线程池），是一个共享资源池，提供不同的worker来对work item进行处理，管理多个worker，也就是管理多个内核线程
 - pool_workqueue：充当桥梁纽带的作用，用于连接workqueue和worker_pool，建立链接关系；
+
+内核中工作队列分为两种：
+
+- bound：绑定处理器的工作队列，每个worker创建的内核线程绑定到特定的CPU上运行；
+- unbound：不绑定处理器的工作队列，创建的时候需要指定WQ_UNBOUND标志，内核线程可以在处理器间迁移；
+
+### workqueue子系统初始化
+
+![workqueue_init_early](workqueue_init_early.png)
+![alloc_workqueue](alloc_workqueue.png)
+![workqueue_init](workqueue_init.png)
+
+### work调度
+
+![schedule_work](schedule_work.png)
+
+在创建worker时，创建内核线程，执行函数为worker_thread；
+![worker_thread](worker_thread.png)

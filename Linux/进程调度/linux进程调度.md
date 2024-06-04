@@ -2,6 +2,8 @@
 
 [linux进程调度](https://dreamgoing.github.io/linux%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6.html)
 
+进程的上下文不仅包括了 虚拟内存、栈、全局变量等用户空间的资源 ，还包括了 内核堆栈、寄存器等内核空间的状态
+
 ## 上下文切换
 
 ```C
