@@ -108,11 +108,11 @@ c）软中断是静态分配的，在内核编译好之后，就不能改变。�
 写访问仍然需要锁，以避免写者之间的竞争
 需要读者进行单向遍历
 
-Kmalloc
-进程上下文，可以睡眠 GFP_KERNEL
-进程上下文，不可以睡眠 GFP_ATOMIC
-中断处理程序 GFP_ATOMIC
-软中断 GFP_ATOMIC
-Tasklet GFP_ATOMIC
-用于DMA的内存，可以睡眠 GFP_DMA | GFP_KERNEL
-用于DMA的内存，不可以睡眠 GFP_DMA | GFP_ATOMIC
+Kmalloc  
+GFP_KERNEL：进程上下文，可以睡眠  
+GFP_ATOMIC：进程上下文，不可以睡眠  
+GFP_ATOMIC：中断处理程序  
+GFP_ATOMIC：软中断  
+GFP_ATOMIC：Tasklet  
+GFP_DMA | GFP_KERNEL：用于DMA的内存，可以睡眠  
+GFP_DMA | GFP_ATOMIC：用于DMA的内存，不可以睡眠  
