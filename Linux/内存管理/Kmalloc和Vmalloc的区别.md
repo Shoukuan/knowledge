@@ -14,13 +14,13 @@
 ———————————————————————————————  
 情形 相应标志  
 ———————————————————————————————  
-进程上下文，可以睡眠 GFP_KERNEL  
-进程上下文，不可以睡眠 GFP_ATOMIC  
-中断处理程序 GFP_ATOMIC  
-软中断 GFP_ATOMIC  
-Tasklet GFP_ATOMIC  
-用于DMA的内存，可以睡眠 GFP_DMA | GFP_KERNEL  
-用于DMA的内存，不可以睡眠 GFP_DMA | GFP_ATOMIC  
+GFP_KERNEL：进程上下文，可以睡眠  
+GFP_ATOMIC：进程上下文，不可以睡眠  
+GFP_ATOMIC：中断处理程序  
+GFP_ATOMIC：软中断  
+GFP_ATOMIC：Tasklet  
+GFP_DMA | GFP_KERNEL：用于DMA的内存，可以睡眠  
+GFP_DMA | GFP_ATOMIC：用于DMA的内存，不可以睡眠  
 ———————————————————————————————  
 4. void kfree(const void *ptr)  
 释放由kmalloc()分配出来的内存块  
