@@ -2,6 +2,14 @@
 
 [【ARM】Uboot代码分析-阿里云开发者社区](https://developer.aliyun.com/article/23878)
 
+[Uboot启动](https://www.cnblogs.com/jzcn/p/16966628.html)
+
+![Uboot入口](Uboot入口.png)
+
+![Uboot外设初始化](Uboot外设初始化.png)
+
+![Uboot命令行执行](Uboot命令行执行.png)
+
 ![Uboot启动](Uboot启动.png)
 
 ## UBoot启动过程
