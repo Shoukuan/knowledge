@@ -4,7 +4,8 @@
 
 ![Virtio-blk Architecture](Virtio-blk—Architecture.png)
 
-![virtqueue实现](virtqueue实现.png)
+![virtqueue实现](virtqueue实现.png)  
+
 vring 包含三个部分，描述符数组 desc，可用的 available ring 和使用过的 used ring。
 
 **desc** 用于存储一些关联的描述符，每个描述符记录一个对 buffer 的描述，**available ring** 则用于 guest 端表示当前有**哪些描述符**是可用的
