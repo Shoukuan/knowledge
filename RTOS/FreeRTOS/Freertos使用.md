@@ -62,3 +62,51 @@ typedef struct StreamBufferDef_t                 /*lint !e9058 Style convention 
 
 可以将长度为 10、20 和 123 字节的消息写入消息缓冲区，或者从同一消息缓冲区中读取这些消息。10 字节的消息只能以 10 字节消息而不是单独字节的形式读取。  
 消息缓冲区构建在流缓冲区实施之上。  
+
+## 线程调度
+
+[任务管理之启动调度器](https://blog.csdn.net/zhoutaopower/article/details/107057528)
+
+![Freertos调度器](Freertos调度器.png)
+
+调度函数过程：
+在task.c中void vTaskStartScheduler( void ) -->  
+在port.c中xPortStartScheduler()函数 -->  
+在task.c中vTaskSwitchContext( void ) -->  
+在task.c中taskSELECT_HIGHEST_PRIORITY_TASK() -->  
+在task.c中listGET_OWNER_OF_NEXT_ENTRY
+
+```C
+/*
+ * Access function to obtain the owner of the next entry in a list.
+ *
+ * The list member pxIndex is used to walk through a list.  Calling
+ * listGET_OWNER_OF_NEXT_ENTRY increments pxIndex to the next item in the list
+ * and returns that entry's pxOwner parameter.  Using multiple calls to this
+ * function it is therefore possible to move through every item contained in
+ * a list.
+ *
+ * The pxOwner parameter of a list item is a pointer to the object that owns
+ * the list item.  In the scheduler this is normally a task control block.
+ * The pxOwner parameter effectively creates a two way link between the list
+ * item and its owner.
+ *
+ * @param pxTCB pxTCB is set to the address of the owner of the next list item.
+ * @param pxList The list from which the next item owner is to be returned.
+ *
+ * \page listGET_OWNER_OF_NEXT_ENTRY listGET_OWNER_OF_NEXT_ENTRY
+ * \ingroup LinkedList
+ */
+#define listGET_OWNER_OF_NEXT_ENTRY( pxTCB, pxList )          \
+{                       \
+List_t * const pxConstList = ( pxList );             \
+ /* Increment the index to the next item and return the item, ensuring */    \
+ /* we don't return the marker used at the end of the list.  */       \
+ ( pxConstList )->pxIndex = ( pxConstList )->pxIndex->pxNext;       \
+ if( ( void * ) ( pxConstList )->pxIndex == ( void * ) &( ( pxConstList )->xListEnd ) ) \
+ {                      \
+  ( pxConstList )->pxIndex = ( pxConstList )->pxIndex->pxNext;      \
+ }                      \
+ ( pxTCB ) = ( pxConstList )->pxIndex->pvOwner;           \
+}
+```
