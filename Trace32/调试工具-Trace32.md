@@ -9,7 +9,7 @@
 ![GROUP关键字](GROUP关键字.jpg)
 
 **HGROUP**: Define read-once/write GROUP
-**RGROUP**: Define read-once GROUP
+**RGROUP**: Define read-only GROUP
 **WSGROUP**: Define write-only and shadow GROUP
 **WGROUP**: Define write-only GROUP
 **SGROUP**: Define sequence GROUP
@@ -21,3 +21,12 @@
 
 **BUTTON**: Define command button
 **HIDE**: Define write-only line
+
+[Trace32内存访问](https://www.cnblogs.com/arnoldlu/p/17428690.html)
+
+![单个Acess Class描述](单个Acess Class描述.png)
+![单个Acess Class描述1](单个Acess Class描述1.png)
+![单个Acess Class描述2](单个Acess Class描述2.png)
+
+内存访问主体包含CPU、MMU，Cache三个。常见访问组合：
+![常见访问组合](常见访问组合.png)
