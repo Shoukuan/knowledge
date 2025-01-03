@@ -10,7 +10,13 @@
 
 **PPI**私有外设中断 16~31 处理器私有中断 如CPU本地时钟Local timer
 
-**SPI**公用外设中断 32~1019 外设中断 外设中断，如SPI,I2C，IO等
+**SPI Shared Peripheral Interrupts**公用外设中断 32~1019 外设中断 外设中断，如SPI,I2C，IO等
+
+**LPI Locality-specific Peripheral Interrupts** 特定局部中断
+
+**ITS Interrupt Translation Service**中断传输服务
+
+**MSI Message-Signaled Interrupts**消息信号中断
 
 ## 中断状态
 
