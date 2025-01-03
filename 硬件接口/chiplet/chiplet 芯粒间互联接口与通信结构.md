@@ -5,3 +5,5 @@
 [Chiplet时代来临，Die-to-Die接口成新挑战](https://baijiahao.baidu.com/s?id=1714738118817586711)
 
 [深度解读Chiplet互连标准UCIe](https://zhuanlan.zhihu.com/p/528003503)
+
+[Nvidia GPU互联技术全景图](https://zhuanlan.zhihu.com/p/672749098)
