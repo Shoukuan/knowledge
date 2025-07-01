@@ -8,6 +8,8 @@
 
 ## [PCIe（四）—— 物理层](https://r12f.com/posts/pcie-4-phy/)
 
+## [PCIE学习系列 五（Linux之PCIe设备驱动开发框架）](https://blog.csdn.net/qq_42208449/article/details/132907862)
+
 ## PCIe RC&EP
 
 在 PCIe（Peripheral Component Interconnect Express）体系中，RC（Root Complex）和 EP（Endpoint）是两种关键的设备类型。RC 和 EP 的配置决定了 PCIe 链路的建立和设备间通信的实现。
@@ -211,3 +213,44 @@ RC 或 EP 配置 DMA 控制寄存器，启用数据传输。
 
 RC 发起配置请求（Configuration TLP），EP 响应请求并完成相关配置。
 通过对 RC 和 EP 的寄存器配置，可以实现 PCIe 链路的初始化、资源分配以及设备间高效的数据传输。
+
+## PCIe协议基础
+
+PCIe协议分为三层，每层负责不同的功能：
+
+### 事务层（Transaction Layer）
+
+功能：
+负责生成和处理事务层数据包（TLP，Transaction Layer Packet）。
+管理数据传输的请求和响应。
+TLP类型：
+存储器读写（Memory Read/Write）
+I/O读写（I/O Read/Write）
+配置读写（Configuration Read/Write）
+消息（Message）
+地址空间：
+存储器空间（Memory Space）
+I/O空间（I/O Space）
+配置空间（Configuration Space）
+
+### 数据链路层（Data Link Layer）
+
+功能：
+负责生成和处理数据链路层数据包（DLLP，Data Link Layer Packet）。
+提供可靠的数据传输，包括错误检测和重传。
+DLLP类型：
+确认（Ack/Nak）
+流控制（Flow Control）
+电源管理（Power Management）
+错误检测：
+使用CRC（Cyclic Redundancy Check）检测数据错误。
+
+### 物理层（Physical Layer）
+
+功能：
+负责数据的编码、解码和传输。
+管理链路的初始化和电气特性。
+编码方式：
+使用8b/10b编码（PCIe 1.0/2.0）或128b/130b编码（PCIe 3.0及以上）。
+信号传输：
+使用差分信号传输，提高抗干扰能力。
