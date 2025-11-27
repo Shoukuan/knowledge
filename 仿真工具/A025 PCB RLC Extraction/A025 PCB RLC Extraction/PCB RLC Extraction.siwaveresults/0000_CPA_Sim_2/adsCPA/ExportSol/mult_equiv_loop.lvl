@@ -1,0 +1,22 @@
+B_PARAMS
+ CapMat 1
+  Net1:XW_XW_V1P0_S0_1  6.363401e-11
+ EndCapMat
+
+ ResMat 1
+  Net1:U2A5_V1P0_S0_Group  1.045301e-01
+ EndResMat
+
+ IndMat 1
+  Net1:U2A5_V1P0_S0_Group  2.417045e-09
+ EndIndMat
+
+ CndMat 1
+  Net1:XW_XW_V1P0_S0_1  1.330923e-03
+ EndCndMat
+
+ BranchSrcSnkMap 1
+  Net1:U2A5_V1P0_S0_Group  U2A5-V20  XW-1
+ EndBranchSrcSnkMap
+
+E_PARAMS

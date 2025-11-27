@@ -1,0 +1,66 @@
+[Tue Jul 18 14:01:48 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 siwave_ng 2023 R2 (Built: May 17 2023 01:20:54):
+[Tue Jul 18 14:01:49 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Loading project...:
+[Tue Jul 18 14:01:50 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Initializing layout database...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 Simulation "CPA Sim 1" started on host BEIXWANG at Tue Jul 18 14:01:53 2023:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:warning 0117 All geometry on net "DUMMY" will be ignored:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Generating solver input files...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  5.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 [Simulation Directory]: "D:/Persional/02 SIwave/07 CPA/Workflow/CPA IBIS RLGC.siwaveresults/0000_CPA_Sim_1/":
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 [Simulation Log File]: "D:/Persional/02 SIwave/07 CPA/Workflow/CPA IBIS RLGC.siwaveresults/0000_CPA_Sim_1/0000_CPA_Sim_1.simlog":
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:warning 0117 All geometry on net "DUMMY" will be ignored:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  5.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Identifying nets for inclusion in simulation...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA0+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA0-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA1+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA1-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA2+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA2-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA3+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA3-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA4+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA4-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA5+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA5-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA6+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA6-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA7+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 RXDATA7-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA0+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA0-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA1+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA1-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA2+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA2-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA3+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA3-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA4+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA4-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA5+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA5-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA6+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA6-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA7+:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 TXDATA7-:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 VSS:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  10.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Performing basic DRC...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Identifying non-functional pads...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  20.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  25.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Identifying geometry to process...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Generating antipads in planes...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Processing planes...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  50.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  60.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  70.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Processing circuit elements...:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:warning 0100 COMP1: positive node at (0.810000,4.090000)mm on layer TOP is not attached to any net included in this simulation:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  80.000000:
+[Tue Jul 18 14:01:53 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  95.000000:
+[Tue Jul 18 14:02:04 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  100.000000:
+[Tue Jul 18 14:02:04 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Solving for RLGC parameters... :
+[Tue Jul 18 14:02:34 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Writing CPA info file...:
+[Tue Jul 18 14:02:34 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Done.:
+[Tue Jul 18 14:02:34 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  200.000000:
+[Tue Jul 18 14:02:34 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 Simulation "CPA Sim 1" completed on host BEIXWANG at Tue Jul 18 14:02:34 2023:

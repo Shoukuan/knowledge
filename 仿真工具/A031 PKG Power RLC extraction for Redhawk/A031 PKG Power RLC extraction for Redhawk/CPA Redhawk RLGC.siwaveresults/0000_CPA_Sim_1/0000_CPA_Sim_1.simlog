@@ -1,0 +1,34 @@
+[Tue Jul 18 10:53:35 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 siwave_ng 2023 R2 (Built: May 17 2023 01:20:54):
+[Tue Jul 18 10:53:35 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Loading project...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Initializing layout database...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 Simulation "CPA Sim 1" started on host BEIXWANG at Tue Jul 18 10:53:36 2023:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:warning 0117 All geometry on net "DUMMY" will be ignored:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Generating solver input files...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  5.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 [Simulation Directory]: "D:/Persional/02 SIwave/07 CPA/Workflow/CPA Radhawk RLGC.siwaveresults/0000_CPA_Sim_1/":
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 [Simulation Log File]: "D:/Persional/02 SIwave/07 CPA/Workflow/CPA Radhawk RLGC.siwaveresults/0000_CPA_Sim_1/0000_CPA_Sim_1.simlog":
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:warning 0117 All geometry on net "DUMMY" will be ignored:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  5.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Identifying nets for inclusion in simulation...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 VDD_15:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0051 VSS:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  10.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Performing basic DRC...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Identifying non-functional pads...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  20.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  25.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Identifying geometry to process...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Generating antipads in planes...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Processing planes...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  50.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  60.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  70.000000:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Processing circuit elements...:
+[Tue Jul 18 10:53:36 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  80.000000:
+[Tue Jul 18 10:53:37 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  95.000000:
+[Tue Jul 18 10:53:49 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  100.000000:
+[Tue Jul 18 10:53:49 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Solving for RLGC parameters... :
+[Tue Jul 18 10:54:59 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Writing CPA info file...:
+[Tue Jul 18 10:54:59 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:message Done.:
+[Tue Jul 18 10:54:59 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:progress  200.000000:
+[Tue Jul 18 10:54:59 2023] C:\Program Files\AnsysEM\v232\Win64\siwave_ng.exe:information 0050 Simulation "CPA Sim 1" completed on host BEIXWANG at Tue Jul 18 10:54:59 2023:

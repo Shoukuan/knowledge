@@ -1,0 +1,210 @@
+.AllTopLevelSpiceNodes
+BGA_VDD_15_SINK_
+BGA_VSS_SINK_
+FCHIP_VDD_15_Group_0
+FCHIP_VDD_15_Group_1
+FCHIP_VDD_15_Group_2
+FCHIP_VDD_15_Group_3
+FCHIP_VSS_Group_0
+FCHIP_VSS_Group_1
+FCHIP_VSS_Group_2
+FCHIP_VSS_Group_3
+Group_COMP1_part_COMP1_VDD_15_1
+Group_COMP1_part_COMP1_VSS_2
+.end AllTopLevelSpiceNodes
+.Include 0000_CPA_Sim_1_COMP1_part_COMP1.sp a0000_CPA_Sim_1_COMP1_part_COMP1
+Group_COMP1_part_COMP1_VSS_2
+Group_COMP1_part_COMP1_VDD_15_1
+.end Include
+.Include 0000_CPA_Sim_1_CSP_BGA_BGA.sp a0000_CPA_Sim_1_CSP_BGA_BGA
+BGA_VSS_SINK_
+BGA_VDD_15_SINK_
+.end Include
+.AllMacroLevelSpiceNodes
+BGA_VDD_15_SINK_
+BGA_VSS_SINK_
+FCHIP_VDD_15_Group_0
+FCHIP_VDD_15_Group_0_mid
+FCHIP_VDD_15_Group_0_resist
+FCHIP_VDD_15_Group_1
+FCHIP_VDD_15_Group_1_mid
+FCHIP_VDD_15_Group_1_resist
+FCHIP_VDD_15_Group_2
+FCHIP_VDD_15_Group_2_mid
+FCHIP_VDD_15_Group_2_resist
+FCHIP_VDD_15_Group_3
+FCHIP_VDD_15_Group_3_mid
+FCHIP_VDD_15_Group_3_resist
+FCHIP_VSS_Group_0
+FCHIP_VSS_Group_0_mid
+FCHIP_VSS_Group_0_resist
+FCHIP_VSS_Group_1
+FCHIP_VSS_Group_1_mid
+FCHIP_VSS_Group_1_resist
+FCHIP_VSS_Group_2
+FCHIP_VSS_Group_2_mid
+FCHIP_VSS_Group_2_resist
+FCHIP_VSS_Group_3
+FCHIP_VSS_Group_3_mid
+FCHIP_VSS_Group_3_resist
+Group_COMP1_part_COMP1_VDD_15_1
+Group_COMP1_part_COMP1_VDD_15_1_mid
+Group_COMP1_part_COMP1_VDD_15_1_resist
+Group_COMP1_part_COMP1_VSS_2
+Group_COMP1_part_COMP1_VSS_2_mid
+Group_COMP1_part_COMP1_VSS_2_resist
+.end AllMacroLevelSpiceNodes
+.AllMacroLevelSpiceElements
+C_0_1_0_5  FCHIP_VDD_15_Group_0_mid  FCHIP_VSS_Group_0_mid  1.593082e-13
+C_0_1_0_6  FCHIP_VDD_15_Group_0_mid  FCHIP_VSS_Group_1_mid  1.587956e-13
+C_0_1_0_7  FCHIP_VDD_15_Group_0_mid  FCHIP_VSS_Group_2_mid  1.634418e-13
+C_0_1_0_8  FCHIP_VDD_15_Group_0_mid  FCHIP_VSS_Group_3_mid  1.621546e-13
+C_0_1_0_9  FCHIP_VDD_15_Group_0_mid  Group_COMP1_part_COMP1_VSS_2_mid  0.000000e+00
+C_0_1_1_5  FCHIP_VDD_15_Group_1_mid  FCHIP_VSS_Group_0_mid  1.540752e-13
+C_0_1_1_6  FCHIP_VDD_15_Group_1_mid  FCHIP_VSS_Group_1_mid  1.546042e-13
+C_0_1_1_7  FCHIP_VDD_15_Group_1_mid  FCHIP_VSS_Group_2_mid  1.596883e-13
+C_0_1_1_8  FCHIP_VDD_15_Group_1_mid  FCHIP_VSS_Group_3_mid  1.608036e-13
+C_0_1_1_9  FCHIP_VDD_15_Group_1_mid  Group_COMP1_part_COMP1_VSS_2_mid  0.000000e+00
+C_0_1_2_5  FCHIP_VDD_15_Group_2_mid  FCHIP_VSS_Group_0_mid  1.584209e-13
+C_0_1_2_6  FCHIP_VDD_15_Group_2_mid  FCHIP_VSS_Group_1_mid  1.579355e-13
+C_0_1_2_7  FCHIP_VDD_15_Group_2_mid  FCHIP_VSS_Group_2_mid  1.643460e-13
+C_0_1_2_8  FCHIP_VDD_15_Group_2_mid  FCHIP_VSS_Group_3_mid  1.630088e-13
+C_0_1_2_9  FCHIP_VDD_15_Group_2_mid  Group_COMP1_part_COMP1_VSS_2_mid  0.000000e+00
+C_0_1_3_5  FCHIP_VDD_15_Group_3_mid  FCHIP_VSS_Group_0_mid  1.532252e-13
+C_0_1_3_6  FCHIP_VDD_15_Group_3_mid  FCHIP_VSS_Group_1_mid  1.537214e-13
+C_0_1_3_7  FCHIP_VDD_15_Group_3_mid  FCHIP_VSS_Group_2_mid  1.604755e-13
+C_0_1_3_8  FCHIP_VDD_15_Group_3_mid  FCHIP_VSS_Group_3_mid  1.616409e-13
+C_0_1_3_9  FCHIP_VDD_15_Group_3_mid  Group_COMP1_part_COMP1_VSS_2_mid  0.000000e+00
+C_0_1_4_5  Group_COMP1_part_COMP1_VDD_15_1_mid  FCHIP_VSS_Group_0_mid  5.750340e-14
+C_0_1_4_6  Group_COMP1_part_COMP1_VDD_15_1_mid  FCHIP_VSS_Group_1_mid  5.757632e-14
+C_0_1_4_7  Group_COMP1_part_COMP1_VDD_15_1_mid  FCHIP_VSS_Group_2_mid  1.609419e-13
+C_0_1_4_8  Group_COMP1_part_COMP1_VDD_15_1_mid  FCHIP_VSS_Group_3_mid  1.675949e-13
+C_0_1_4_9  Group_COMP1_part_COMP1_VDD_15_1_mid  Group_COMP1_part_COMP1_VSS_2_mid  0.000000e+00
+K1_0_1  L1_0_0  L1_1_1  7.010614e-01
+K1_0_2  L1_0_0  L1_2_2  9.710987e-01
+K1_0_3  L1_0_0  L1_3_3  6.957697e-01
+K1_0_4  L1_0_0  L1_4_4  2.789270e-01
+K1_0_5  L1_0_0  L1_5_5  2.877692e-01
+K1_0_6  L1_0_0  L1_6_6  2.851061e-01
+K1_0_7  L1_0_0  L1_7_7  3.030251e-01
+K1_0_8  L1_0_0  L1_8_8  3.004034e-01
+K1_1_2  L1_1_1  L1_2_2  6.958023e-01
+K1_1_3  L1_1_1  L1_3_3  9.709547e-01
+K1_1_4  L1_1_1  L1_4_4  4.546236e-01
+K1_1_5  L1_1_1  L1_5_5  2.782806e-01
+K1_1_6  L1_1_1  L1_6_6  2.775448e-01
+K1_1_7  L1_1_1  L1_7_7  2.960277e-01
+K1_1_8  L1_1_1  L1_8_8  2.978620e-01
+K1_2_3  L1_2_2  L1_3_3  6.905581e-01
+K1_2_4  L1_2_2  L1_4_4  2.753709e-01
+K1_2_5  L1_2_2  L1_5_5  2.852799e-01
+K1_2_6  L1_2_2  L1_6_6  2.826833e-01
+K1_2_7  L1_2_2  L1_7_7  3.037576e-01
+K1_2_8  L1_2_2  L1_8_8  3.010503e-01
+K1_3_4  L1_3_3  L1_4_4  4.542362e-01
+K1_3_5  L1_3_3  L1_5_5  2.758892e-01
+K1_3_6  L1_3_3  L1_6_6  2.751063e-01
+K1_3_7  L1_3_3  L1_7_7  2.965669e-01
+K1_3_8  L1_3_3  L1_8_8  2.984868e-01
+K1_4_5  L1_4_4  L1_5_5  -8.985450e-02
+K1_4_6  L1_4_4  L1_6_6  -8.942355e-02
+K1_4_7  L1_4_4  L1_7_7  -2.581218e-01
+K1_4_8  L1_4_4  L1_8_8  -2.685816e-01
+K1_5_6  L1_5_5  L1_6_6  9.685072e-01
+K1_5_7  L1_5_5  L1_7_7  5.822963e-01
+K1_5_8  L1_5_5  L1_8_8  5.811161e-01
+K1_6_7  L1_6_6  L1_7_7  5.804488e-01
+K1_6_8  L1_6_6  L1_8_8  5.796879e-01
+K1_7_8  L1_7_7  L1_8_8  9.668140e-01
+K2_0_1  L2_0_0  L2_1_1  7.010614e-01
+K2_0_2  L2_0_0  L2_2_2  9.710987e-01
+K2_0_3  L2_0_0  L2_3_3  6.957697e-01
+K2_0_4  L2_0_0  L2_4_4  2.789270e-01
+K2_0_5  L2_0_0  L2_5_5  2.877692e-01
+K2_0_6  L2_0_0  L2_6_6  2.851061e-01
+K2_0_7  L2_0_0  L2_7_7  3.030251e-01
+K2_0_8  L2_0_0  L2_8_8  3.004034e-01
+K2_1_2  L2_1_1  L2_2_2  6.958023e-01
+K2_1_3  L2_1_1  L2_3_3  9.709547e-01
+K2_1_4  L2_1_1  L2_4_4  4.546236e-01
+K2_1_5  L2_1_1  L2_5_5  2.782806e-01
+K2_1_6  L2_1_1  L2_6_6  2.775448e-01
+K2_1_7  L2_1_1  L2_7_7  2.960277e-01
+K2_1_8  L2_1_1  L2_8_8  2.978620e-01
+K2_2_3  L2_2_2  L2_3_3  6.905581e-01
+K2_2_4  L2_2_2  L2_4_4  2.753709e-01
+K2_2_5  L2_2_2  L2_5_5  2.852799e-01
+K2_2_6  L2_2_2  L2_6_6  2.826833e-01
+K2_2_7  L2_2_2  L2_7_7  3.037576e-01
+K2_2_8  L2_2_2  L2_8_8  3.010503e-01
+K2_3_4  L2_3_3  L2_4_4  4.542362e-01
+K2_3_5  L2_3_3  L2_5_5  2.758892e-01
+K2_3_6  L2_3_3  L2_6_6  2.751063e-01
+K2_3_7  L2_3_3  L2_7_7  2.965669e-01
+K2_3_8  L2_3_3  L2_8_8  2.984868e-01
+K2_4_5  L2_4_4  L2_5_5  -8.985450e-02
+K2_4_6  L2_4_4  L2_6_6  -8.942355e-02
+K2_4_7  L2_4_4  L2_7_7  -2.581218e-01
+K2_4_8  L2_4_4  L2_8_8  -2.685816e-01
+K2_5_6  L2_5_5  L2_6_6  9.685072e-01
+K2_5_7  L2_5_5  L2_7_7  5.822963e-01
+K2_5_8  L2_5_5  L2_8_8  5.811161e-01
+K2_6_7  L2_6_6  L2_7_7  5.804488e-01
+K2_6_8  L2_6_6  L2_8_8  5.796879e-01
+K2_7_8  L2_7_7  L2_8_8  9.668140e-01
+L1_0_0  FCHIP_VDD_15_Group_0  FCHIP_VDD_15_Group_0_mid  1.128161e-10
+L1_1_1  FCHIP_VDD_15_Group_1  FCHIP_VDD_15_Group_1_mid  1.128452e-10
+L1_2_2  FCHIP_VDD_15_Group_2  FCHIP_VDD_15_Group_2_mid  1.135183e-10
+L1_3_3  FCHIP_VDD_15_Group_3  FCHIP_VDD_15_Group_3_mid  1.135467e-10
+L1_4_4  Group_COMP1_part_COMP1_VDD_15_1  Group_COMP1_part_COMP1_VDD_15_1_mid  1.507617e-10
+L1_5_5  FCHIP_VSS_Group_0  FCHIP_VSS_Group_0_mid  6.025393e-11
+L1_6_6  FCHIP_VSS_Group_1  FCHIP_VSS_Group_1_mid  6.099047e-11
+L1_7_7  FCHIP_VSS_Group_2  FCHIP_VSS_Group_2_mid  5.719616e-11
+L1_8_8  FCHIP_VSS_Group_3  FCHIP_VSS_Group_3_mid  5.728579e-11
+L1_9_9  Group_COMP1_part_COMP1_VSS_2  Group_COMP1_part_COMP1_VSS_2_mid  0.000000e+00
+L2_0_0  FCHIP_VDD_15_Group_0_mid  FCHIP_VDD_15_Group_0_resist  1.128161e-10
+L2_1_1  FCHIP_VDD_15_Group_1_mid  FCHIP_VDD_15_Group_1_resist  1.128452e-10
+L2_2_2  FCHIP_VDD_15_Group_2_mid  FCHIP_VDD_15_Group_2_resist  1.135183e-10
+L2_3_3  FCHIP_VDD_15_Group_3_mid  FCHIP_VDD_15_Group_3_resist  1.135467e-10
+L2_4_4  Group_COMP1_part_COMP1_VDD_15_1_mid  Group_COMP1_part_COMP1_VDD_15_1_resist  1.507617e-10
+L2_5_5  FCHIP_VSS_Group_0_mid  FCHIP_VSS_Group_0_resist  6.025393e-11
+L2_6_6  FCHIP_VSS_Group_1_mid  FCHIP_VSS_Group_1_resist  6.099047e-11
+L2_7_7  FCHIP_VSS_Group_2_mid  FCHIP_VSS_Group_2_resist  5.719616e-11
+L2_8_8  FCHIP_VSS_Group_3_mid  FCHIP_VSS_Group_3_resist  5.728579e-11
+L2_9_9  Group_COMP1_part_COMP1_VSS_2_mid  Group_COMP1_part_COMP1_VSS_2_resist  0.000000e+00
+R_G_0_1_0_9  FCHIP_VDD_15_Group_0_mid  Group_COMP1_part_COMP1_VSS_2_mid  1.000000e+09
+R_G_0_1_1_9  FCHIP_VDD_15_Group_1_mid  Group_COMP1_part_COMP1_VSS_2_mid  1.000000e+09
+R_G_0_1_2_9  FCHIP_VDD_15_Group_2_mid  Group_COMP1_part_COMP1_VSS_2_mid  1.000000e+09
+R_G_0_1_3_9  FCHIP_VDD_15_Group_3_mid  Group_COMP1_part_COMP1_VSS_2_mid  1.000000e+09
+R_G_0_1_4_9  Group_COMP1_part_COMP1_VDD_15_1_mid  Group_COMP1_part_COMP1_VSS_2_mid  1.000000e+09
+R_d_1  FCHIP_VDD_15_Group_0_resist  BGA_VDD_15_SINK_  1.198376e-02
+R_d_10  FCHIP_VDD_15_Group_2_resist  BGA_VDD_15_SINK_  1.203425e-02
+R_d_11  FCHIP_VDD_15_Group_2_resist  FCHIP_VDD_15_Group_3_resist  1.287247e-01
+R_d_12  FCHIP_VDD_15_Group_2_resist  Group_COMP1_part_COMP1_VDD_15_1_resist  4.254446e+02
+R_d_13  FCHIP_VDD_15_Group_3_resist  BGA_VDD_15_SINK_  2.258401e-02
+R_d_14  FCHIP_VDD_15_Group_3_resist  Group_COMP1_part_COMP1_VDD_15_1_resist  2.411670e-02
+R_d_15  FCHIP_VSS_Group_0_resist  BGA_VSS_SINK_  1.775863e-04
+R_d_16  FCHIP_VSS_Group_0_resist  FCHIP_VSS_Group_1_resist  1.407653e-04
+R_d_17  FCHIP_VSS_Group_0_resist  FCHIP_VSS_Group_2_resist  1.539858e-03
+R_d_18  FCHIP_VSS_Group_0_resist  FCHIP_VSS_Group_3_resist  6.024816e-03
+R_d_19  FCHIP_VSS_Group_0_resist  Group_COMP1_part_COMP1_VSS_2_resist  2.288694e+00
+R_d_2  FCHIP_VDD_15_Group_0_resist  FCHIP_VDD_15_Group_1_resist  1.383504e-02
+R_d_20  FCHIP_VSS_Group_1_resist  BGA_VSS_SINK_  1.916757e-04
+R_d_21  FCHIP_VSS_Group_1_resist  FCHIP_VSS_Group_2_resist  5.901345e-03
+R_d_22  FCHIP_VSS_Group_1_resist  FCHIP_VSS_Group_3_resist  1.720453e-03
+R_d_23  FCHIP_VSS_Group_1_resist  Group_COMP1_part_COMP1_VSS_2_resist  2.110353e-01
+R_d_24  FCHIP_VSS_Group_2_resist  BGA_VSS_SINK_  1.819639e-04
+R_d_25  FCHIP_VSS_Group_2_resist  FCHIP_VSS_Group_3_resist  1.449357e-04
+R_d_26  FCHIP_VSS_Group_2_resist  Group_COMP1_part_COMP1_VSS_2_resist  3.248863e-01
+R_d_27  FCHIP_VSS_Group_3_resist  BGA_VSS_SINK_  2.100829e-04
+R_d_28  FCHIP_VSS_Group_3_resist  Group_COMP1_part_COMP1_VSS_2_resist  2.526823e-02
+R_d_29  Group_COMP1_part_COMP1_VDD_15_1_resist  BGA_VDD_15_SINK_  1.025921e-03
+R_d_3  FCHIP_VDD_15_Group_0_resist  FCHIP_VDD_15_Group_2_resist  3.131972e-04
+R_d_30  Group_COMP1_part_COMP1_VSS_2_resist  BGA_VSS_SINK_  6.254685e-03
+R_d_4  FCHIP_VDD_15_Group_0_resist  FCHIP_VDD_15_Group_3_resist  4.187305e-02
+R_d_5  FCHIP_VDD_15_Group_0_resist  Group_COMP1_part_COMP1_VDD_15_1_resist  1.383935e+02
+R_d_6  FCHIP_VDD_15_Group_1_resist  BGA_VDD_15_SINK_  2.258338e-02
+R_d_7  FCHIP_VDD_15_Group_1_resist  FCHIP_VDD_15_Group_2_resist  4.253122e-02
+R_d_8  FCHIP_VDD_15_Group_1_resist  FCHIP_VDD_15_Group_3_resist  3.158507e-04
+R_d_9  FCHIP_VDD_15_Group_1_resist  Group_COMP1_part_COMP1_VDD_15_1_resist  2.412152e-02
+.end AllMacroLevelSpiceElements

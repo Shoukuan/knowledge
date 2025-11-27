@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TPS_group version="1.0" encoding="UTF-8">
+	<Freq_Section ExtractFrequency_MHz="1.000000e+02">
+		<Freq Value="1.000000e+01"/>
+		<Freq Value="1.000000e+08"/>
+		<Freq Value="1.000000e+09"/>
+	</Freq_Section>
+	<DC_Control_Section ContactRadius_um="4.000000e+01" m_DCSliderPos="2" m_dcMeshBws="true" m_dcMeshVias="true" m_dcPerformAdaptiveRefinement="true" m_dcMinNumPasses="2" m_dcMaxNumPasses="5" m_dcPercentLocalRefinement="20.0" m_dcEnergyError="1.0" m_dcRefineBws="true" m_dcRefineVias="true" m_dcComputeL="0"/>
+	<Nets_Section>
+		<Net Name="RXDATA0+"/>
+		<Net Name="RXDATA0-"/>
+		<Net Name="RXDATA1+"/>
+		<Net Name="RXDATA1-"/>
+		<Net Name="RXDATA2+"/>
+		<Net Name="RXDATA2-"/>
+		<Net Name="RXDATA3+"/>
+		<Net Name="RXDATA3-"/>
+		<Net Name="RXDATA4+"/>
+		<Net Name="RXDATA4-"/>
+		<Net Name="RXDATA5+"/>
+		<Net Name="RXDATA5-"/>
+		<Net Name="RXDATA6+"/>
+		<Net Name="RXDATA6-"/>
+		<Net Name="RXDATA7+"/>
+		<Net Name="RXDATA7-"/>
+		<Net Name="TXDATA0+"/>
+		<Net Name="TXDATA0-"/>
+		<Net Name="TXDATA1+"/>
+		<Net Name="TXDATA1-"/>
+		<Net Name="TXDATA2+"/>
+		<Net Name="TXDATA2-"/>
+		<Net Name="TXDATA3+"/>
+		<Net Name="TXDATA3-"/>
+		<Net Name="TXDATA4+"/>
+		<Net Name="TXDATA4-"/>
+		<Net Name="TXDATA5+"/>
+		<Net Name="TXDATA5-"/>
+		<Net Name="TXDATA6+"/>
+		<Net Name="TXDATA6-"/>
+		<Net Name="TXDATA7+"/>
+		<Net Name="TXDATA7-"/>
+		<Net Name="VSS"/>
+	</Nets_Section>
+	<PinGroups_Section>
+		<PinGroup Name="FCHIP_RXDATA0+_Group">
+			<Node Name="n396"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA0-_Group">
+			<Node Name="n395"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA1+_Group">
+			<Node Name="n393"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA1-_Group">
+			<Node Name="n394"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA2+_Group">
+			<Node Name="n391"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA2-_Group">
+			<Node Name="n392"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA3+_Group">
+			<Node Name="n389"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA3-_Group">
+			<Node Name="n390"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA4+_Group">
+			<Node Name="n387"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA4-_Group">
+			<Node Name="n388"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA5+_Group">
+			<Node Name="n386"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA5-_Group">
+			<Node Name="n385"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA6+_Group">
+			<Node Name="n384"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA6-_Group">
+			<Node Name="n383"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA7+_Group">
+			<Node Name="n382"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_RXDATA7-_Group">
+			<Node Name="n381"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA0+_Group">
+			<Node Name="n101"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA0-_Group">
+			<Node Name="n100"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA1+_Group">
+			<Node Name="n99"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA1-_Group">
+			<Node Name="n98"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA2+_Group">
+			<Node Name="n97"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA2-_Group">
+			<Node Name="n96"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA3+_Group">
+			<Node Name="n95"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA3-_Group">
+			<Node Name="n94"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA4+_Group">
+			<Node Name="n93"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA4-_Group">
+			<Node Name="n92"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA5+_Group">
+			<Node Name="n91"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA5-_Group">
+			<Node Name="n90"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA6+_Group">
+			<Node Name="n89"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA6-_Group">
+			<Node Name="n88"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA7+_Group">
+			<Node Name="n86"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_TXDATA7-_Group">
+			<Node Name="n87"/>
+		</PinGroup>
+		<PinGroup Name="FCHIP_VSS_Group">
+			<Node Name="n355"/>
+			<Node Name="n357"/>
+			<Node Name="n358"/>
+			<Node Name="n345"/>
+			<Node Name="n342"/>
+			<Node Name="n334"/>
+			<Node Name="n351"/>
+			<Node Name="n336"/>
+			<Node Name="n375"/>
+			<Node Name="n347"/>
+			<Node Name="n377"/>
+			<Node Name="n379"/>
+			<Node Name="n339"/>
+			<Node Name="n350"/>
+			<Node Name="n353"/>
+			<Node Name="n200"/>
+			<Node Name="n198"/>
+			<Node Name="n166"/>
+			<Node Name="n152"/>
+			<Node Name="n157"/>
+			<Node Name="n150"/>
+			<Node Name="n163"/>
+			<Node Name="n161"/>
+			<Node Name="n154"/>
+			<Node Name="n159"/>
+			<Node Name="n134"/>
+			<Node Name="n138"/>
+			<Node Name="n126"/>
+			<Node Name="n124"/>
+			<Node Name="n128"/>
+			<Node Name="n136"/>
+			<Node Name="n132"/>
+			<Node Name="n143"/>
+			<Node Name="n141"/>
+			<Node Name="n130"/>
+			<Node Name="n145"/>
+			<Node Name="n147"/>
+			<Node Name="n106"/>
+			<Node Name="n108"/>
+			<Node Name="n102"/>
+			<Node Name="n104"/>
+			<Node Name="n120"/>
+			<Node Name="n114"/>
+			<Node Name="n118"/>
+			<Node Name="n122"/>
+			<Node Name="n110"/>
+			<Node Name="n116"/>
+			<Node Name="n112"/>
+			<Node Name="n216"/>
+			<Node Name="n202"/>
+			<Node Name="n212"/>
+			<Node Name="n206"/>
+			<Node Name="n220"/>
+			<Node Name="n222"/>
+			<Node Name="n218"/>
+			<Node Name="n224"/>
+			<Node Name="n208"/>
+			<Node Name="n210"/>
+			<Node Name="n214"/>
+			<Node Name="n204"/>
+			<Node Name="n247"/>
+			<Node Name="n254"/>
+			<Node Name="n260"/>
+			<Node Name="n264"/>
+			<Node Name="n245"/>
+			<Node Name="n240"/>
+			<Node Name="n262"/>
+			<Node Name="n235"/>
+			<Node Name="n275"/>
+			<Node Name="n278"/>
+			<Node Name="n251"/>
+			<Node Name="n249"/>
+			<Node Name="n272"/>
+			<Node Name="n266"/>
+			<Node Name="n269"/>
+			<Node Name="n237"/>
+			<Node Name="n257"/>
+			<Node Name="n243"/>
+			<Node Name="n232"/>
+			<Node Name="n304"/>
+			<Node Name="n331"/>
+			<Node Name="n299"/>
+			<Node Name="n281"/>
+			<Node Name="n290"/>
+			<Node Name="n296"/>
+			<Node Name="n287"/>
+			<Node Name="n301"/>
+			<Node Name="n293"/>
+			<Node Name="n284"/>
+			<Node Name="n328"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA0+_Group_SINK_">
+			<Node Name="n448"/>
+		</PinGroup>
+		<PinGroup Name="BGA_VSS_Group_SINK_">
+			<Node Name="n24"/>
+			<Node Name="n371"/>
+			<Node Name="n361"/>
+			<Node Name="n365"/>
+			<Node Name="n368"/>
+			<Node Name="n403"/>
+			<Node Name="n417"/>
+			<Node Name="n406"/>
+			<Node Name="n409"/>
+			<Node Name="n400"/>
+			<Node Name="n397"/>
+			<Node Name="n438"/>
+			<Node Name="n412"/>
+			<Node Name="n421"/>
+			<Node Name="n179"/>
+			<Node Name="n187"/>
+			<Node Name="n183"/>
+			<Node Name="n191"/>
+			<Node Name="n175"/>
+			<Node Name="n194"/>
+			<Node Name="n71"/>
+			<Node Name="n80"/>
+			<Node Name="n77"/>
+			<Node Name="n83"/>
+			<Node Name="n74"/>
+			<Node Name="n172"/>
+			<Node Name="n168"/>
+			<Node Name="n43"/>
+			<Node Name="n40"/>
+			<Node Name="n0"/>
+			<Node Name="n480"/>
+			<Node Name="n442"/>
+			<Node Name="n456"/>
+			<Node Name="n64"/>
+			<Node Name="n68"/>
+			<Node Name="n61"/>
+			<Node Name="n226"/>
+			<Node Name="n229"/>
+			<Node Name="n325"/>
+			<Node Name="n309"/>
+			<Node Name="n306"/>
+			<Node Name="n317"/>
+			<Node Name="n321"/>
+			<Node Name="n313"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA0-_Group_SINK_">
+			<Node Name="n478"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA1+_Group_SINK_">
+			<Node Name="n476"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA1-_Group_SINK_">
+			<Node Name="n446"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA2+_Group_SINK_">
+			<Node Name="n472"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA2-_Group_SINK_">
+			<Node Name="n474"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA3+_Group_SINK_">
+			<Node Name="n468"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA3-_Group_SINK_">
+			<Node Name="n470"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA4+_Group_SINK_">
+			<Node Name="n464"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA4-_Group_SINK_">
+			<Node Name="n466"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA5+_Group_SINK_">
+			<Node Name="n462"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA5-_Group_SINK_">
+			<Node Name="n460"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA6+_Group_SINK_">
+			<Node Name="n436"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA6-_Group_SINK_">
+			<Node Name="n434"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA7+_Group_SINK_">
+			<Node Name="n432"/>
+		</PinGroup>
+		<PinGroup Name="BGA_RXDATA7-_Group_SINK_">
+			<Node Name="n415"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA0+_Group_SINK_">
+			<Node Name="n49"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA0-_Group_SINK_">
+			<Node Name="n22"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA1+_Group_SINK_">
+			<Node Name="n47"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA1-_Group_SINK_">
+			<Node Name="n20"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA2+_Group_SINK_">
+			<Node Name="n18"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA2-_Group_SINK_">
+			<Node Name="n16"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA3+_Group_SINK_">
+			<Node Name="n14"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA3-_Group_SINK_">
+			<Node Name="n12"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA4+_Group_SINK_">
+			<Node Name="n10"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA4-_Group_SINK_">
+			<Node Name="n8"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA5+_Group_SINK_">
+			<Node Name="n6"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA5-_Group_SINK_">
+			<Node Name="n4"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA6+_Group_SINK_">
+			<Node Name="n38"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA6-_Group_SINK_">
+			<Node Name="n36"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA7+_Group_SINK_">
+			<Node Name="n59"/>
+		</PinGroup>
+		<PinGroup Name="BGA_TXDATA7-_Group_SINK_">
+			<Node Name="n34"/>
+		</PinGroup>
+		<PinGroup Name="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP">
+			<Node Name="FCHIP_VSS_Group"/>
+		</PinGroup>
+	</PinGroups_Section>
+	<Components_Section>
+		<Component Name="CSP_BGA_BGA" Part="CSP_BGA">
+			<Node Name="n168"/>
+			<Node Name="n417"/>
+			<Node Name="n438"/>
+			<Node Name="n478"/>
+			<Node Name="n64"/>
+			<Node Name="n448"/>
+			<Node Name="n194"/>
+			<Node Name="n361"/>
+			<Node Name="n446"/>
+			<Node Name="n476"/>
+			<Node Name="n442"/>
+			<Node Name="n371"/>
+			<Node Name="n466"/>
+			<Node Name="n462"/>
+			<Node Name="n472"/>
+			<Node Name="n470"/>
+			<Node Name="n43"/>
+			<Node Name="n468"/>
+			<Node Name="n464"/>
+			<Node Name="n456"/>
+			<Node Name="n460"/>
+			<Node Name="n0"/>
+			<Node Name="n480"/>
+			<Node Name="n436"/>
+			<Node Name="n474"/>
+			<Node Name="n317"/>
+			<Node Name="n432"/>
+			<Node Name="n49"/>
+			<Node Name="n22"/>
+			<Node Name="n16"/>
+			<Node Name="n415"/>
+			<Node Name="n20"/>
+			<Node Name="n313"/>
+			<Node Name="n175"/>
+			<Node Name="n47"/>
+			<Node Name="n14"/>
+			<Node Name="n18"/>
+			<Node Name="n434"/>
+			<Node Name="n12"/>
+			<Node Name="n38"/>
+			<Node Name="n36"/>
+			<Node Name="n8"/>
+			<Node Name="n24"/>
+			<Node Name="n59"/>
+			<Node Name="n187"/>
+			<Node Name="n6"/>
+			<Node Name="n10"/>
+			<Node Name="n34"/>
+			<Node Name="n4"/>
+			<Node Name="n309"/>
+			<Node Name="n321"/>
+			<Node Name="n183"/>
+			<Node Name="n179"/>
+			<Node Name="n325"/>
+			<Node Name="n412"/>
+			<Node Name="n409"/>
+			<Node Name="n406"/>
+			<Node Name="n368"/>
+			<Node Name="n403"/>
+			<Node Name="n74"/>
+			<Node Name="n400"/>
+			<Node Name="n226"/>
+			<Node Name="n83"/>
+			<Node Name="n421"/>
+			<Node Name="n365"/>
+			<Node Name="n80"/>
+			<Node Name="n77"/>
+			<Node Name="n191"/>
+			<Node Name="n172"/>
+			<Node Name="n397"/>
+			<Node Name="n306"/>
+			<Node Name="n40"/>
+			<Node Name="n61"/>
+			<Node Name="n71"/>
+			<Node Name="n68"/>
+			<Node Name="n229"/>
+		</Component>
+		<Component Name="FCHIP_FCHIP" Part="FCHIP">
+			<Node Name="n290"/>
+			<Node Name="n138"/>
+			<Node Name="n198"/>
+			<Node Name="n108"/>
+			<Node Name="n134"/>
+			<Node Name="n145"/>
+			<Node Name="n102"/>
+			<Node Name="n106"/>
+			<Node Name="n342"/>
+			<Node Name="n331"/>
+			<Node Name="n202"/>
+			<Node Name="n200"/>
+			<Node Name="n281"/>
+			<Node Name="n110"/>
+			<Node Name="n204"/>
+			<Node Name="n136"/>
+			<Node Name="n278"/>
+			<Node Name="n143"/>
+			<Node Name="n112"/>
+			<Node Name="n216"/>
+			<Node Name="n220"/>
+			<Node Name="n206"/>
+			<Node Name="n210"/>
+			<Node Name="n214"/>
+			<Node Name="n124"/>
+			<Node Name="n208"/>
+			<Node Name="n152"/>
+			<Node Name="n159"/>
+			<Node Name="n120"/>
+			<Node Name="n126"/>
+			<Node Name="n161"/>
+			<Node Name="n122"/>
+			<Node Name="n114"/>
+			<Node Name="n116"/>
+			<Node Name="n150"/>
+			<Node Name="n218"/>
+			<Node Name="n118"/>
+			<Node Name="n212"/>
+			<Node Name="n222"/>
+			<Node Name="n166"/>
+			<Node Name="n163"/>
+			<Node Name="n130"/>
+			<Node Name="n154"/>
+			<Node Name="n141"/>
+			<Node Name="n377"/>
+			<Node Name="n375"/>
+			<Node Name="n266"/>
+			<Node Name="n232"/>
+			<Node Name="n301"/>
+			<Node Name="n132"/>
+			<Node Name="n272"/>
+			<Node Name="n379"/>
+			<Node Name="n128"/>
+			<Node Name="n264"/>
+			<Node Name="n304"/>
+			<Node Name="n147"/>
+			<Node Name="n269"/>
+			<Node Name="n293"/>
+			<Node Name="n104"/>
+			<Node Name="n224"/>
+			<Node Name="n157"/>
+			<Node Name="n328"/>
+			<Node Name="n353"/>
+			<Node Name="n351"/>
+			<Node Name="n237"/>
+			<Node Name="n235"/>
+			<Node Name="n240"/>
+			<Node Name="n334"/>
+			<Node Name="n355"/>
+			<Node Name="n260"/>
+			<Node Name="n257"/>
+			<Node Name="n247"/>
+			<Node Name="n243"/>
+			<Node Name="n296"/>
+			<Node Name="n336"/>
+			<Node Name="n358"/>
+			<Node Name="n249"/>
+			<Node Name="n262"/>
+			<Node Name="n345"/>
+			<Node Name="n245"/>
+			<Node Name="n347"/>
+			<Node Name="n299"/>
+			<Node Name="n339"/>
+			<Node Name="n254"/>
+			<Node Name="n275"/>
+			<Node Name="n251"/>
+			<Node Name="n284"/>
+			<Node Name="n287"/>
+			<Node Name="n100"/>
+			<Node Name="n94"/>
+			<Node Name="n90"/>
+			<Node Name="n381"/>
+			<Node Name="n93"/>
+			<Node Name="n382"/>
+			<Node Name="n97"/>
+			<Node Name="n89"/>
+			<Node Name="n99"/>
+			<Node Name="n383"/>
+			<Node Name="n384"/>
+			<Node Name="n86"/>
+			<Node Name="n385"/>
+			<Node Name="n92"/>
+			<Node Name="n95"/>
+			<Node Name="n88"/>
+			<Node Name="n87"/>
+			<Node Name="n386"/>
+			<Node Name="n388"/>
+			<Node Name="n390"/>
+			<Node Name="n357"/>
+			<Node Name="n98"/>
+			<Node Name="n91"/>
+			<Node Name="n387"/>
+			<Node Name="n101"/>
+			<Node Name="n350"/>
+			<Node Name="n389"/>
+			<Node Name="n392"/>
+			<Node Name="n391"/>
+			<Node Name="n394"/>
+			<Node Name="n393"/>
+			<Node Name="n396"/>
+			<Node Name="n395"/>
+			<Node Name="n96"/>
+		</Component>
+	</Components_Section>
+	<Ports_Section>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata0+_group" PosGroup="FCHIP_RXDATA0+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata0-_group" PosGroup="FCHIP_RXDATA0-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata1+_group" PosGroup="FCHIP_RXDATA1+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata1-_group" PosGroup="FCHIP_RXDATA1-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata2+_group" PosGroup="FCHIP_RXDATA2+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata2-_group" PosGroup="FCHIP_RXDATA2-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata3+_group" PosGroup="FCHIP_RXDATA3+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata3-_group" PosGroup="FCHIP_RXDATA3-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata4+_group" PosGroup="FCHIP_RXDATA4+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata4-_group" PosGroup="FCHIP_RXDATA4-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata5+_group" PosGroup="FCHIP_RXDATA5+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata5-_group" PosGroup="FCHIP_RXDATA5-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata6+_group" PosGroup="FCHIP_RXDATA6+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata6-_group" PosGroup="FCHIP_RXDATA6-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata7+_group" PosGroup="FCHIP_RXDATA7+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_rxdata7-_group" PosGroup="FCHIP_RXDATA7-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata0+_group" PosGroup="FCHIP_TXDATA0+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata0-_group" PosGroup="FCHIP_TXDATA0-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata1+_group" PosGroup="FCHIP_TXDATA1+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata1-_group" PosGroup="FCHIP_TXDATA1-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata2+_group" PosGroup="FCHIP_TXDATA2+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata2-_group" PosGroup="FCHIP_TXDATA2-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata3+_group" PosGroup="FCHIP_TXDATA3+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata3-_group" PosGroup="FCHIP_TXDATA3-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata4+_group" PosGroup="FCHIP_TXDATA4+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata4-_group" PosGroup="FCHIP_TXDATA4-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata5+_group" PosGroup="FCHIP_TXDATA5+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata5-_group" PosGroup="FCHIP_TXDATA5-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata6+_group" PosGroup="FCHIP_TXDATA6+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata6-_group" PosGroup="FCHIP_TXDATA6-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata7+_group" PosGroup="FCHIP_TXDATA7+_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_FCHIP_FCHIP_fchip_txdata7-_group" PosGroup="FCHIP_TXDATA7-_Group" NegGroup="SUPER_PORT_PIN_GROUP_FCHIP_FCHIP" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA0+_Group" PosGroup="BGA_RXDATA0+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA0-_Group" PosGroup="BGA_RXDATA0-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA1+_Group" PosGroup="BGA_RXDATA1+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA1-_Group" PosGroup="BGA_RXDATA1-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA2+_Group" PosGroup="BGA_RXDATA2+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA2-_Group" PosGroup="BGA_RXDATA2-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA3+_Group" PosGroup="BGA_RXDATA3+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA3-_Group" PosGroup="BGA_RXDATA3-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA4+_Group" PosGroup="BGA_RXDATA4+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA4-_Group" PosGroup="BGA_RXDATA4-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA5+_Group" PosGroup="BGA_RXDATA5+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA5-_Group" PosGroup="BGA_RXDATA5-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA6+_Group" PosGroup="BGA_RXDATA6+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA6-_Group" PosGroup="BGA_RXDATA6-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA7+_Group" PosGroup="BGA_RXDATA7+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_RXDATA7-_Group" PosGroup="BGA_RXDATA7-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA0+_Group" PosGroup="BGA_TXDATA0+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA0-_Group" PosGroup="BGA_TXDATA0-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA1+_Group" PosGroup="BGA_TXDATA1+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA1-_Group" PosGroup="BGA_TXDATA1-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA2+_Group" PosGroup="BGA_TXDATA2+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA2-_Group" PosGroup="BGA_TXDATA2-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA3+_Group" PosGroup="BGA_TXDATA3+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA3-_Group" PosGroup="BGA_TXDATA3-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA4+_Group" PosGroup="BGA_TXDATA4+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA4-_Group" PosGroup="BGA_TXDATA4-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA5+_Group" PosGroup="BGA_TXDATA5+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA5-_Group" PosGroup="BGA_TXDATA5-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA6+_Group" PosGroup="BGA_TXDATA6+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA6-_Group" PosGroup="BGA_TXDATA6-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA7+_Group" PosGroup="BGA_TXDATA7+_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+		<Port Name="Port_CSP_BGA_BGA_BGA_TXDATA7-_Group" PosGroup="BGA_TXDATA7-_Group_SINK_" NegGroup="BGA_VSS_Group_SINK_" R="2.0"/>
+	</Ports_Section>
+</TPS_group>

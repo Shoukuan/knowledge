@@ -1,0 +1,2 @@
+Component   Pin   x(mm)  y(mm)   Rpin (Ohm)   L (H)   NetName
+FCHIP_FCHIP  C1  -1.912500e+00  1.462500e+00  1.312116e-01   2.291913e-09  TXDATA0-

@@ -1,0 +1,2 @@
+Component= COMP1_part_COMP1 Part= COMP1_part SpiceModel= COMP1_part Type= Capacitor
+Single_RLC 0.000000e+00 0.000000e+00 1.000000e-08
