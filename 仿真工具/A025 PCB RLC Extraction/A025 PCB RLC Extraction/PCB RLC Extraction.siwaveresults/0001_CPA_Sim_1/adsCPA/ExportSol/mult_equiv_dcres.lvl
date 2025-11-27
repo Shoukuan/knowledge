@@ -1,0 +1,26 @@
+B_PARAMS
+ CapMat 0
+  Net0:A32422-019_L4B1_BST_V1P0_S0_1 
+  Net1:U2A5_GND_Group 
+  Net2:A32422-019_L4B1_V1P0_S0_2 
+ EndCapMat
+
+ ResMat 0
+ EndResMat
+
+ IndMat 0
+ EndIndMat
+
+ CndMat 0
+  Net0:A32422-019_L4B1_BST_V1P0_S0_1 
+  Net1:U2A5_GND_Group 
+  Net2:A32422-019_L4B1_V1P0_S0_2 
+ EndCndMat
+
+ BranchSrcSnkMap 3
+  Net0:U3A1_BST_V1P0_S0_Group  U3A1-36  L4B1-1
+  Net1:U3A1_GND_Group  U3A1-5  U2A5-AP23
+  Net2:U2A5_V1P0_S0_Group  U2A5-AD14  L4B1-2
+ EndBranchSrcSnkMap
+
+E_PARAMS

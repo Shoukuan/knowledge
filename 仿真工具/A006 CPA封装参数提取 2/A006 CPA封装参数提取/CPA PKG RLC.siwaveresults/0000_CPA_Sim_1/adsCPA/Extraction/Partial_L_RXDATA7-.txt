@@ -1,0 +1,2 @@
+Component   Pin   x(mm)  y(mm)   Rpin (Ohm)   L (H)   NetName
+FCHIP_FCHIP  U18  1.912500e+00  -1.687500e+00  8.571764e-02   2.462199e-09  RXDATA7-

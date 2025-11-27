@@ -1,0 +1,6 @@
+
+* Die = FCHIP_FCHIP
+* NetName    NetName     L(H)
+VDD_15 VDD_15 1.902618e-10
+VSS VDD_15 4.745026e-11
+VSS VSS 9.204049e-11

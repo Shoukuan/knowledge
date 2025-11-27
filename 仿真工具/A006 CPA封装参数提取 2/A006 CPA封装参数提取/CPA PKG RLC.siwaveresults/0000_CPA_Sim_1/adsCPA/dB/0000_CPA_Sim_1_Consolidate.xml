@@ -1,0 +1,1643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPG_Consolidate_File AuthCode="JFHJIHACIMGOBQFMKANGTHBPEGJIADNHEXE" CopyrightInfo="* ?1986-2023 ANSYS, Inc. All rights reserved. Unauthorized use, distribution, or duplication is prohibited. This product is subject to U.S. laws governing export and re-export.  For full Legal Notice, see documentation." JobName="0000_CPA_Sim_1" JobPath="D:/Persional/02 SIwave/07 CPA/Workflow/CPA IBIS RLGC.siwaveresults/0000_CPA_Sim_1" ProdDir="C:/Program Files/AnsysEM/v232/Win64" ProductName="SIwave_CPA" TempFolder="" VersionString="2023 R2">
+	<Configuration_Section Analysis_Type="PDN_Channel_Builder" Geom_Type="Laminate" Model_Type="MODEL_PKG" TdUseMethod="0" SIW="1">
+		<SimulationControl_General ConductorRoughness="0" ConductorRoughnessValue="0.000000000000e+00" EnhancedWirebondModel="0" Processor_Number="12" SpeedAccuracyControl="2"/>
+		<SimulationControl_PGnets PG_Skin_Effect="0" Small_Feature_Size="-1.000000000000e+03"/>
+		<SimulationControl_Signalnets ConductorModel="0" Error_Tolerance="-1" ImproveDielFill="0" Signal_Skin_Effect="0"/>
+		<DC_Extraction>
+			<Component Name="CSP_BGA_BGA"/>
+			<Component Name="FCHIP_FCHIP"/>
+		</DC_Extraction>
+		<DC_Cosimulation Isink_UnequalVoltages="0">
+			<Sense_Spec/>
+		</DC_Cosimulation>
+		<Transient Time_Step="2.000000e-012" Total_Time="1.000000e-009"/>
+	</Configuration_Section>
+	<StackUp_Section>
+		<Layer DielName="AIR" LayerName="UpperABC" MetalName="copper" Property="Dielectric" Thickness="1.000000000000e+00"/>
+		<Layer DielName="AIR" LayerName="TOP" MetalName="copper" Property="Conductor" Thickness="3.048000000000e-02"/>
+		<Layer DielName="FR-4" LayerName="Diel_1" MetalName="copper" Property="Dielectric" Thickness="2.032000000000e-01"/>
+		<Layer DielName="FR-4" LayerName="VDD_C1" MetalName="copper" Property="Conductor" Thickness="3.048000000000e-02"/>
+		<Layer DielName="FR-4" LayerName="Diel_3" MetalName="copper" Property="Dielectric" Thickness="2.032000000000e-01"/>
+		<Layer DielName="FR-4" LayerName="VSS_C1" MetalName="copper" Property="Conductor" Thickness="3.048000000000e-02"/>
+		<Layer DielName="FR-4" LayerName="Diel_5" MetalName="copper" Property="Dielectric" Thickness="2.032000000000e-01"/>
+		<Layer DielName="AIR" LayerName="BOTTOM" MetalName="copper" Property="Conductor" Thickness="3.048000000000e-02"/>
+		<Layer DielName="AIR" LayerName="LowerABC" MetalName="copper" Property="Dielectric" Thickness="1.000000000000e+00"/>
+	</StackUp_Section>
+	<Nodes_Section>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N0" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node LayerName="TOP" Name="N1" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N2" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N3" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N4" NetName="TXDATA5-" Type="Layout_Node" x="-4.400000000000e+00" y="-3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N5" NetName="TXDATA5-" Type="Layout_Node" x="-4.400000000000e+00" y="-3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N6" NetName="TXDATA5+" Type="Layout_Node" x="-4.400000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N7" NetName="TXDATA5+" Type="Layout_Node" x="-4.400000000000e+00" y="-2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N8" NetName="TXDATA4-" Type="Layout_Node" x="-4.400000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N9" NetName="TXDATA4-" Type="Layout_Node" x="-4.400000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N10" NetName="TXDATA4+" Type="Layout_Node" x="-4.400000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N11" NetName="TXDATA4+" Type="Layout_Node" x="-4.400000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N12" NetName="TXDATA3-" Type="Layout_Node" x="-4.400000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N13" NetName="TXDATA3-" Type="Layout_Node" x="-4.400000000000e+00" y="-4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N14" NetName="TXDATA3+" Type="Layout_Node" x="-4.400000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N15" NetName="TXDATA3+" Type="Layout_Node" x="-4.400000000000e+00" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N16" NetName="TXDATA2-" Type="Layout_Node" x="-4.400000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N17" NetName="TXDATA2-" Type="Layout_Node" x="-4.400000000000e+00" y="1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N18" NetName="TXDATA2+" Type="Layout_Node" x="-4.400000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N19" NetName="TXDATA2+" Type="Layout_Node" x="-4.400000000000e+00" y="2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N20" NetName="TXDATA1-" Type="Layout_Node" x="-4.400000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N21" NetName="TXDATA1-" Type="Layout_Node" x="-4.400000000000e+00" y="2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N22" NetName="TXDATA0-" Type="Layout_Node" x="-4.400000000000e+00" y="3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N23" NetName="TXDATA0-" Type="Layout_Node" x="-4.400000000000e+00" y="3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N24" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="4.400000000000e+00"/>
+		<Node LayerName="TOP" Name="N25" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="4.400000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N26" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="4.400000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N27" NetName="VSS" Type="Layout_Node" x="-4.400000000000e+00" y="4.400000000000e+00"/>
+		<Node LayerName="TOP" Name="N28" NetName="VSS" Type="Layout_Node" x="-4.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N29" NetName="VSS" Type="Layout_Node" x="-4.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N30" NetName="VSS" Type="Layout_Node" x="-4.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N31" NetName="VSS" Type="Layout_Node" x="-4.000000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N32" NetName="VSS" Type="Layout_Node" x="-4.000000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N33" NetName="VSS" Type="Layout_Node" x="-4.000000000000e+00" y="4.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N34" NetName="TXDATA7-" Type="Layout_Node" x="-3.600000000000e+00" y="-3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N35" NetName="TXDATA7-" Type="Layout_Node" x="-3.600000000000e+00" y="-3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N36" NetName="TXDATA6-" Type="Layout_Node" x="-3.600000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N37" NetName="TXDATA6-" Type="Layout_Node" x="-3.600000000000e+00" y="-2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N38" NetName="TXDATA6+" Type="Layout_Node" x="-3.600000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N39" NetName="TXDATA6+" Type="Layout_Node" x="-3.600000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N40" NetName="VSS" Type="Layout_Node" x="-3.600000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N41" NetName="VSS" Type="Layout_Node" x="-3.600000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N42" NetName="VSS" Type="Layout_Node" x="-3.600000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N43" NetName="VSS" Type="Layout_Node" x="-3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N44" NetName="VSS" Type="Layout_Node" x="-3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N45" NetName="VSS" Type="Layout_Node" x="-3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N46" NetName="VSS" Type="Layout_Node" x="-3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N47" NetName="TXDATA1+" Type="Layout_Node" x="-3.600000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N48" NetName="TXDATA1+" Type="Layout_Node" x="-3.600000000000e+00" y="2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N49" NetName="TXDATA0+" Type="Layout_Node" x="-3.600000000000e+00" y="3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N50" NetName="TXDATA0+" Type="Layout_Node" x="-3.600000000000e+00" y="3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N51" NetName="VSS" Type="Layout_Node" x="-3.500000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N52" NetName="VSS" Type="Layout_Node" x="-3.500000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N53" NetName="VSS" Type="Layout_Node" x="-3.500000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N54" NetName="VSS" Type="Layout_Node" x="-3.500000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N55" NetName="VSS" Type="Layout_Node" x="-3.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N56" NetName="VSS" Type="Layout_Node" x="-3.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N57" NetName="VSS" Type="Layout_Node" x="-3.000000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N58" NetName="VSS" Type="Layout_Node" x="-3.000000000000e+00" y="4.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N59" NetName="TXDATA7+" Type="Layout_Node" x="-2.800000000000e+00" y="-3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N60" NetName="TXDATA7+" Type="Layout_Node" x="-2.800000000000e+00" y="-3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N61" NetName="VSS" Type="Layout_Node" x="-2.800000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N62" NetName="VSS" Type="Layout_Node" x="-2.800000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N63" NetName="VSS" Type="Layout_Node" x="-2.800000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N64" NetName="VSS" Type="Layout_Node" x="-2.800000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N65" NetName="VSS" Type="Layout_Node" x="-2.800000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N66" NetName="VSS" Type="Layout_Node" x="-2.800000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N67" NetName="VSS" Type="Layout_Node" x="-2.800000000000e+00" y="1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N68" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N69" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N70" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N71" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N72" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N73" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N74" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N75" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N76" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="-4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N77" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N78" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N79" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N80" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N81" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N82" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N83" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N84" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N85" NetName="VSS" Type="Layout_Node" x="-2.000000000000e+00" y="2.000000000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N86" NetName="TXDATA7+" Type="Layout_Node" x="-1.912500000000e+00" y="-1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N87" NetName="TXDATA7-" Type="Layout_Node" x="-1.912500000000e+00" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N88" NetName="TXDATA6-" Type="Layout_Node" x="-1.912500000000e+00" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N89" NetName="TXDATA6+" Type="Layout_Node" x="-1.912500000000e+00" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N90" NetName="TXDATA5-" Type="Layout_Node" x="-1.912500000000e+00" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N91" NetName="TXDATA5+" Type="Layout_Node" x="-1.912500000000e+00" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N92" NetName="TXDATA4-" Type="Layout_Node" x="-1.912500000000e+00" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N93" NetName="TXDATA4+" Type="Layout_Node" x="-1.912500000000e+00" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N94" NetName="TXDATA3-" Type="Layout_Node" x="-1.912500000000e+00" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N95" NetName="TXDATA3+" Type="Layout_Node" x="-1.912500000000e+00" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N96" NetName="TXDATA2-" Type="Layout_Node" x="-1.912500000000e+00" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N97" NetName="TXDATA2+" Type="Layout_Node" x="-1.912500000000e+00" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N98" NetName="TXDATA1-" Type="Layout_Node" x="-1.912500000000e+00" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N99" NetName="TXDATA1+" Type="Layout_Node" x="-1.912500000000e+00" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N100" NetName="TXDATA0-" Type="Layout_Node" x="-1.912500000000e+00" y="1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N101" NetName="TXDATA0+" Type="Layout_Node" x="-1.912500000000e+00" y="1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N102" NetName="VSS" Type="Layout_Node" x="-1.687500000000e+00" y="-1.687500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N103" NetName="VSS" Type="Layout_Node" x="-1.687500000000e+00" y="-1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N104" NetName="VSS" Type="Layout_Node" x="-1.687500000000e+00" y="1.687500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N105" NetName="VSS" Type="Layout_Node" x="-1.687500000000e+00" y="1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N106" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N107" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N108" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N109" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N110" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N111" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N112" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N113" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N114" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N115" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N116" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N117" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N118" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N119" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N120" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N121" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N122" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N123" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N124" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N125" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N126" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N127" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N128" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N129" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N130" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N131" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N132" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N133" NetName="VSS" Type="Layout_Node" x="-1.462500000000e+00" y="1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N134" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.687500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N135" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N136" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N137" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N138" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.237500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N139" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N140" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N141" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N142" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N143" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N144" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N145" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N146" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N147" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-3.375000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N148" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N149" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N150" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N151" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N152" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N153" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N154" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="3.375000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N155" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N156" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N157" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N158" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N159" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N160" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N161" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N162" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N163" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.237500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N164" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N165" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N166" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N167" NetName="VSS" Type="Layout_Node" x="-1.237500000000e+00" y="1.462500000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N168" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N169" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N170" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N171" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N172" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N173" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N174" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N175" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N176" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N177" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N178" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N179" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N180" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N181" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N182" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="-4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N183" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N184" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N185" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N186" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N187" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N188" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N189" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N190" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N191" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N192" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N193" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N194" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N195" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N196" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N197" NetName="VSS" Type="Layout_Node" x="-1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N198" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N199" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N200" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N201" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N202" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N203" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N204" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N205" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N206" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N207" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N208" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N209" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N210" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N211" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N212" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N213" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N214" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N215" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N216" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N217" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N218" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N219" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N220" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N221" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N222" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N223" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N224" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N225" NetName="VSS" Type="Layout_Node" x="-1.012500000000e+00" y="1.462500000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N226" NetName="VSS" Type="Layout_Node" x="-4.000000000000e-01" y="-2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N227" NetName="VSS" Type="Layout_Node" x="-4.000000000000e-01" y="-2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N228" NetName="VSS" Type="Layout_Node" x="-4.000000000000e-01" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N229" NetName="VSS" Type="Layout_Node" x="-4.000000000000e-01" y="2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N230" NetName="VSS" Type="Layout_Node" x="-4.000000000000e-01" y="2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N231" NetName="VSS" Type="Layout_Node" x="-4.000000000000e-01" y="2.000000000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N232" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.462500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N233" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N234" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N235" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N236" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N237" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.012500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N238" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N239" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N240" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-7.875000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N241" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N242" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N243" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N244" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N245" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N246" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N247" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N248" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N249" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N250" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N251" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="3.375000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N252" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N253" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N254" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="5.625000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N255" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N256" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N257" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="7.875000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N258" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N259" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N260" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N261" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N262" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N263" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N264" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N265" NetName="VSS" Type="Layout_Node" x="1.125000000000e-01" y="1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N266" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.462500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N267" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N268" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N269" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.237500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N270" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N271" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N272" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.012500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N273" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N274" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N275" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-7.875000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N276" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N277" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N278" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-5.625000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N279" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N280" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N281" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-3.375000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N282" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N283" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N284" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.125000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N285" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N286" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N287" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.125000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N288" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N289" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N290" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="3.375000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N291" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N292" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N293" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="5.625000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N294" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N295" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N296" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="7.875000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N297" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N298" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N299" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N300" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N301" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.237500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N302" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N303" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N304" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N305" NetName="VSS" Type="Layout_Node" x="3.375000000000e-01" y="1.462500000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N306" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N307" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N308" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N309" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N310" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N311" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N312" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N313" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N314" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N315" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N316" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="-4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N317" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N318" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N319" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N320" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N321" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N322" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N323" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N324" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N325" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N326" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N327" NetName="VSS" Type="Layout_Node" x="4.000000000000e-01" y="2.000000000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N328" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.462500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N329" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N330" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N331" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.237500000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N332" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.237500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N333" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N334" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N335" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N336" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-7.875000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N337" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N338" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N339" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-5.625000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N340" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N341" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N342" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-3.375000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N343" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-3.375000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N344" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N345" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N346" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N347" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.125000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N348" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.125000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N349" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N350" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N351" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="5.625000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N352" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N353" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="7.875000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N354" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N355" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.012500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N356" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N357" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N358" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.462500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N359" NetName="VSS" Type="Layout_Node" x="5.625000000000e-01" y="1.462500000000e+00"/>
+		<Node LayerName="TOP" Name="N360" NetName="VSS" Type="Layout_Node" x="8.400000000000e-01" y="3.710000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N361" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N362" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N363" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N364" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="-2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N365" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N366" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N367" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N368" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N369" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N370" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N371" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N372" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N373" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N374" NetName="VSS" Type="Layout_Node" x="1.200000000000e+00" y="2.800000000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N375" NetName="VSS" Type="Layout_Node" x="1.237500000000e+00" y="-1.687500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N376" NetName="VSS" Type="Layout_Node" x="1.237500000000e+00" y="-1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N377" NetName="VSS" Type="Layout_Node" x="1.687500000000e+00" y="-1.687500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N378" NetName="VSS" Type="Layout_Node" x="1.687500000000e+00" y="-1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N379" NetName="VSS" Type="Layout_Node" x="1.687500000000e+00" y="1.687500000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N380" NetName="VSS" Type="Layout_Node" x="1.687500000000e+00" y="1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N381" NetName="RXDATA7-" Type="Layout_Node" x="1.912500000000e+00" y="-1.687500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N382" NetName="RXDATA7+" Type="Layout_Node" x="1.912500000000e+00" y="-1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N383" NetName="RXDATA6-" Type="Layout_Node" x="1.912500000000e+00" y="-1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N384" NetName="RXDATA6+" Type="Layout_Node" x="1.912500000000e+00" y="-1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N385" NetName="RXDATA5-" Type="Layout_Node" x="1.912500000000e+00" y="-7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N386" NetName="RXDATA5+" Type="Layout_Node" x="1.912500000000e+00" y="-5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N387" NetName="RXDATA4+" Type="Layout_Node" x="1.912500000000e+00" y="-3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N388" NetName="RXDATA4-" Type="Layout_Node" x="1.912500000000e+00" y="-1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N389" NetName="RXDATA3+" Type="Layout_Node" x="1.912500000000e+00" y="1.125000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N390" NetName="RXDATA3-" Type="Layout_Node" x="1.912500000000e+00" y="3.375000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N391" NetName="RXDATA2+" Type="Layout_Node" x="1.912500000000e+00" y="5.625000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N392" NetName="RXDATA2-" Type="Layout_Node" x="1.912500000000e+00" y="7.875000000000e-01"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N393" NetName="RXDATA1+" Type="Layout_Node" x="1.912500000000e+00" y="1.012500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N394" NetName="RXDATA1-" Type="Layout_Node" x="1.912500000000e+00" y="1.237500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N395" NetName="RXDATA0-" Type="Layout_Node" x="1.912500000000e+00" y="1.462500000000e+00"/>
+		<Node Component="FCHIP_FCHIP" LayerName="TOP" Name="N396" NetName="RXDATA0+" Type="Layout_Node" x="1.912500000000e+00" y="1.687500000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N397" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N398" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N399" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N400" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N401" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N402" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N403" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N404" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N405" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="-4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N406" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N407" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N408" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N409" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N410" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N411" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N412" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N413" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N414" NetName="VSS" Type="Layout_Node" x="2.000000000000e+00" y="2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N415" NetName="RXDATA7-" Type="Layout_Node" x="2.800000000000e+00" y="-3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N416" NetName="RXDATA7-" Type="Layout_Node" x="2.800000000000e+00" y="-3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N417" NetName="VSS" Type="Layout_Node" x="2.800000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N418" NetName="VSS" Type="Layout_Node" x="2.800000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N419" NetName="VSS" Type="Layout_Node" x="2.800000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N420" NetName="VSS" Type="Layout_Node" x="2.800000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N421" NetName="VSS" Type="Layout_Node" x="2.800000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N422" NetName="VSS" Type="Layout_Node" x="2.800000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N423" NetName="VSS" Type="Layout_Node" x="2.800000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N424" NetName="VSS" Type="Layout_Node" x="3.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N425" NetName="VSS" Type="Layout_Node" x="3.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N426" NetName="VSS" Type="Layout_Node" x="3.000000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N427" NetName="VSS" Type="Layout_Node" x="3.000000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N428" NetName="VSS" Type="Layout_Node" x="3.500000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N429" NetName="VSS" Type="Layout_Node" x="3.500000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N430" NetName="VSS" Type="Layout_Node" x="3.500000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N431" NetName="VSS" Type="Layout_Node" x="3.500000000000e+00" y="4.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N432" NetName="RXDATA7+" Type="Layout_Node" x="3.600000000000e+00" y="-3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N433" NetName="RXDATA7+" Type="Layout_Node" x="3.600000000000e+00" y="-3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N434" NetName="RXDATA6-" Type="Layout_Node" x="3.600000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N435" NetName="RXDATA6-" Type="Layout_Node" x="3.600000000000e+00" y="-2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N436" NetName="RXDATA6+" Type="Layout_Node" x="3.600000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N437" NetName="RXDATA6+" Type="Layout_Node" x="3.600000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N438" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N439" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N440" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N441" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N442" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N443" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VDD_C1" Name="N444" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="VSS_C1" Name="N445" NetName="VSS" Type="Layout_Node" x="3.600000000000e+00" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N446" NetName="RXDATA1-" Type="Layout_Node" x="3.600000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N447" NetName="RXDATA1-" Type="Layout_Node" x="3.600000000000e+00" y="2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N448" NetName="RXDATA0+" Type="Layout_Node" x="3.600000000000e+00" y="3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N449" NetName="RXDATA0+" Type="Layout_Node" x="3.600000000000e+00" y="3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N450" NetName="VSS" Type="Layout_Node" x="4.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N451" NetName="VSS" Type="Layout_Node" x="4.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N452" NetName="VSS" Type="Layout_Node" x="4.000000000000e+00" y="-4.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N453" NetName="VSS" Type="Layout_Node" x="4.000000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N454" NetName="VSS" Type="Layout_Node" x="4.000000000000e+00" y="4.000000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N455" NetName="VSS" Type="Layout_Node" x="4.000000000000e+00" y="4.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N456" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node LayerName="TOP" Name="N457" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N458" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N459" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="-4.400000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N460" NetName="RXDATA5-" Type="Layout_Node" x="4.400000000000e+00" y="-3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N461" NetName="RXDATA5-" Type="Layout_Node" x="4.400000000000e+00" y="-3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N462" NetName="RXDATA5+" Type="Layout_Node" x="4.400000000000e+00" y="-2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N463" NetName="RXDATA5+" Type="Layout_Node" x="4.400000000000e+00" y="-2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N464" NetName="RXDATA4+" Type="Layout_Node" x="4.400000000000e+00" y="-2.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N465" NetName="RXDATA4+" Type="Layout_Node" x="4.400000000000e+00" y="-2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N466" NetName="RXDATA4-" Type="Layout_Node" x="4.400000000000e+00" y="-1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N467" NetName="RXDATA4-" Type="Layout_Node" x="4.400000000000e+00" y="-1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N468" NetName="RXDATA3+" Type="Layout_Node" x="4.400000000000e+00" y="-4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N469" NetName="RXDATA3+" Type="Layout_Node" x="4.400000000000e+00" y="-4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N470" NetName="RXDATA3-" Type="Layout_Node" x="4.400000000000e+00" y="4.000000000000e-01"/>
+		<Node LayerName="TOP" Name="N471" NetName="RXDATA3-" Type="Layout_Node" x="4.400000000000e+00" y="4.000000000000e-01"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N472" NetName="RXDATA2+" Type="Layout_Node" x="4.400000000000e+00" y="1.200000000000e+00"/>
+		<Node LayerName="TOP" Name="N473" NetName="RXDATA2+" Type="Layout_Node" x="4.400000000000e+00" y="1.200000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N474" NetName="RXDATA2-" Type="Layout_Node" x="4.400000000000e+00" y="2.000000000000e+00"/>
+		<Node LayerName="TOP" Name="N475" NetName="RXDATA2-" Type="Layout_Node" x="4.400000000000e+00" y="2.000000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N476" NetName="RXDATA1+" Type="Layout_Node" x="4.400000000000e+00" y="2.800000000000e+00"/>
+		<Node LayerName="TOP" Name="N477" NetName="RXDATA1+" Type="Layout_Node" x="4.400000000000e+00" y="2.800000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N478" NetName="RXDATA0-" Type="Layout_Node" x="4.400000000000e+00" y="3.600000000000e+00"/>
+		<Node LayerName="TOP" Name="N479" NetName="RXDATA0-" Type="Layout_Node" x="4.400000000000e+00" y="3.600000000000e+00"/>
+		<Node Component="CSP_BGA_BGA" LayerName="BOTTOM" Name="N480" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="4.400000000000e+00"/>
+		<Node LayerName="TOP" Name="N481" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="4.400000000000e+00"/>
+		<Node LayerName="VDD_C1" Name="N482" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="4.400000000000e+00"/>
+		<Node LayerName="VSS_C1" Name="N483" NetName="VSS" Type="Layout_Node" x="4.400000000000e+00" y="4.400000000000e+00"/>
+	</Nodes_Section>
+	<Node_Group_Section>
+		<NodeGroup Name="BGA_RXDATA0+_Group">
+			<Node Name="N448"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA0-_Group">
+			<Node Name="N478"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA1+_Group">
+			<Node Name="N476"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA1-_Group">
+			<Node Name="N446"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA2+_Group">
+			<Node Name="N472"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA2-_Group">
+			<Node Name="N474"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA3+_Group">
+			<Node Name="N468"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA3-_Group">
+			<Node Name="N470"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA4+_Group">
+			<Node Name="N464"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA4-_Group">
+			<Node Name="N466"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA5+_Group">
+			<Node Name="N462"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA5-_Group">
+			<Node Name="N460"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA6+_Group">
+			<Node Name="N436"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA6-_Group">
+			<Node Name="N434"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA7+_Group">
+			<Node Name="N432"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_RXDATA7-_Group">
+			<Node Name="N415"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA0+_Group">
+			<Node Name="N49"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA0-_Group">
+			<Node Name="N22"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA1+_Group">
+			<Node Name="N47"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA1-_Group">
+			<Node Name="N20"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA2+_Group">
+			<Node Name="N18"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA2-_Group">
+			<Node Name="N16"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA3+_Group">
+			<Node Name="N14"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA3-_Group">
+			<Node Name="N12"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA4+_Group">
+			<Node Name="N10"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA4-_Group">
+			<Node Name="N8"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA5+_Group">
+			<Node Name="N6"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA5-_Group">
+			<Node Name="N4"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA6+_Group">
+			<Node Name="N38"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA6-_Group">
+			<Node Name="N36"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA7+_Group">
+			<Node Name="N59"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_TXDATA7-_Group">
+			<Node Name="N34"/>
+		</NodeGroup>
+		<NodeGroup Name="BGA_VSS_Group">
+			<Node Name="N0"/>
+			<Node Name="N24"/>
+			<Node Name="N40"/>
+			<Node Name="N43"/>
+			<Node Name="N61"/>
+			<Node Name="N64"/>
+			<Node Name="N68"/>
+			<Node Name="N71"/>
+			<Node Name="N74"/>
+			<Node Name="N77"/>
+			<Node Name="N80"/>
+			<Node Name="N83"/>
+			<Node Name="N168"/>
+			<Node Name="N172"/>
+			<Node Name="N175"/>
+			<Node Name="N179"/>
+			<Node Name="N183"/>
+			<Node Name="N187"/>
+			<Node Name="N191"/>
+			<Node Name="N194"/>
+			<Node Name="N226"/>
+			<Node Name="N229"/>
+			<Node Name="N306"/>
+			<Node Name="N309"/>
+			<Node Name="N313"/>
+			<Node Name="N317"/>
+			<Node Name="N321"/>
+			<Node Name="N325"/>
+			<Node Name="N361"/>
+			<Node Name="N365"/>
+			<Node Name="N368"/>
+			<Node Name="N371"/>
+			<Node Name="N397"/>
+			<Node Name="N400"/>
+			<Node Name="N403"/>
+			<Node Name="N406"/>
+			<Node Name="N409"/>
+			<Node Name="N412"/>
+			<Node Name="N417"/>
+			<Node Name="N421"/>
+			<Node Name="N438"/>
+			<Node Name="N442"/>
+			<Node Name="N456"/>
+			<Node Name="N480"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA0+_Group">
+			<Node Name="N396"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA0-_Group">
+			<Node Name="N395"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA1+_Group">
+			<Node Name="N393"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA1-_Group">
+			<Node Name="N394"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA2+_Group">
+			<Node Name="N391"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA2-_Group">
+			<Node Name="N392"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA3+_Group">
+			<Node Name="N389"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA3-_Group">
+			<Node Name="N390"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA4+_Group">
+			<Node Name="N387"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA4-_Group">
+			<Node Name="N388"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA5+_Group">
+			<Node Name="N386"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA5-_Group">
+			<Node Name="N385"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA6+_Group">
+			<Node Name="N384"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA6-_Group">
+			<Node Name="N383"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA7+_Group">
+			<Node Name="N382"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_RXDATA7-_Group">
+			<Node Name="N381"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA0+_Group">
+			<Node Name="N101"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA0-_Group">
+			<Node Name="N100"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA1+_Group">
+			<Node Name="N99"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA1-_Group">
+			<Node Name="N98"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA2+_Group">
+			<Node Name="N97"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA2-_Group">
+			<Node Name="N96"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA3+_Group">
+			<Node Name="N95"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA3-_Group">
+			<Node Name="N94"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA4+_Group">
+			<Node Name="N93"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA4-_Group">
+			<Node Name="N92"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA5+_Group">
+			<Node Name="N91"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA5-_Group">
+			<Node Name="N90"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA6+_Group">
+			<Node Name="N89"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA6-_Group">
+			<Node Name="N88"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA7+_Group">
+			<Node Name="N86"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_TXDATA7-_Group">
+			<Node Name="N87"/>
+		</NodeGroup>
+		<NodeGroup Name="FCHIP_VSS_Group">
+			<Node Name="N102"/>
+			<Node Name="N104"/>
+			<Node Name="N106"/>
+			<Node Name="N108"/>
+			<Node Name="N110"/>
+			<Node Name="N112"/>
+			<Node Name="N114"/>
+			<Node Name="N116"/>
+			<Node Name="N118"/>
+			<Node Name="N120"/>
+			<Node Name="N122"/>
+			<Node Name="N124"/>
+			<Node Name="N126"/>
+			<Node Name="N128"/>
+			<Node Name="N130"/>
+			<Node Name="N132"/>
+			<Node Name="N134"/>
+			<Node Name="N136"/>
+			<Node Name="N138"/>
+			<Node Name="N141"/>
+			<Node Name="N143"/>
+			<Node Name="N145"/>
+			<Node Name="N147"/>
+			<Node Name="N150"/>
+			<Node Name="N152"/>
+			<Node Name="N154"/>
+			<Node Name="N157"/>
+			<Node Name="N159"/>
+			<Node Name="N161"/>
+			<Node Name="N163"/>
+			<Node Name="N166"/>
+			<Node Name="N198"/>
+			<Node Name="N200"/>
+			<Node Name="N202"/>
+			<Node Name="N204"/>
+			<Node Name="N206"/>
+			<Node Name="N208"/>
+			<Node Name="N210"/>
+			<Node Name="N212"/>
+			<Node Name="N214"/>
+			<Node Name="N216"/>
+			<Node Name="N218"/>
+			<Node Name="N220"/>
+			<Node Name="N222"/>
+			<Node Name="N224"/>
+			<Node Name="N232"/>
+			<Node Name="N235"/>
+			<Node Name="N237"/>
+			<Node Name="N240"/>
+			<Node Name="N243"/>
+			<Node Name="N245"/>
+			<Node Name="N247"/>
+			<Node Name="N249"/>
+			<Node Name="N251"/>
+			<Node Name="N254"/>
+			<Node Name="N257"/>
+			<Node Name="N260"/>
+			<Node Name="N262"/>
+			<Node Name="N264"/>
+			<Node Name="N266"/>
+			<Node Name="N269"/>
+			<Node Name="N272"/>
+			<Node Name="N275"/>
+			<Node Name="N278"/>
+			<Node Name="N281"/>
+			<Node Name="N284"/>
+			<Node Name="N287"/>
+			<Node Name="N290"/>
+			<Node Name="N293"/>
+			<Node Name="N296"/>
+			<Node Name="N299"/>
+			<Node Name="N301"/>
+			<Node Name="N304"/>
+			<Node Name="N328"/>
+			<Node Name="N331"/>
+			<Node Name="N334"/>
+			<Node Name="N336"/>
+			<Node Name="N339"/>
+			<Node Name="N342"/>
+			<Node Name="N345"/>
+			<Node Name="N347"/>
+			<Node Name="N350"/>
+			<Node Name="N351"/>
+			<Node Name="N353"/>
+			<Node Name="N355"/>
+			<Node Name="N357"/>
+			<Node Name="N358"/>
+			<Node Name="N375"/>
+			<Node Name="N377"/>
+			<Node Name="N379"/>
+		</NodeGroup>
+	</Node_Group_Section>
+	<BondWires_Section/>
+	<Parts_Section>
+		<Part Ckt_FileName="" Model_Name="" Name="CSP_BGA" Type="Other"/>
+		<Part Ckt_FileName="" Model_Name="" Name="FCHIP" Type="Other"/>
+	</Parts_Section>
+	<Components_Section>
+		<Component AttachLayer="BOTTOM" Name="CSP_BGA_BGA" Part_ID="CSP_BGA" Rotation="0.000000000000e+00" Type="Lumped" x="0.000000000000e+00" y="0.000000000000e+00">
+			<Node Ckt_Node="1" Physical_Node="N168" Pin_Name="K5"/>
+			<Node Ckt_Node="2" Physical_Node="N417" Pin_Name="H10"/>
+			<Node Ckt_Node="3" Physical_Node="N438" Pin_Name="H11"/>
+			<Node Ckt_Node="4" Physical_Node="N478" Pin_Name="B12"/>
+			<Node Ckt_Node="5" Physical_Node="N64" Pin_Name="E3"/>
+			<Node Ckt_Node="6" Physical_Node="N448" Pin_Name="B11"/>
+			<Node Ckt_Node="7" Physical_Node="N194" Pin_Name="C5"/>
+			<Node Ckt_Node="8" Physical_Node="N361" Pin_Name="K8"/>
+			<Node Ckt_Node="9" Physical_Node="N446" Pin_Name="C11"/>
+			<Node Ckt_Node="10" Physical_Node="N476" Pin_Name="C12"/>
+			<Node Ckt_Node="11" Physical_Node="N442" Pin_Name="F11"/>
+			<Node Ckt_Node="12" Physical_Node="N371" Pin_Name="C8"/>
+			<Node Ckt_Node="13" Physical_Node="N466" Pin_Name="H12"/>
+			<Node Ckt_Node="14" Physical_Node="N462" Pin_Name="K12"/>
+			<Node Ckt_Node="15" Physical_Node="N472" Pin_Name="E12"/>
+			<Node Ckt_Node="16" Physical_Node="N470" Pin_Name="F12"/>
+			<Node Ckt_Node="17" Physical_Node="N43" Pin_Name="F2"/>
+			<Node Ckt_Node="18" Physical_Node="N468" Pin_Name="G12"/>
+			<Node Ckt_Node="19" Physical_Node="N464" Pin_Name="J12"/>
+			<Node Ckt_Node="20" Physical_Node="N456" Pin_Name="M12"/>
+			<Node Ckt_Node="21" Physical_Node="N460" Pin_Name="L12"/>
+			<Node Ckt_Node="22" Physical_Node="N0" Pin_Name="M1"/>
+			<Node Ckt_Node="23" Physical_Node="N480" Pin_Name="A12"/>
+			<Node Ckt_Node="24" Physical_Node="N436" Pin_Name="J11"/>
+			<Node Ckt_Node="25" Physical_Node="N474" Pin_Name="D12"/>
+			<Node Ckt_Node="26" Physical_Node="N317" Pin_Name="F7"/>
+			<Node Ckt_Node="27" Physical_Node="N432" Pin_Name="L11"/>
+			<Node Ckt_Node="28" Physical_Node="N49" Pin_Name="B2"/>
+			<Node Ckt_Node="29" Physical_Node="N22" Pin_Name="B1"/>
+			<Node Ckt_Node="30" Physical_Node="N16" Pin_Name="E1"/>
+			<Node Ckt_Node="31" Physical_Node="N415" Pin_Name="L10"/>
+			<Node Ckt_Node="32" Physical_Node="N20" Pin_Name="C1"/>
+			<Node Ckt_Node="33" Physical_Node="N313" Pin_Name="G7"/>
+			<Node Ckt_Node="34" Physical_Node="N175" Pin_Name="H5"/>
+			<Node Ckt_Node="35" Physical_Node="N47" Pin_Name="C2"/>
+			<Node Ckt_Node="36" Physical_Node="N14" Pin_Name="F1"/>
+			<Node Ckt_Node="37" Physical_Node="N18" Pin_Name="D1"/>
+			<Node Ckt_Node="38" Physical_Node="N434" Pin_Name="K11"/>
+			<Node Ckt_Node="39" Physical_Node="N12" Pin_Name="G1"/>
+			<Node Ckt_Node="40" Physical_Node="N38" Pin_Name="J2"/>
+			<Node Ckt_Node="41" Physical_Node="N36" Pin_Name="K2"/>
+			<Node Ckt_Node="42" Physical_Node="N8" Pin_Name="J1"/>
+			<Node Ckt_Node="43" Physical_Node="N24" Pin_Name="A1"/>
+			<Node Ckt_Node="44" Physical_Node="N59" Pin_Name="L3"/>
+			<Node Ckt_Node="45" Physical_Node="N187" Pin_Name="E5"/>
+			<Node Ckt_Node="46" Physical_Node="N6" Pin_Name="K1"/>
+			<Node Ckt_Node="47" Physical_Node="N10" Pin_Name="H1"/>
+			<Node Ckt_Node="48" Physical_Node="N34" Pin_Name="L2"/>
+			<Node Ckt_Node="49" Physical_Node="N4" Pin_Name="L1"/>
+			<Node Ckt_Node="50" Physical_Node="N309" Pin_Name="H7"/>
+			<Node Ckt_Node="51" Physical_Node="N321" Pin_Name="E7"/>
+			<Node Ckt_Node="52" Physical_Node="N183" Pin_Name="F5"/>
+			<Node Ckt_Node="53" Physical_Node="N179" Pin_Name="G5"/>
+			<Node Ckt_Node="54" Physical_Node="N325" Pin_Name="D7"/>
+			<Node Ckt_Node="55" Physical_Node="N412" Pin_Name="D9"/>
+			<Node Ckt_Node="56" Physical_Node="N409" Pin_Name="E9"/>
+			<Node Ckt_Node="57" Physical_Node="N406" Pin_Name="F9"/>
+			<Node Ckt_Node="58" Physical_Node="N368" Pin_Name="D8"/>
+			<Node Ckt_Node="59" Physical_Node="N403" Pin_Name="G9"/>
+			<Node Ckt_Node="60" Physical_Node="N74" Pin_Name="G4"/>
+			<Node Ckt_Node="61" Physical_Node="N400" Pin_Name="H9"/>
+			<Node Ckt_Node="62" Physical_Node="N226" Pin_Name="J6"/>
+			<Node Ckt_Node="63" Physical_Node="N83" Pin_Name="D4"/>
+			<Node Ckt_Node="64" Physical_Node="N421" Pin_Name="E10"/>
+			<Node Ckt_Node="65" Physical_Node="N365" Pin_Name="J8"/>
+			<Node Ckt_Node="66" Physical_Node="N80" Pin_Name="E4"/>
+			<Node Ckt_Node="67" Physical_Node="N77" Pin_Name="F4"/>
+			<Node Ckt_Node="68" Physical_Node="N191" Pin_Name="D5"/>
+			<Node Ckt_Node="69" Physical_Node="N172" Pin_Name="J5"/>
+			<Node Ckt_Node="70" Physical_Node="N397" Pin_Name="J9"/>
+			<Node Ckt_Node="71" Physical_Node="N306" Pin_Name="J7"/>
+			<Node Ckt_Node="72" Physical_Node="N40" Pin_Name="H2"/>
+			<Node Ckt_Node="73" Physical_Node="N61" Pin_Name="H3"/>
+			<Node Ckt_Node="74" Physical_Node="N71" Pin_Name="H4"/>
+			<Node Ckt_Node="75" Physical_Node="N68" Pin_Name="J4"/>
+			<Node Ckt_Node="76" Physical_Node="N229" Pin_Name="D6"/>
+		</Component>
+		<Component AttachLayer="TOP" Name="FCHIP_FCHIP" Part_ID="FCHIP" Rotation="0.000000000000e+00" Type="Lumped" x="0.000000000000e+00" y="0.000000000000e+00">
+			<Node Ckt_Node="1" Physical_Node="N290" Pin_Name="H11"/>
+			<Node Ckt_Node="2" Physical_Node="N138" Pin_Name="R4"/>
+			<Node Ckt_Node="3" Physical_Node="N198" Pin_Name="T5"/>
+			<Node Ckt_Node="4" Physical_Node="N108" Pin_Name="R3"/>
+			<Node Ckt_Node="5" Physical_Node="N134" Pin_Name="U4"/>
+			<Node Ckt_Node="6" Physical_Node="N145" Pin_Name="M4"/>
+			<Node Ckt_Node="7" Physical_Node="N102" Pin_Name="U2"/>
+			<Node Ckt_Node="8" Physical_Node="N106" Pin_Name="T3"/>
+			<Node Ckt_Node="9" Physical_Node="N342" Pin_Name="L12"/>
+			<Node Ckt_Node="10" Physical_Node="N331" Pin_Name="R12"/>
+			<Node Ckt_Node="11" Physical_Node="N202" Pin_Name="P5"/>
+			<Node Ckt_Node="12" Physical_Node="N200" Pin_Name="R5"/>
+			<Node Ckt_Node="13" Physical_Node="N281" Pin_Name="L11"/>
+			<Node Ckt_Node="14" Physical_Node="N110" Pin_Name="P3"/>
+			<Node Ckt_Node="15" Physical_Node="N204" Pin_Name="N5"/>
+			<Node Ckt_Node="16" Physical_Node="N136" Pin_Name="T4"/>
+			<Node Ckt_Node="17" Physical_Node="N278" Pin_Name="M11"/>
+			<Node Ckt_Node="18" Physical_Node="N143" Pin_Name="N4"/>
+			<Node Ckt_Node="19" Physical_Node="N112" Pin_Name="N3"/>
+			<Node Ckt_Node="20" Physical_Node="N216" Pin_Name="G5"/>
+			<Node Ckt_Node="21" Physical_Node="N220" Pin_Name="E5"/>
+			<Node Ckt_Node="22" Physical_Node="N206" Pin_Name="M5"/>
+			<Node Ckt_Node="23" Physical_Node="N210" Pin_Name="K5"/>
+			<Node Ckt_Node="24" Physical_Node="N214" Pin_Name="H5"/>
+			<Node Ckt_Node="25" Physical_Node="N124" Pin_Name="G3"/>
+			<Node Ckt_Node="26" Physical_Node="N208" Pin_Name="L5"/>
+			<Node Ckt_Node="27" Physical_Node="N152" Pin_Name="J4"/>
+			<Node Ckt_Node="28" Physical_Node="N159" Pin_Name="F4"/>
+			<Node Ckt_Node="29" Physical_Node="N120" Pin_Name="J3"/>
+			<Node Ckt_Node="30" Physical_Node="N126" Pin_Name="F3"/>
+			<Node Ckt_Node="31" Physical_Node="N161" Pin_Name="E4"/>
+			<Node Ckt_Node="32" Physical_Node="N122" Pin_Name="H3"/>
+			<Node Ckt_Node="33" Physical_Node="N114" Pin_Name="M3"/>
+			<Node Ckt_Node="34" Physical_Node="N116" Pin_Name="L3"/>
+			<Node Ckt_Node="35" Physical_Node="N150" Pin_Name="K4"/>
+			<Node Ckt_Node="36" Physical_Node="N218" Pin_Name="F5"/>
+			<Node Ckt_Node="37" Physical_Node="N118" Pin_Name="K3"/>
+			<Node Ckt_Node="38" Physical_Node="N212" Pin_Name="J5"/>
+			<Node Ckt_Node="39" Physical_Node="N222" Pin_Name="D5"/>
+			<Node Ckt_Node="40" Physical_Node="N166" Pin_Name="C4"/>
+			<Node Ckt_Node="41" Physical_Node="N163" Pin_Name="D4"/>
+			<Node Ckt_Node="42" Physical_Node="N130" Pin_Name="D3"/>
+			<Node Ckt_Node="43" Physical_Node="N154" Pin_Name="H4"/>
+			<Node Ckt_Node="44" Physical_Node="N141" Pin_Name="P4"/>
+			<Node Ckt_Node="45" Physical_Node="N377" Pin_Name="U17"/>
+			<Node Ckt_Node="46" Physical_Node="N375" Pin_Name="U15"/>
+			<Node Ckt_Node="47" Physical_Node="N266" Pin_Name="T11"/>
+			<Node Ckt_Node="48" Physical_Node="N232" Pin_Name="T10"/>
+			<Node Ckt_Node="49" Physical_Node="N301" Pin_Name="D11"/>
+			<Node Ckt_Node="50" Physical_Node="N132" Pin_Name="C3"/>
+			<Node Ckt_Node="51" Physical_Node="N272" Pin_Name="P11"/>
+			<Node Ckt_Node="52" Physical_Node="N379" Pin_Name="B17"/>
+			<Node Ckt_Node="53" Physical_Node="N128" Pin_Name="E3"/>
+			<Node Ckt_Node="54" Physical_Node="N264" Pin_Name="C10"/>
+			<Node Ckt_Node="55" Physical_Node="N304" Pin_Name="C11"/>
+			<Node Ckt_Node="56" Physical_Node="N147" Pin_Name="L4"/>
+			<Node Ckt_Node="57" Physical_Node="N269" Pin_Name="R11"/>
+			<Node Ckt_Node="58" Physical_Node="N293" Pin_Name="G11"/>
+			<Node Ckt_Node="59" Physical_Node="N104" Pin_Name="B2"/>
+			<Node Ckt_Node="60" Physical_Node="N224" Pin_Name="C5"/>
+			<Node Ckt_Node="61" Physical_Node="N157" Pin_Name="G4"/>
+			<Node Ckt_Node="62" Physical_Node="N328" Pin_Name="T12"/>
+			<Node Ckt_Node="63" Physical_Node="N353" Pin_Name="F12"/>
+			<Node Ckt_Node="64" Physical_Node="N351" Pin_Name="G12"/>
+			<Node Ckt_Node="65" Physical_Node="N237" Pin_Name="P10"/>
+			<Node Ckt_Node="66" Physical_Node="N235" Pin_Name="R10"/>
+			<Node Ckt_Node="67" Physical_Node="N240" Pin_Name="N10"/>
+			<Node Ckt_Node="68" Physical_Node="N334" Pin_Name="P12"/>
+			<Node Ckt_Node="69" Physical_Node="N355" Pin_Name="E12"/>
+			<Node Ckt_Node="70" Physical_Node="N260" Pin_Name="E10"/>
+			<Node Ckt_Node="71" Physical_Node="N257" Pin_Name="F10"/>
+			<Node Ckt_Node="72" Physical_Node="N247" Pin_Name="K10"/>
+			<Node Ckt_Node="73" Physical_Node="N243" Pin_Name="M10"/>
+			<Node Ckt_Node="74" Physical_Node="N296" Pin_Name="F11"/>
+			<Node Ckt_Node="75" Physical_Node="N336" Pin_Name="N12"/>
+			<Node Ckt_Node="76" Physical_Node="N358" Pin_Name="C12"/>
+			<Node Ckt_Node="77" Physical_Node="N249" Pin_Name="J10"/>
+			<Node Ckt_Node="78" Physical_Node="N262" Pin_Name="D10"/>
+			<Node Ckt_Node="79" Physical_Node="N345" Pin_Name="K12"/>
+			<Node Ckt_Node="80" Physical_Node="N245" Pin_Name="L10"/>
+			<Node Ckt_Node="81" Physical_Node="N347" Pin_Name="J12"/>
+			<Node Ckt_Node="82" Physical_Node="N299" Pin_Name="E11"/>
+			<Node Ckt_Node="83" Physical_Node="N339" Pin_Name="M12"/>
+			<Node Ckt_Node="84" Physical_Node="N254" Pin_Name="G10"/>
+			<Node Ckt_Node="85" Physical_Node="N275" Pin_Name="N11"/>
+			<Node Ckt_Node="86" Physical_Node="N251" Pin_Name="H10"/>
+			<Node Ckt_Node="87" Physical_Node="N284" Pin_Name="K11"/>
+			<Node Ckt_Node="88" Physical_Node="N287" Pin_Name="J11"/>
+			<Node Ckt_Node="89" Physical_Node="N100" Pin_Name="C1"/>
+			<Node Ckt_Node="90" Physical_Node="N94" Pin_Name="J1"/>
+			<Node Ckt_Node="91" Physical_Node="N90" Pin_Name="N1"/>
+			<Node Ckt_Node="92" Physical_Node="N381" Pin_Name="U18"/>
+			<Node Ckt_Node="93" Physical_Node="N93" Pin_Name="K1"/>
+			<Node Ckt_Node="94" Physical_Node="N382" Pin_Name="T18"/>
+			<Node Ckt_Node="95" Physical_Node="N97" Pin_Name="F1"/>
+			<Node Ckt_Node="96" Physical_Node="N89" Pin_Name="P1"/>
+			<Node Ckt_Node="97" Physical_Node="N99" Pin_Name="D1"/>
+			<Node Ckt_Node="98" Physical_Node="N383" Pin_Name="R18"/>
+			<Node Ckt_Node="99" Physical_Node="N384" Pin_Name="P18"/>
+			<Node Ckt_Node="100" Physical_Node="N86" Pin_Name="U1"/>
+			<Node Ckt_Node="101" Physical_Node="N385" Pin_Name="N18"/>
+			<Node Ckt_Node="102" Physical_Node="N92" Pin_Name="L1"/>
+			<Node Ckt_Node="103" Physical_Node="N95" Pin_Name="H1"/>
+			<Node Ckt_Node="104" Physical_Node="N88" Pin_Name="R1"/>
+			<Node Ckt_Node="105" Physical_Node="N87" Pin_Name="T1"/>
+			<Node Ckt_Node="106" Physical_Node="N386" Pin_Name="M18"/>
+			<Node Ckt_Node="107" Physical_Node="N388" Pin_Name="K18"/>
+			<Node Ckt_Node="108" Physical_Node="N390" Pin_Name="H18"/>
+			<Node Ckt_Node="109" Physical_Node="N357" Pin_Name="D12"/>
+			<Node Ckt_Node="110" Physical_Node="N98" Pin_Name="E1"/>
+			<Node Ckt_Node="111" Physical_Node="N91" Pin_Name="M1"/>
+			<Node Ckt_Node="112" Physical_Node="N387" Pin_Name="L18"/>
+			<Node Ckt_Node="113" Physical_Node="N101" Pin_Name="B1"/>
+			<Node Ckt_Node="114" Physical_Node="N350" Pin_Name="H12"/>
+			<Node Ckt_Node="115" Physical_Node="N389" Pin_Name="J18"/>
+			<Node Ckt_Node="116" Physical_Node="N392" Pin_Name="F18"/>
+			<Node Ckt_Node="117" Physical_Node="N391" Pin_Name="G18"/>
+			<Node Ckt_Node="118" Physical_Node="N394" Pin_Name="D18"/>
+			<Node Ckt_Node="119" Physical_Node="N393" Pin_Name="E18"/>
+			<Node Ckt_Node="120" Physical_Node="N396" Pin_Name="B18"/>
+			<Node Ckt_Node="121" Physical_Node="N395" Pin_Name="C18"/>
+			<Node Ckt_Node="122" Physical_Node="N96" Pin_Name="G1"/>
+		</Component>
+	</Components_Section>
+	<Material_Section>
+		<Conductor_Set>
+			<Conductor Conductivity="5.800000000000e+04" Name="copper"/>
+		</Conductor_Set>
+		<Dielectric_Set>
+			<Dielectric CausalModel="1" Name="FR-4" Type="Freqdependent">
+				<Property Conductivity="0" Frequency="1.000000000000e+09" FrequencyHighCorner="1.591549400000e+11" Loss_Tangent="3.500000000000e-02" Re_Permeability="1.000000000000e+00" Re_Permittivity="4.500000000000e+00"/>
+			</Dielectric>
+			<Dielectric CausalModel="0" Name="AIR" Type="FreqIndependent">
+				<Property Conductivity="0" Frequency="1.000000000000e+09" FrequencyHighCorner="1.591549400000e+11" Loss_Tangent="0.000000000000e+00" Re_Permeability="1.000000000000e+00" Re_Permittivity="1.000000000000e+00"/>
+			</Dielectric>
+		</Dielectric_Set>
+	</Material_Section>
+	<Shape_Section>
+		<Shape ShapeH="0.000000000000e+00" ShapeR="0.000000000000e+00" ShapeW="1.000000000000e-01" Shape_ID="1" Type="circle"/>
+	</Shape_Section>
+	<PadStack_Section/>
+	<Vias_Section>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N448" IConstrain="0.000000000000e+00" Name="Via_0" NetName="RXDATA0+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N449"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N478" IConstrain="0.000000000000e+00" Name="Via_1" NetName="RXDATA0-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N479"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N476" IConstrain="0.000000000000e+00" Name="Via_2" NetName="RXDATA1+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N477"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N446" IConstrain="0.000000000000e+00" Name="Via_3" NetName="RXDATA1-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N447"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N472" IConstrain="0.000000000000e+00" Name="Via_4" NetName="RXDATA2+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N473"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N474" IConstrain="0.000000000000e+00" Name="Via_5" NetName="RXDATA2-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N475"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N468" IConstrain="0.000000000000e+00" Name="Via_6" NetName="RXDATA3+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N469"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N470" IConstrain="0.000000000000e+00" Name="Via_7" NetName="RXDATA3-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N471"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N464" IConstrain="0.000000000000e+00" Name="Via_8" NetName="RXDATA4+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N465"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N466" IConstrain="0.000000000000e+00" Name="Via_9" NetName="RXDATA4-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N467"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N462" IConstrain="0.000000000000e+00" Name="Via_10" NetName="RXDATA5+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N463"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N460" IConstrain="0.000000000000e+00" Name="Via_11" NetName="RXDATA5-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N461"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N436" IConstrain="0.000000000000e+00" Name="Via_12" NetName="RXDATA6+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N437"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N434" IConstrain="0.000000000000e+00" Name="Via_13" NetName="RXDATA6-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N435"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N432" IConstrain="0.000000000000e+00" Name="Via_14" NetName="RXDATA7+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N433"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N415" IConstrain="0.000000000000e+00" Name="Via_15" NetName="RXDATA7-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N416"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N49" IConstrain="0.000000000000e+00" Name="Via_16" NetName="TXDATA0+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N50"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N22" IConstrain="0.000000000000e+00" Name="Via_17" NetName="TXDATA0-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N23"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N47" IConstrain="0.000000000000e+00" Name="Via_18" NetName="TXDATA1+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N48"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N20" IConstrain="0.000000000000e+00" Name="Via_19" NetName="TXDATA1-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N21"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N18" IConstrain="0.000000000000e+00" Name="Via_20" NetName="TXDATA2+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N19"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N16" IConstrain="0.000000000000e+00" Name="Via_21" NetName="TXDATA2-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N17"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N14" IConstrain="0.000000000000e+00" Name="Via_22" NetName="TXDATA3+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N15"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N12" IConstrain="0.000000000000e+00" Name="Via_23" NetName="TXDATA3-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N13"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N10" IConstrain="0.000000000000e+00" Name="Via_24" NetName="TXDATA4+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N11"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N8" IConstrain="0.000000000000e+00" Name="Via_25" NetName="TXDATA4-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N9"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N6" IConstrain="0.000000000000e+00" Name="Via_26" NetName="TXDATA5+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N7"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N4" IConstrain="0.000000000000e+00" Name="Via_27" NetName="TXDATA5-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N5"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N38" IConstrain="0.000000000000e+00" Name="Via_28" NetName="TXDATA6+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N39"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N36" IConstrain="0.000000000000e+00" Name="Via_29" NetName="TXDATA6-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N37"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N59" IConstrain="0.000000000000e+00" Name="Via_30" NetName="TXDATA7+" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N60"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N34" IConstrain="0.000000000000e+00" Name="Via_31" NetName="TXDATA7-" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N35"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N26" IConstrain="0.000000000000e+00" Name="Via_32" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N25"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N27" IConstrain="0.000000000000e+00" Name="Via_33" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N26"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N24" IConstrain="0.000000000000e+00" Name="Via_34" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N27"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N399" IConstrain="0.000000000000e+00" Name="Via_35" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N398"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N397" IConstrain="0.000000000000e+00" Name="Via_36" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N399"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N189" IConstrain="0.000000000000e+00" Name="Via_37" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N188"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N190" IConstrain="0.000000000000e+00" Name="Via_38" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N189"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N187" IConstrain="0.000000000000e+00" Name="Via_39" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N190"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N164" IConstrain="0.000000000000e+00" Name="Via_40" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N163"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N165" IConstrain="0.000000000000e+00" Name="Via_41" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N164"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N148" IConstrain="0.000000000000e+00" Name="Via_42" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N147"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N149" IConstrain="0.000000000000e+00" Name="Via_43" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N148"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N181" IConstrain="0.000000000000e+00" Name="Via_44" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N180"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N182" IConstrain="0.000000000000e+00" Name="Via_45" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N181"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N179" IConstrain="0.000000000000e+00" Name="Via_46" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N182"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N323" IConstrain="0.000000000000e+00" Name="Via_47" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N322"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N324" IConstrain="0.000000000000e+00" Name="Via_48" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N323"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N321" IConstrain="0.000000000000e+00" Name="Via_49" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N324"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N302" IConstrain="0.000000000000e+00" Name="Via_50" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N301"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N303" IConstrain="0.000000000000e+00" Name="Via_51" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N302"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N311" IConstrain="0.000000000000e+00" Name="Via_52" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N310"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N312" IConstrain="0.000000000000e+00" Name="Via_53" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N311"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N309" IConstrain="0.000000000000e+00" Name="Via_54" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N312"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N270" IConstrain="0.000000000000e+00" Name="Via_55" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N269"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N271" IConstrain="0.000000000000e+00" Name="Via_56" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N270"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N185" IConstrain="0.000000000000e+00" Name="Via_57" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N184"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N186" IConstrain="0.000000000000e+00" Name="Via_58" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N185"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N183" IConstrain="0.000000000000e+00" Name="Via_59" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N186"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N155" IConstrain="0.000000000000e+00" Name="Via_60" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N154"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N156" IConstrain="0.000000000000e+00" Name="Via_61" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N155"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N294" IConstrain="0.000000000000e+00" Name="Via_62" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N293"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N295" IConstrain="0.000000000000e+00" Name="Via_63" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N294"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N158" IConstrain="0.000000000000e+00" Name="Via_64" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N157"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N482" IConstrain="0.000000000000e+00" Name="Via_65" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N481"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N483" IConstrain="0.000000000000e+00" Name="Via_66" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N482"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N480" IConstrain="0.000000000000e+00" Name="Via_67" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N483"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N423" IConstrain="0.000000000000e+00" Name="Via_68" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N422"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N421" IConstrain="0.000000000000e+00" Name="Via_69" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N423"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N419" IConstrain="0.000000000000e+00" Name="Via_70" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N418"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N420" IConstrain="0.000000000000e+00" Name="Via_71" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N419"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N417" IConstrain="0.000000000000e+00" Name="Via_72" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N420"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N458" IConstrain="0.000000000000e+00" Name="Via_73" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N457"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N459" IConstrain="0.000000000000e+00" Name="Via_74" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N458"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N456" IConstrain="0.000000000000e+00" Name="Via_75" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N459"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N373" IConstrain="0.000000000000e+00" Name="Via_76" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N372"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N374" IConstrain="0.000000000000e+00" Name="Via_77" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N373"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N371" IConstrain="0.000000000000e+00" Name="Via_78" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N374"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N329" IConstrain="0.000000000000e+00" Name="Via_79" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N328"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N330" IConstrain="0.000000000000e+00" Name="Via_80" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N329"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N267" IConstrain="0.000000000000e+00" Name="Via_81" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N266"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N268" IConstrain="0.000000000000e+00" Name="Via_82" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N267"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N233" IConstrain="0.000000000000e+00" Name="Via_83" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N232"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N234" IConstrain="0.000000000000e+00" Name="Via_84" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N233"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N273" IConstrain="0.000000000000e+00" Name="Via_85" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N272"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N274" IConstrain="0.000000000000e+00" Name="Via_86" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N273"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N380" IConstrain="0.000000000000e+00" Name="Via_87" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N379"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N265" IConstrain="0.000000000000e+00" Name="Via_88" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N264"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N305" IConstrain="0.000000000000e+00" Name="Via_89" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N304"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N359" IConstrain="0.000000000000e+00" Name="Via_90" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N358"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N263" IConstrain="0.000000000000e+00" Name="Via_91" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N262"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N261" IConstrain="0.000000000000e+00" Name="Via_92" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N260"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N300" IConstrain="0.000000000000e+00" Name="Via_93" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N299"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N356" IConstrain="0.000000000000e+00" Name="Via_94" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N355"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N258" IConstrain="0.000000000000e+00" Name="Via_95" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N257"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N259" IConstrain="0.000000000000e+00" Name="Via_96" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N258"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N297" IConstrain="0.000000000000e+00" Name="Via_97" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N296"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N298" IConstrain="0.000000000000e+00" Name="Via_98" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N297"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N354" IConstrain="0.000000000000e+00" Name="Via_99" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N353"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N255" IConstrain="0.000000000000e+00" Name="Via_100" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N254"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N256" IConstrain="0.000000000000e+00" Name="Via_101" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N255"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N352" IConstrain="0.000000000000e+00" Name="Via_102" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N351"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N252" IConstrain="0.000000000000e+00" Name="Via_103" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N251"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N253" IConstrain="0.000000000000e+00" Name="Via_104" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N252"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N250" IConstrain="0.000000000000e+00" Name="Via_105" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N249"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N288" IConstrain="0.000000000000e+00" Name="Via_106" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N287"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N289" IConstrain="0.000000000000e+00" Name="Via_107" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N288"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N348" IConstrain="0.000000000000e+00" Name="Via_108" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N347"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N349" IConstrain="0.000000000000e+00" Name="Via_109" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N348"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N248" IConstrain="0.000000000000e+00" Name="Via_110" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N247"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N285" IConstrain="0.000000000000e+00" Name="Via_111" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N284"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N286" IConstrain="0.000000000000e+00" Name="Via_112" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N285"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N346" IConstrain="0.000000000000e+00" Name="Via_113" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N345"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N246" IConstrain="0.000000000000e+00" Name="Via_114" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N245"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N244" IConstrain="0.000000000000e+00" Name="Via_115" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N243"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N340" IConstrain="0.000000000000e+00" Name="Via_116" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N339"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N341" IConstrain="0.000000000000e+00" Name="Via_117" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N340"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N241" IConstrain="0.000000000000e+00" Name="Via_118" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N240"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N242" IConstrain="0.000000000000e+00" Name="Via_119" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N241"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N276" IConstrain="0.000000000000e+00" Name="Via_120" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N275"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N277" IConstrain="0.000000000000e+00" Name="Via_121" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N276"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N337" IConstrain="0.000000000000e+00" Name="Via_122" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N336"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N338" IConstrain="0.000000000000e+00" Name="Via_123" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N337"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N238" IConstrain="0.000000000000e+00" Name="Via_124" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N237"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N239" IConstrain="0.000000000000e+00" Name="Via_125" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N238"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N335" IConstrain="0.000000000000e+00" Name="Via_126" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N334"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N236" IConstrain="0.000000000000e+00" Name="Via_127" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N235"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N376" IConstrain="0.000000000000e+00" Name="Via_128" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N375"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N378" IConstrain="0.000000000000e+00" Name="Via_129" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N377"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N327" IConstrain="0.000000000000e+00" Name="Via_130" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N326"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N325" IConstrain="0.000000000000e+00" Name="Via_131" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N327"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N370" IConstrain="0.000000000000e+00" Name="Via_132" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N369"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N368" IConstrain="0.000000000000e+00" Name="Via_133" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N370"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N414" IConstrain="0.000000000000e+00" Name="Via_134" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N413"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N412" IConstrain="0.000000000000e+00" Name="Via_135" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N414"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N411" IConstrain="0.000000000000e+00" Name="Via_136" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N410"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N409" IConstrain="0.000000000000e+00" Name="Via_137" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N411"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N408" IConstrain="0.000000000000e+00" Name="Via_138" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N407"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N406" IConstrain="0.000000000000e+00" Name="Via_139" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N408"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N405" IConstrain="0.000000000000e+00" Name="Via_140" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N404"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N403" IConstrain="0.000000000000e+00" Name="Via_141" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N405"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N402" IConstrain="0.000000000000e+00" Name="Via_142" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N401"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N400" IConstrain="0.000000000000e+00" Name="Via_143" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N402"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N367" IConstrain="0.000000000000e+00" Name="Via_144" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N366"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N365" IConstrain="0.000000000000e+00" Name="Via_145" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N367"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N308" IConstrain="0.000000000000e+00" Name="Via_146" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N307"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N306" IConstrain="0.000000000000e+00" Name="Via_147" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N308"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N363" IConstrain="0.000000000000e+00" Name="Via_148" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N362"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N364" IConstrain="0.000000000000e+00" Name="Via_149" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N363"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N361" IConstrain="0.000000000000e+00" Name="Via_150" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N364"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N196" IConstrain="0.000000000000e+00" Name="Via_151" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N195"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N197" IConstrain="0.000000000000e+00" Name="Via_152" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N196"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N194" IConstrain="0.000000000000e+00" Name="Via_153" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N197"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N142" IConstrain="0.000000000000e+00" Name="Via_154" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N141"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N105" IConstrain="0.000000000000e+00" Name="Via_155" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N104"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N133" IConstrain="0.000000000000e+00" Name="Via_156" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N132"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N167" IConstrain="0.000000000000e+00" Name="Via_157" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N166"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N225" IConstrain="0.000000000000e+00" Name="Via_158" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N224"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N131" IConstrain="0.000000000000e+00" Name="Via_159" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N130"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N223" IConstrain="0.000000000000e+00" Name="Via_160" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N222"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N129" IConstrain="0.000000000000e+00" Name="Via_161" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N128"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N162" IConstrain="0.000000000000e+00" Name="Via_162" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N161"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N221" IConstrain="0.000000000000e+00" Name="Via_163" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N220"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N127" IConstrain="0.000000000000e+00" Name="Via_164" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N126"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N160" IConstrain="0.000000000000e+00" Name="Via_165" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N159"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N219" IConstrain="0.000000000000e+00" Name="Via_166" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N218"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N125" IConstrain="0.000000000000e+00" Name="Via_167" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N124"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N217" IConstrain="0.000000000000e+00" Name="Via_168" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N216"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N123" IConstrain="0.000000000000e+00" Name="Via_169" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N122"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N215" IConstrain="0.000000000000e+00" Name="Via_170" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N214"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N121" IConstrain="0.000000000000e+00" Name="Via_171" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N120"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N153" IConstrain="0.000000000000e+00" Name="Via_172" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N152"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N213" IConstrain="0.000000000000e+00" Name="Via_173" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N212"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N119" IConstrain="0.000000000000e+00" Name="Via_174" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N118"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N151" IConstrain="0.000000000000e+00" Name="Via_175" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N150"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N211" IConstrain="0.000000000000e+00" Name="Via_176" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N210"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N117" IConstrain="0.000000000000e+00" Name="Via_177" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N116"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N209" IConstrain="0.000000000000e+00" Name="Via_178" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N208"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N115" IConstrain="0.000000000000e+00" Name="Via_179" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N114"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N207" IConstrain="0.000000000000e+00" Name="Via_180" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N206"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N113" IConstrain="0.000000000000e+00" Name="Via_181" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N112"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N144" IConstrain="0.000000000000e+00" Name="Via_182" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N143"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N205" IConstrain="0.000000000000e+00" Name="Via_183" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N204"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N111" IConstrain="0.000000000000e+00" Name="Via_184" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N110"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N203" IConstrain="0.000000000000e+00" Name="Via_185" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N202"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N109" IConstrain="0.000000000000e+00" Name="Via_186" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N108"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N201" IConstrain="0.000000000000e+00" Name="Via_187" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N200"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N107" IConstrain="0.000000000000e+00" Name="Via_188" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N106"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N137" IConstrain="0.000000000000e+00" Name="Via_189" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N136"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N199" IConstrain="0.000000000000e+00" Name="Via_190" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N198"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N103" IConstrain="0.000000000000e+00" Name="Via_191" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N102"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N135" IConstrain="0.000000000000e+00" Name="Via_192" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N134"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N82" IConstrain="0.000000000000e+00" Name="Via_193" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N81"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N80" IConstrain="0.000000000000e+00" Name="Via_194" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N82"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N85" IConstrain="0.000000000000e+00" Name="Via_195" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N84"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N83" IConstrain="0.000000000000e+00" Name="Via_196" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N85"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N193" IConstrain="0.000000000000e+00" Name="Via_197" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N192"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N191" IConstrain="0.000000000000e+00" Name="Via_198" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N193"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N231" IConstrain="0.000000000000e+00" Name="Via_199" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N230"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N229" IConstrain="0.000000000000e+00" Name="Via_200" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N231"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N79" IConstrain="0.000000000000e+00" Name="Via_201" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N78"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N77" IConstrain="0.000000000000e+00" Name="Via_202" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N79"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N228" IConstrain="0.000000000000e+00" Name="Via_203" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N227"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N226" IConstrain="0.000000000000e+00" Name="Via_204" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N228"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N73" IConstrain="0.000000000000e+00" Name="Via_205" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N72"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N71" IConstrain="0.000000000000e+00" Name="Via_206" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N73"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N70" IConstrain="0.000000000000e+00" Name="Via_207" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N69"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N68" IConstrain="0.000000000000e+00" Name="Via_208" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N70"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N76" IConstrain="0.000000000000e+00" Name="Via_209" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N75"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N74" IConstrain="0.000000000000e+00" Name="Via_210" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N76"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N170" IConstrain="0.000000000000e+00" Name="Via_211" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N169"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N171" IConstrain="0.000000000000e+00" Name="Via_212" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N170"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N168" IConstrain="0.000000000000e+00" Name="Via_213" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N171"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N66" IConstrain="0.000000000000e+00" Name="Via_214" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N65"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N67" IConstrain="0.000000000000e+00" Name="Via_215" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N66"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N64" IConstrain="0.000000000000e+00" Name="Via_216" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N67"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N63" IConstrain="0.000000000000e+00" Name="Via_217" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N62"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N61" IConstrain="0.000000000000e+00" Name="Via_218" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N63"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N2" IConstrain="0.000000000000e+00" Name="Via_219" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N1"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N3" IConstrain="0.000000000000e+00" Name="Via_220" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N2"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N0" IConstrain="0.000000000000e+00" Name="Via_221" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N3"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N146" IConstrain="0.000000000000e+00" Name="Via_222" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N145"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N139" IConstrain="0.000000000000e+00" Name="Via_223" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N138"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N140" IConstrain="0.000000000000e+00" Name="Via_224" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N139"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N177" IConstrain="0.000000000000e+00" Name="Via_225" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N176"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N178" IConstrain="0.000000000000e+00" Name="Via_226" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N177"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N175" IConstrain="0.000000000000e+00" Name="Via_227" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N178"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N343" IConstrain="0.000000000000e+00" Name="Via_228" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N342"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N344" IConstrain="0.000000000000e+00" Name="Via_229" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N343"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N279" IConstrain="0.000000000000e+00" Name="Via_230" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N278"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N280" IConstrain="0.000000000000e+00" Name="Via_231" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N279"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N332" IConstrain="0.000000000000e+00" Name="Via_232" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N331"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N333" IConstrain="0.000000000000e+00" Name="Via_233" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N332"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N315" IConstrain="0.000000000000e+00" Name="Via_234" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N314"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N316" IConstrain="0.000000000000e+00" Name="Via_235" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N315"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N313" IConstrain="0.000000000000e+00" Name="Via_236" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N316"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N282" IConstrain="0.000000000000e+00" Name="Via_237" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N281"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N283" IConstrain="0.000000000000e+00" Name="Via_238" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N282"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N319" IConstrain="0.000000000000e+00" Name="Via_239" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N318"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N320" IConstrain="0.000000000000e+00" Name="Via_240" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N319"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N317" IConstrain="0.000000000000e+00" Name="Via_241" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N320"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N291" IConstrain="0.000000000000e+00" Name="Via_242" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N290"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N292" IConstrain="0.000000000000e+00" Name="Via_243" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N291"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N45" IConstrain="0.000000000000e+00" Name="Via_244" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N44"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N46" IConstrain="0.000000000000e+00" Name="Via_245" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N45"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N43" IConstrain="0.000000000000e+00" Name="Via_246" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N46"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N42" IConstrain="0.000000000000e+00" Name="Via_247" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N41"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N40" IConstrain="0.000000000000e+00" Name="Via_248" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N42"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N444" IConstrain="0.000000000000e+00" Name="Via_249" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N443"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N445" IConstrain="0.000000000000e+00" Name="Via_250" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N444"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N442" IConstrain="0.000000000000e+00" Name="Via_251" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N445"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N440" IConstrain="0.000000000000e+00" Name="Via_252" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N439"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N441" IConstrain="0.000000000000e+00" Name="Via_253" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N440"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N438" IConstrain="0.000000000000e+00" Name="Via_254" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N441"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N29" IConstrain="0.000000000000e+00" Name="Via_255" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N28"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N30" IConstrain="0.000000000000e+00" Name="Via_256" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N29"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N52" IConstrain="0.000000000000e+00" Name="Via_257" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N51"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N56" IConstrain="0.000000000000e+00" Name="Via_258" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N55"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N32" IConstrain="0.000000000000e+00" Name="Via_259" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N31"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N33" IConstrain="0.000000000000e+00" Name="Via_260" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N32"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N54" IConstrain="0.000000000000e+00" Name="Via_261" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N53"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N58" IConstrain="0.000000000000e+00" Name="Via_262" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N57"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N454" IConstrain="0.000000000000e+00" Name="Via_263" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N453"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N455" IConstrain="0.000000000000e+00" Name="Via_264" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N454"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N431" IConstrain="0.000000000000e+00" Name="Via_265" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N430"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N427" IConstrain="0.000000000000e+00" Name="Via_266" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N426"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N451" IConstrain="0.000000000000e+00" Name="Via_267" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N450"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N452" IConstrain="0.000000000000e+00" Name="Via_268" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N451"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N429" IConstrain="0.000000000000e+00" Name="Via_269" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N428"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N425" IConstrain="0.000000000000e+00" Name="Via_270" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N424"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N174" IConstrain="0.000000000000e+00" Name="Via_271" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N173"/>
+		<Via Barrel_Rotation="0.000000000000e+00" Barrel_ShapeID="1" Barrel_Thick="0.000000000000e+00" Conductor="copper" End_NodeName="N172" IConstrain="0.000000000000e+00" Name="Via_272" NetName="VSS" PadStack_ID="0" PadStack_Rotation="0.000000000000e+00" Rotation="0.000000000000e+00" Start_NodeName="N174"/>
+	</Vias_Section>
+	<Net_Section ExcludeNetNotForAnalysis="1">
+		<Net ID="63" IsNetForAnalysis="1" Name="RXDATA0+" Type="Signal_Net"/>
+		<Net ID="64" IsNetForAnalysis="1" Name="RXDATA0-" Type="Signal_Net"/>
+		<Net ID="65" IsNetForAnalysis="1" Name="RXDATA1+" Type="Signal_Net"/>
+		<Net ID="66" IsNetForAnalysis="1" Name="RXDATA1-" Type="Signal_Net"/>
+		<Net ID="67" IsNetForAnalysis="1" Name="RXDATA2+" Type="Signal_Net"/>
+		<Net ID="68" IsNetForAnalysis="1" Name="RXDATA2-" Type="Signal_Net"/>
+		<Net ID="69" IsNetForAnalysis="1" Name="RXDATA3+" Type="Signal_Net"/>
+		<Net ID="70" IsNetForAnalysis="1" Name="RXDATA3-" Type="Signal_Net"/>
+		<Net ID="71" IsNetForAnalysis="1" Name="RXDATA4+" Type="Signal_Net"/>
+		<Net ID="72" IsNetForAnalysis="1" Name="RXDATA4-" Type="Signal_Net"/>
+		<Net ID="73" IsNetForAnalysis="1" Name="RXDATA5+" Type="Signal_Net"/>
+		<Net ID="74" IsNetForAnalysis="1" Name="RXDATA5-" Type="Signal_Net"/>
+		<Net ID="75" IsNetForAnalysis="1" Name="RXDATA6+" Type="Signal_Net"/>
+		<Net ID="76" IsNetForAnalysis="1" Name="RXDATA6-" Type="Signal_Net"/>
+		<Net ID="77" IsNetForAnalysis="1" Name="RXDATA7+" Type="Signal_Net"/>
+		<Net ID="78" IsNetForAnalysis="1" Name="RXDATA7-" Type="Signal_Net"/>
+		<Net ID="79" IsNetForAnalysis="1" Name="TXDATA0+" Type="Signal_Net"/>
+		<Net ID="80" IsNetForAnalysis="1" Name="TXDATA0-" Type="Signal_Net"/>
+		<Net ID="81" IsNetForAnalysis="1" Name="TXDATA1+" Type="Signal_Net"/>
+		<Net ID="82" IsNetForAnalysis="1" Name="TXDATA1-" Type="Signal_Net"/>
+		<Net ID="83" IsNetForAnalysis="1" Name="TXDATA2+" Type="Signal_Net"/>
+		<Net ID="84" IsNetForAnalysis="1" Name="TXDATA2-" Type="Signal_Net"/>
+		<Net ID="85" IsNetForAnalysis="1" Name="TXDATA3+" Type="Signal_Net"/>
+		<Net ID="86" IsNetForAnalysis="1" Name="TXDATA3-" Type="Signal_Net"/>
+		<Net ID="87" IsNetForAnalysis="1" Name="TXDATA4+" Type="Signal_Net"/>
+		<Net ID="88" IsNetForAnalysis="1" Name="TXDATA4-" Type="Signal_Net"/>
+		<Net ID="89" IsNetForAnalysis="1" Name="TXDATA5+" Type="Signal_Net"/>
+		<Net ID="90" IsNetForAnalysis="1" Name="TXDATA5-" Type="Signal_Net"/>
+		<Net ID="91" IsNetForAnalysis="1" Name="TXDATA6+" Type="Signal_Net"/>
+		<Net ID="92" IsNetForAnalysis="1" Name="TXDATA6-" Type="Signal_Net"/>
+		<Net ID="93" IsNetForAnalysis="1" Name="TXDATA7+" Type="Signal_Net"/>
+		<Net ID="94" IsNetForAnalysis="1" Name="TXDATA7-" Type="Signal_Net"/>
+		<Net ID="97" IsNetForAnalysis="1" Name="VSS" Type="PG_Net"/>
+	</Net_Section>
+	<EMI_Section>
+		<Near_Field Required="0" Type="Plane">
+			<Plane X_Sample="10" X_Size="9.400000000000e+00" Y_Sample="10" Y_Size="9.400000000000e+00" Z_Above_Below="Above" Z_Location="8.046720000000e+02"/>
+			<Box X_Sampling="10" X_Spacing="9.400000000000e+00" Y_Sampling="10" Y_Spacing="9.400000000000e+00" Z_Sampling="10" Z_Spacing="20"/>
+		</Near_Field>
+		<Far_Field Required="0" Type="Sphere">
+			<Sphere Radius="10000.0"/>
+			<Cylinder Height="10000.0" Radius="10000.0"/>
+			<Point Phi="0.0" Radius="10000.0" Theta="90.0"/>
+		</Far_Field>
+	</EMI_Section>
+	<Observe_Section>
+		<PowerLoss XGrids="1" YGrids="1"/>
+		<ComponentWise>
+			<Voltage/>
+			<Current/>
+		</ComponentWise>
+		<PlaneWise Time_Interval="1.0e-10"/>
+	</Observe_Section>
+	<Partition_Section ReadWindowFile="0" SimType="0" TotPGUnknowns="0" TotSIGUnknowns="0" UnknownThreshold="3000000" WindowFile=""/>
+	<SSO_Channel_Section/>
+	<PDN_Channel_Section Die_Nets_Only="0" Loop_ReturnPath_Net="VSS" PDN_Analysis="PerBumpModel" ProductLaunchDir="D:/Persional/02 SIwave/07 CPA/Workflow/CPA IBIS RLGC.siwaveresults/0000_CPA_Sim_1" Sim_Analysis="PDN_Channel_Builder" Use_ChannelSetup="1" Use_Legacy_TPA_Solver="0" Use_Q3D_Solver="0" subAnalysis="extract" pgSYZsolver="0">
+		<Frequency_Section Advanced_Freq_Sweep="1">
+			<Frequency_Set HighFrequency="2.000000000000e+09" LowFrequency="1.000000000000e+08" Steps="10" Type="0"/>
+		</Frequency_Section>
+		<Source_Section/>
+		<Sink_Section>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_VSS_Group" Net="VSS"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA0-_Group" Net="RXDATA0-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA0+_Group" Net="RXDATA0+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA1-_Group" Net="RXDATA1-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA1+_Group" Net="RXDATA1+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA4-_Group" Net="RXDATA4-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA5+_Group" Net="RXDATA5+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA2+_Group" Net="RXDATA2+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA3-_Group" Net="RXDATA3-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA3+_Group" Net="RXDATA3+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA4+_Group" Net="RXDATA4+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA5-_Group" Net="RXDATA5-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA6+_Group" Net="RXDATA6+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_VSS_Group" Net="VSS"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA2-_Group" Net="RXDATA2-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA7+_Group" Net="RXDATA7+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA0+_Group" Net="TXDATA0+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA0-_Group" Net="TXDATA0-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA2-_Group" Net="TXDATA2-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA7-_Group" Net="RXDATA7-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA1-_Group" Net="TXDATA1-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA1+_Group" Net="TXDATA1+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA3+_Group" Net="TXDATA3+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA2+_Group" Net="TXDATA2+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_RXDATA6-_Group" Net="RXDATA6-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA3-_Group" Net="TXDATA3-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA6+_Group" Net="TXDATA6+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA6-_Group" Net="TXDATA6-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA4-_Group" Net="TXDATA4-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA7+_Group" Net="TXDATA7+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA5+_Group" Net="TXDATA5+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA4+_Group" Net="TXDATA4+"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA7-_Group" Net="TXDATA7-"/>
+			<Sink Component="CSP_BGA_BGA" GroupName="BGA_TXDATA5-_Group" Net="TXDATA5-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA0-_Group" Net="TXDATA0-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA3-_Group" Net="TXDATA3-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA5-_Group" Net="TXDATA5-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA7-_Group" Net="RXDATA7-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA4+_Group" Net="TXDATA4+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA7+_Group" Net="RXDATA7+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA2+_Group" Net="TXDATA2+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA6+_Group" Net="TXDATA6+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA1+_Group" Net="TXDATA1+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA6-_Group" Net="RXDATA6-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA6+_Group" Net="RXDATA6+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA7+_Group" Net="TXDATA7+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA5-_Group" Net="RXDATA5-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA4-_Group" Net="TXDATA4-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA3+_Group" Net="TXDATA3+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA6-_Group" Net="TXDATA6-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA7-_Group" Net="TXDATA7-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA5+_Group" Net="RXDATA5+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA4-_Group" Net="RXDATA4-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA3-_Group" Net="RXDATA3-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA1-_Group" Net="TXDATA1-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA5+_Group" Net="TXDATA5+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA4+_Group" Net="RXDATA4+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA0+_Group" Net="TXDATA0+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA3+_Group" Net="RXDATA3+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA2-_Group" Net="RXDATA2-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA2+_Group" Net="RXDATA2+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA1-_Group" Net="RXDATA1-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA1+_Group" Net="RXDATA1+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA0+_Group" Net="RXDATA0+"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_RXDATA0-_Group" Net="RXDATA0-"/>
+			<Sink Component="FCHIP_FCHIP" GroupName="FCHIP_TXDATA2-_Group" Net="TXDATA2-"/>
+		</Sink_Section>
+		<Q3D_TPA_Setup>
+			<Q3D_Partition AutoPlaneCuttingExtent="2.000000000000e-01" CouplingDistance="2.000000000000e-01" Enable="0" NetGroupSize="10" ParallelPartitionSolves="1"/>
+			<MeshRefinement FLOAT_METAL_PLANE1="0" FLOAT_METAL_PLANE2="0" INCLUDE_METAL_PLANE1="0" INCLUDE_METAL_PLANE2="0" UsePGasReturnPath="0" acrlSolverMaxPasses="4" acrlSolverPercentError="5.000000000000e+00" acrlSolverPercentPerPass="3.000000000000e+01" cgSolverMaxPasses="4" cgSolverPercentError="5.000000000000e+00" cgSolverPercentPerPass="3.000000000000e+01" refinementLevel="1" refinementLevelOverride="1"/>
+			<Compute_RLCG ACResistanceFrequency="1.000000000000e+02" DielectricExtent="5.000000000000e-01" InfiniteGroundExists="0" InfiniteGroundLocation="0.000000000000e+00" Q3DTerminalDiameter="3.000000000000e-02" cgSolverAccuracyLevel="Normal" dccgFlag="0" dcrOnlyFlag="1" dcrlFlag="0" solveForAcResistanceInductance="1" solveForCapacitance="1"/>
+		</Q3D_TPA_Setup>
+		<Die_Component_Section>
+			<Component Die_Flip="0" Die_Rotation="0" Name="FCHIP_FCHIP" Ploc_File="D:/Persional/02 SIwave/07 CPA/Workflow/CPA IBIS RLGC.siwaveresults/0000_CPA_Sim_1/0000_CPA_Sim_1_0.ploc" Scale="9.000000000000e-01" Shift_X="0" Shift_Y="0">
+				<Node Group="FCHIP_RXDATA1+_Group" Physical_Node="N393" Ploc_Node="E18"/>
+				<Node Group="FCHIP_RXDATA0+_Group" Physical_Node="N396" Ploc_Node="B18"/>
+				<Node Group="FCHIP_RXDATA0-_Group" Physical_Node="N395" Ploc_Node="C18"/>
+				<Node Group="FCHIP_RXDATA2+_Group" Physical_Node="N391" Ploc_Node="G18"/>
+				<Node Group="FCHIP_RXDATA2-_Group" Physical_Node="N392" Ploc_Node="F18"/>
+				<Node Group="FCHIP_RXDATA3+_Group" Physical_Node="N389" Ploc_Node="J18"/>
+				<Node Group="FCHIP_RXDATA1-_Group" Physical_Node="N394" Ploc_Node="D18"/>
+				<Node Group="FCHIP_RXDATA4+_Group" Physical_Node="N387" Ploc_Node="L18"/>
+				<Node Group="FCHIP_RXDATA4-_Group" Physical_Node="N388" Ploc_Node="K18"/>
+				<Node Group="FCHIP_RXDATA3-_Group" Physical_Node="N390" Ploc_Node="H18"/>
+				<Node Group="FCHIP_RXDATA5+_Group" Physical_Node="N386" Ploc_Node="M18"/>
+				<Node Group="FCHIP_RXDATA7-_Group" Physical_Node="N381" Ploc_Node="U18"/>
+				<Node Group="FCHIP_TXDATA1+_Group" Physical_Node="N99" Ploc_Node="D1"/>
+				<Node Group="FCHIP_TXDATA0+_Group" Physical_Node="N101" Ploc_Node="B1"/>
+				<Node Group="FCHIP_TXDATA2-_Group" Physical_Node="N96" Ploc_Node="G1"/>
+				<Node Group="FCHIP_RXDATA7+_Group" Physical_Node="N382" Ploc_Node="T18"/>
+				<Node Group="FCHIP_RXDATA6+_Group" Physical_Node="N384" Ploc_Node="P18"/>
+				<Node Group="FCHIP_RXDATA6-_Group" Physical_Node="N383" Ploc_Node="R18"/>
+				<Node Group="FCHIP_RXDATA5-_Group" Physical_Node="N385" Ploc_Node="N18"/>
+				<Node Group="FCHIP_TXDATA0-_Group" Physical_Node="N100" Ploc_Node="C1"/>
+				<Node Group="FCHIP_TXDATA1-_Group" Physical_Node="N98" Ploc_Node="E1"/>
+				<Node Group="FCHIP_TXDATA2+_Group" Physical_Node="N97" Ploc_Node="F1"/>
+				<Node Group="FCHIP_TXDATA3+_Group" Physical_Node="N95" Ploc_Node="H1"/>
+				<Node Group="FCHIP_TXDATA3-_Group" Physical_Node="N94" Ploc_Node="J1"/>
+				<Node Group="FCHIP_TXDATA4-_Group" Physical_Node="N92" Ploc_Node="L1"/>
+				<Node Group="FCHIP_TXDATA4+_Group" Physical_Node="N93" Ploc_Node="K1"/>
+				<Node Group="FCHIP_TXDATA5+_Group" Physical_Node="N91" Ploc_Node="M1"/>
+				<Node Group="FCHIP_TXDATA5-_Group" Physical_Node="N90" Ploc_Node="N1"/>
+				<Node Group="FCHIP_TXDATA6+_Group" Physical_Node="N89" Ploc_Node="P1"/>
+				<Node Group="FCHIP_TXDATA6-_Group" Physical_Node="N88" Ploc_Node="R1"/>
+				<Node Group="FCHIP_TXDATA7-_Group" Physical_Node="N87" Ploc_Node="T1"/>
+				<Node Group="FCHIP_TXDATA7+_Group" Physical_Node="N86" Ploc_Node="U1"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N104" Ploc_Node="B2"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N379" Ploc_Node="B17"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N132" Ploc_Node="C3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N166" Ploc_Node="C4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N224" Ploc_Node="C5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N264" Ploc_Node="C10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N304" Ploc_Node="C11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N358" Ploc_Node="C12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N130" Ploc_Node="D3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N163" Ploc_Node="D4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N222" Ploc_Node="D5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N262" Ploc_Node="D10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N301" Ploc_Node="D11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N357" Ploc_Node="D12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N128" Ploc_Node="E3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N161" Ploc_Node="E4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N220" Ploc_Node="E5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N260" Ploc_Node="E10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N299" Ploc_Node="E11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N355" Ploc_Node="E12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N126" Ploc_Node="F3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N159" Ploc_Node="F4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N218" Ploc_Node="F5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N257" Ploc_Node="F10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N296" Ploc_Node="F11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N353" Ploc_Node="F12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N124" Ploc_Node="G3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N157" Ploc_Node="G4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N216" Ploc_Node="G5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N254" Ploc_Node="G10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N293" Ploc_Node="G11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N351" Ploc_Node="G12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N122" Ploc_Node="H3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N154" Ploc_Node="H4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N214" Ploc_Node="H5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N251" Ploc_Node="H10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N290" Ploc_Node="H11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N350" Ploc_Node="H12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N120" Ploc_Node="J3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N152" Ploc_Node="J4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N212" Ploc_Node="J5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N249" Ploc_Node="J10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N287" Ploc_Node="J11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N347" Ploc_Node="J12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N118" Ploc_Node="K3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N150" Ploc_Node="K4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N210" Ploc_Node="K5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N247" Ploc_Node="K10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N284" Ploc_Node="K11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N345" Ploc_Node="K12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N116" Ploc_Node="L3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N147" Ploc_Node="L4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N208" Ploc_Node="L5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N245" Ploc_Node="L10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N281" Ploc_Node="L11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N342" Ploc_Node="L12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N114" Ploc_Node="M3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N145" Ploc_Node="M4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N206" Ploc_Node="M5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N243" Ploc_Node="M10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N278" Ploc_Node="M11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N339" Ploc_Node="M12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N112" Ploc_Node="N3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N143" Ploc_Node="N4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N204" Ploc_Node="N5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N240" Ploc_Node="N10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N275" Ploc_Node="N11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N336" Ploc_Node="N12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N110" Ploc_Node="P3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N141" Ploc_Node="P4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N202" Ploc_Node="P5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N237" Ploc_Node="P10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N272" Ploc_Node="P11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N334" Ploc_Node="P12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N108" Ploc_Node="R3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N138" Ploc_Node="R4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N200" Ploc_Node="R5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N235" Ploc_Node="R10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N269" Ploc_Node="R11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N331" Ploc_Node="R12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N106" Ploc_Node="T3"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N136" Ploc_Node="T4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N198" Ploc_Node="T5"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N232" Ploc_Node="T10"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N266" Ploc_Node="T11"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N328" Ploc_Node="T12"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N102" Ploc_Node="U2"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N134" Ploc_Node="U4"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N375" Ploc_Node="U15"/>
+				<Node Group="FCHIP_VSS_Group" Physical_Node="N377" Ploc_Node="U17"/>
+			</Component>
+		</Die_Component_Section>
+		<PDN_Components/>
+		<VRM_Components>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA0+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA0-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA1+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA1-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA2+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA2-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA3+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA3-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA4+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA4-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA5+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA5-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA6+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA6-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA7+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="RXDATA7-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA0+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA0-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA1+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA1-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA2+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA2-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA3+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA3-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA4+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA4-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA5+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA5-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA6+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA6-" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA7+" Voltage="1.500000000000e+00"/>
+			<Component Name="CSP_BGA_BGA" NegativeNet="VSS" PositiveNet="TXDATA7-" Voltage="1.500000000000e+00"/>
+		</VRM_Components>
+		<Open_Ploc_Pin_Supply/>
+	</PDN_Channel_Section>
+</NPG_Consolidate_File>

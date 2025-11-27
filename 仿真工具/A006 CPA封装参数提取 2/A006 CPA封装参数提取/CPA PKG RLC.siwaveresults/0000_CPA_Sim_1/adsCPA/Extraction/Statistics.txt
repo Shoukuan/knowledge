@@ -1,0 +1,397 @@
+* NetName    Min-R    Max-R    Avg-R    Median-R    Min-L     Max-L    Avg-L    Median-L
+RXDATA0+ 3.770891e-02 3.770891e-02 3.770891e-02 3.770891e-02 1.981022e-09 1.981022e-09  1.981022e-09  1.981022e-09
+RXDATA0- 4.001462e-02 4.001462e-02 4.001462e-02 4.001462e-02 2.324037e-09 2.324037e-09  2.324037e-09  2.324037e-09
+RXDATA1+ 4.219923e-02 4.219923e-02 4.219923e-02 4.219923e-02 2.669262e-09 2.669262e-09  2.669262e-09  2.669262e-09
+RXDATA1- 4.022461e-02 4.022461e-02 4.022461e-02 4.022461e-02 2.599781e-09 2.599781e-09  2.599781e-09  2.599781e-09
+RXDATA2+ 3.590737e-02 3.590737e-02 3.590737e-02 3.590737e-02 2.395771e-09 2.395771e-09  2.395771e-09  2.395771e-09
+RXDATA2- 3.662762e-02 3.662762e-02 3.662762e-02 3.662762e-02 2.528980e-09 2.528980e-09  2.528980e-09  2.528980e-09
+RXDATA3+ 3.275829e-02 3.275829e-02 3.275829e-02 3.275829e-02 2.178384e-09 2.178384e-09  2.178384e-09  2.178384e-09
+RXDATA3- 3.326557e-02 3.326557e-02 3.326557e-02 3.326557e-02 2.164896e-09 2.164896e-09  2.164896e-09  2.164896e-09
+RXDATA4+ 4.033628e-02 4.033628e-02 4.033628e-02 4.033628e-02 2.509133e-09 2.509133e-09  2.509133e-09  2.509133e-09
+RXDATA4- 3.978307e-02 3.978307e-02 3.978307e-02 3.978307e-02 2.476751e-09 2.476751e-09  2.476751e-09  2.476751e-09
+RXDATA5+ 5.098034e-02 5.098034e-02 5.098034e-02 5.098034e-02 2.770435e-09 2.770435e-09  2.770435e-09  2.770435e-09
+RXDATA5- 5.065322e-02 5.065322e-02 5.065322e-02 5.065322e-02 2.415634e-09 2.415634e-09  2.415634e-09  2.415634e-09
+RXDATA6+ 3.001861e-02 3.001861e-02 3.001861e-02 3.001861e-02 2.313211e-09 2.313211e-09  2.313211e-09  2.313211e-09
+RXDATA6- 3.103480e-02 3.103480e-02 3.103480e-02 3.103480e-02 2.363724e-09 2.363724e-09  2.363724e-09  2.363724e-09
+RXDATA7+ 3.566011e-02 3.566011e-02 3.566011e-02 3.566011e-02 2.599363e-09 2.599363e-09  2.599363e-09  2.599363e-09
+RXDATA7- 3.317870e-02 3.317870e-02 3.317870e-02 3.317870e-02 2.462199e-09 2.462199e-09  2.462199e-09  2.462199e-09
+TXDATA0+ 3.746788e-02 3.746788e-02 3.746788e-02 3.746788e-02 2.029051e-09 2.029051e-09  2.029051e-09  2.029051e-09
+TXDATA0- 3.972360e-02 3.972360e-02 3.972360e-02 3.972360e-02 2.291913e-09 2.291913e-09  2.291913e-09  2.291913e-09
+TXDATA1+ 4.067288e-02 4.067288e-02 4.067288e-02 4.067288e-02 2.376644e-09 2.376644e-09  2.376644e-09  2.376644e-09
+TXDATA1- 4.203842e-02 4.203842e-02 4.203842e-02 4.203842e-02 2.366769e-09 2.366769e-09  2.366769e-09  2.366769e-09
+TXDATA2+ 3.965275e-02 3.965275e-02 3.965275e-02 3.965275e-02 2.447544e-09 2.447544e-09  2.447544e-09  2.447544e-09
+TXDATA2- 3.927664e-02 3.927664e-02 3.927664e-02 3.927664e-02 2.416387e-09 2.416387e-09  2.416387e-09  2.416387e-09
+TXDATA3+ 3.325824e-02 3.325824e-02 3.325824e-02 3.325824e-02 2.082177e-09 2.082177e-09  2.082177e-09  2.082177e-09
+TXDATA3- 3.300170e-02 3.300170e-02 3.300170e-02 3.300170e-02 2.131117e-09 2.131117e-09  2.131117e-09  2.131117e-09
+TXDATA4+ 3.867945e-02 3.867945e-02 3.867945e-02 3.867945e-02 2.453167e-09 2.453167e-09  2.453167e-09  2.453167e-09
+TXDATA4- 3.892028e-02 3.892028e-02 3.892028e-02 3.892028e-02 2.515282e-09 2.515282e-09  2.515282e-09  2.515282e-09
+TXDATA5+ 5.114009e-02 5.114009e-02 5.114009e-02 5.114009e-02 2.832660e-09 2.832660e-09  2.832660e-09  2.832660e-09
+TXDATA5- 5.092169e-02 5.092169e-02 5.092169e-02 5.092169e-02 2.477251e-09 2.477251e-09  2.477251e-09  2.477251e-09
+TXDATA6+ 3.104464e-02 3.104464e-02 3.104464e-02 3.104464e-02 2.436492e-09 2.436492e-09  2.436492e-09  2.436492e-09
+TXDATA6- 3.054399e-02 3.054399e-02 3.054399e-02 3.054399e-02 2.353623e-09 2.353623e-09  2.353623e-09  2.353623e-09
+TXDATA7+ 3.223324e-02 3.223324e-02 3.223324e-02 3.223324e-02 2.404374e-09 2.404374e-09  2.404374e-09  2.404374e-09
+TXDATA7- 3.544219e-02 3.544219e-02 3.544219e-02 3.544219e-02 2.595351e-09 2.595351e-09  2.595351e-09  2.595351e-09
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA0+
+Total pins = 1
+1
+3.770891e+01  1.981022e+03
+Percentage   Rdata     Ldata
+37.7189   1    1.981023e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA0-
+Total pins = 1
+1
+4.001462e+01  2.324037e+03
+Percentage   Rdata     Ldata
+40.0246   1    2.324038e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA1+
+Total pins = 1
+1
+4.219923e+01  2.669262e+03
+Percentage   Rdata     Ldata
+42.2092   1    2.669263e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA1-
+Total pins = 1
+1
+4.022461e+01  2.599781e+03
+Percentage   Rdata     Ldata
+40.2346   1    2.599782e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA2+
+Total pins = 1
+1
+3.590737e+01  2.395771e+03
+Percentage   Rdata     Ldata
+35.9174   1    2.395772e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA2-
+Total pins = 1
+1
+3.662762e+01  2.528980e+03
+Percentage   Rdata     Ldata
+36.6376   1    2.528981e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA3+
+Total pins = 1
+1
+3.275829e+01  2.178384e+03
+Percentage   Rdata     Ldata
+32.7683   1    2.178385e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA3-
+Total pins = 1
+1
+3.326557e+01  2.164896e+03
+Percentage   Rdata     Ldata
+33.2756   1    2.164897e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA4+
+Total pins = 1
+1
+4.033628e+01  2.509133e+03
+Percentage   Rdata     Ldata
+40.3463   1    2.509134e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA4-
+Total pins = 1
+1
+3.978307e+01  2.476751e+03
+Percentage   Rdata     Ldata
+39.7931   1    2.476752e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA5+
+Total pins = 1
+1
+5.098034e+01  2.770435e+03
+Percentage   Rdata     Ldata
+50.9903   1    2.770436e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA5-
+Total pins = 1
+1
+5.065322e+01  2.415634e+03
+Percentage   Rdata     Ldata
+50.6632   1    2.415635e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA6+
+Total pins = 1
+1
+3.001861e+01  2.313211e+03
+Percentage   Rdata     Ldata
+30.0286   1    2.313212e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA6-
+Total pins = 1
+1
+3.103480e+01  2.363724e+03
+Percentage   Rdata     Ldata
+31.0448   1    2.363725e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA7+
+Total pins = 1
+1
+3.566011e+01  2.599363e+03
+Percentage   Rdata     Ldata
+35.6701   1    2.599364e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = RXDATA7-
+Total pins = 1
+1
+3.317870e+01  2.462199e+03
+Percentage   Rdata     Ldata
+33.1887   1    2.462200e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA0+
+Total pins = 1
+1
+3.746788e+01  2.029051e+03
+Percentage   Rdata     Ldata
+37.4779   1    2.029052e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA0-
+Total pins = 1
+1
+3.972360e+01  2.291913e+03
+Percentage   Rdata     Ldata
+39.7336   1    2.291914e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA1+
+Total pins = 1
+1
+4.067288e+01  2.376644e+03
+Percentage   Rdata     Ldata
+40.6829   1    2.376645e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA1-
+Total pins = 1
+1
+4.203842e+01  2.366769e+03
+Percentage   Rdata     Ldata
+42.0484   1    2.366770e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA2+
+Total pins = 1
+1
+3.965275e+01  2.447544e+03
+Percentage   Rdata     Ldata
+39.6627   1    2.447545e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA2-
+Total pins = 1
+1
+3.927664e+01  2.416387e+03
+Percentage   Rdata     Ldata
+39.2866   1    2.416388e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA3+
+Total pins = 1
+1
+3.325824e+01  2.082177e+03
+Percentage   Rdata     Ldata
+33.2682   1    2.082178e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA3-
+Total pins = 1
+1
+3.300170e+01  2.131117e+03
+Percentage   Rdata     Ldata
+33.0117   1    2.131118e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA4+
+Total pins = 1
+1
+3.867945e+01  2.453167e+03
+Percentage   Rdata     Ldata
+38.6895   1    2.453168e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA4-
+Total pins = 1
+1
+3.892028e+01  2.515282e+03
+Percentage   Rdata     Ldata
+38.9303   1    2.515283e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA5+
+Total pins = 1
+1
+5.114009e+01  2.832660e+03
+Percentage   Rdata     Ldata
+51.1501   1    2.832661e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA5-
+Total pins = 1
+1
+5.092169e+01  2.477251e+03
+Percentage   Rdata     Ldata
+50.9317   1    2.477252e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA6+
+Total pins = 1
+1
+3.104464e+01  2.436492e+03
+Percentage   Rdata     Ldata
+31.0546   1    2.436493e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA6-
+Total pins = 1
+1
+3.054399e+01  2.353623e+03
+Percentage   Rdata     Ldata
+30.5540   1    2.353624e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA7+
+Total pins = 1
+1
+3.223324e+01  2.404374e+03
+Percentage   Rdata     Ldata
+32.2432   1    2.404375e+03   1
+
+
+
+
+Histogram of 1 intervals for Net = TXDATA7-
+Total pins = 1
+1
+3.544219e+01  2.595351e+03
+Percentage   Rdata     Ldata
+35.4522   1    2.595352e+03   1
+
+
+
+
+Via Distribution
+3
+LAYER_Via_Distribution TOP 33
+RXDATA0+ 1
+RXDATA0- 1
+RXDATA1+ 1
+RXDATA1- 1
+RXDATA2+ 1
+RXDATA2- 1
+RXDATA3+ 1
+RXDATA3- 1
+RXDATA4+ 1
+RXDATA4- 1
+RXDATA5+ 1
+RXDATA5- 1
+RXDATA6+ 1
+RXDATA6- 1
+RXDATA7+ 1
+RXDATA7- 1
+TXDATA0+ 1
+TXDATA0- 1
+TXDATA1+ 1
+TXDATA1- 1
+TXDATA2+ 1
+TXDATA2- 1
+TXDATA3+ 1
+TXDATA3- 1
+TXDATA4+ 1
+TXDATA4- 1
+TXDATA5+ 1
+TXDATA5- 1
+TXDATA6+ 1
+TXDATA6- 1
+TXDATA7+ 1
+TXDATA7- 1
+VSS 121
+LAYER_Via_Distribution VDD_C1 1
+VSS 76
+LAYER_Via_Distribution VSS_C1 1
+VSS 44

@@ -1,0 +1,26 @@
+.AllTopLevelSpiceNodes
+BGA_VDD_15_SINK_
+BGA_VSS_SINK_
+FCHIP_VDD_15_Group_0
+FCHIP_VDD_15_Group_1
+FCHIP_VDD_15_Group_2
+FCHIP_VDD_15_Group_3
+FCHIP_VSS_Group_0
+FCHIP_VSS_Group_1
+FCHIP_VSS_Group_2
+FCHIP_VSS_Group_3
+Group_COMP1_part_COMP1_VDD_15_1
+Group_COMP1_part_COMP1_VSS_2
+.end AllTopLevelSpiceNodes
+.Include 0000_CPA_Sim_1_COMP1_part_COMP1.sp a0000_CPA_Sim_1_COMP1_part_COMP1
+Group_COMP1_part_COMP1_VSS_2
+Group_COMP1_part_COMP1_VDD_15_1
+.end Include
+.Include 0000_CPA_Sim_1_CSP_BGA_BGA.sp a0000_CPA_Sim_1_CSP_BGA_BGA
+BGA_VSS_SINK_
+BGA_VDD_15_SINK_
+.end Include
+.AllMacroLevelSpiceNodes
+.end AllMacroLevelSpiceNodes
+.AllMacroLevelSpiceElements
+.end AllMacroLevelSpiceElements

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TPS_group version="1.0" encoding="UTF-8">
+	<Freq_Section ExtractFrequency_MHz="1.000000e+02">
+		<Freq Value="1.000000e+01"/>
+		<Freq Value="1.000000e+08"/>
+		<Freq Value="1.000000e+09"/>
+	</Freq_Section>
+	<DC_Control_Section ContactRadius_um="4.000000e+01" m_DCSliderPos="2" m_dcMeshBws="true" m_dcMeshVias="true" m_dcPerformAdaptiveRefinement="true" m_dcMinNumPasses="2" m_dcMaxNumPasses="5" m_dcPercentLocalRefinement="20.0" m_dcEnergyError="1.0" m_dcRefineBws="true" m_dcRefineVias="true" m_dcComputeL="0"/>
+	<Nets_Section>
+		<Net Name="GND"/>
+		<Net Name="V1P0_S0"/>
+	</Nets_Section>
+	<PinGroups_Section>
+		<PinGroup Name="U2A5_GND_Group">
+			<Node Name="n125"/>
+			<Node Name="n91"/>
+			<Node Name="n130"/>
+			<Node Name="n109"/>
+			<Node Name="n90"/>
+			<Node Name="n140"/>
+			<Node Name="n115"/>
+			<Node Name="n149"/>
+			<Node Name="n89"/>
+			<Node Name="n114"/>
+			<Node Name="n194"/>
+			<Node Name="n155"/>
+			<Node Name="n191"/>
+			<Node Name="n153"/>
+			<Node Name="n195"/>
+			<Node Name="n190"/>
+			<Node Name="n189"/>
+			<Node Name="n150"/>
+			<Node Name="n196"/>
+			<Node Name="n192"/>
+			<Node Name="n152"/>
+			<Node Name="n154"/>
+			<Node Name="n60"/>
+			<Node Name="n48"/>
+			<Node Name="n49"/>
+			<Node Name="n50"/>
+			<Node Name="n41"/>
+			<Node Name="n47"/>
+			<Node Name="n58"/>
+			<Node Name="n59"/>
+			<Node Name="n81"/>
+			<Node Name="n82"/>
+			<Node Name="n442"/>
+			<Node Name="n449"/>
+			<Node Name="n437"/>
+			<Node Name="n450"/>
+			<Node Name="n441"/>
+			<Node Name="n451"/>
+			<Node Name="n433"/>
+			<Node Name="n426"/>
+			<Node Name="n425"/>
+			<Node Name="n472"/>
+			<Node Name="n473"/>
+			<Node Name="n462"/>
+			<Node Name="n461"/>
+			<Node Name="n460"/>
+			<Node Name="n463"/>
+			<Node Name="n459"/>
+			<Node Name="n287"/>
+			<Node Name="n278"/>
+			<Node Name="n279"/>
+			<Node Name="n273"/>
+			<Node Name="n240"/>
+			<Node Name="n239"/>
+			<Node Name="n337"/>
+			<Node Name="n321"/>
+			<Node Name="n322"/>
+			<Node Name="n311"/>
+			<Node Name="n352"/>
+			<Node Name="n303"/>
+			<Node Name="n336"/>
+			<Node Name="n354"/>
+			<Node Name="n394"/>
+			<Node Name="n373"/>
+			<Node Name="n421"/>
+			<Node Name="n389"/>
+			<Node Name="n374"/>
+			<Node Name="n369"/>
+			<Node Name="n388"/>
+			<Node Name="n413"/>
+			<Node Name="n391"/>
+			<Node Name="n408"/>
+			<Node Name="n393"/>
+			<Node Name="n390"/>
+			<Node Name="n370"/>
+			<Node Name="n392"/>
+			<Node Name="n222"/>
+			<Node Name="n225"/>
+			<Node Name="n230"/>
+			<Node Name="n232"/>
+			<Node Name="n226"/>
+			<Node Name="n227"/>
+			<Node Name="n489"/>
+			<Node Name="n490"/>
+			<Node Name="n488"/>
+			<Node Name="n491"/>
+			<Node Name="n492"/>
+			<Node Name="n480"/>
+			<Node Name="n481"/>
+			<Node Name="n498"/>
+			<Node Name="n494"/>
+			<Node Name="n495"/>
+			<Node Name="n496"/>
+			<Node Name="n497"/>
+			<Node Name="n493"/>
+		</PinGroup>
+		<PinGroup Name="Group_602433-081_C2B2_GND_1">
+			<Node Name="n457"/>
+		</PinGroup>
+		<PinGroup Name="Group_602433-081_C3B10_GND_1">
+			<Node Name="n578"/>
+		</PinGroup>
+		<PinGroup Name="Group_A36096-108_C3L22_GND_1">
+			<Node Name="n217"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L15_GND_1">
+			<Node Name="n272"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L17_GND_1">
+			<Node Name="n234"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L18_GND_1">
+			<Node Name="n317"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L20_GND_1">
+			<Node Name="n288"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L24_GND_1">
+			<Node Name="n355"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L26_GND_1">
+			<Node Name="n223"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L28_GND_1">
+			<Node Name="n320"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L29_GND_1">
+			<Node Name="n265"/>
+		</PinGroup>
+		<PinGroup Name="Group_C97875-001_C3B11_GND_1">
+			<Node Name="n681"/>
+		</PinGroup>
+		<PinGroup Name="Group_C97875-001_C3B9_GND_1">
+			<Node Name="n653"/>
+		</PinGroup>
+		<PinGroup Name="Group_E16347-001_C2B12_GND_1">
+			<Node Name="n456"/>
+		</PinGroup>
+		<PinGroup Name="Group_E16347-001_C3B17_GND_1">
+			<Node Name="n543"/>
+		</PinGroup>
+		<PinGroup Name="U2A5_V1P0_S0_Group">
+			<Node Name="n193"/>
+			<Node Name="n274"/>
+			<Node Name="n276"/>
+			<Node Name="n277"/>
+			<Node Name="n275"/>
+			<Node Name="n315"/>
+			<Node Name="n312"/>
+			<Node Name="n353"/>
+			<Node Name="n313"/>
+			<Node Name="n314"/>
+			<Node Name="n229"/>
+			<Node Name="n231"/>
+			<Node Name="n228"/>
+		</PinGroup>
+		<PinGroup Name="Group_602433-081_C2B2_V1P0_S0_2">
+			<Node Name="n458"/>
+		</PinGroup>
+		<PinGroup Name="Group_602433-081_C3B10_V1P0_S0_2">
+			<Node Name="n588"/>
+		</PinGroup>
+		<PinGroup Name="Group_A36096-108_C3L22_V1P0_S0_2">
+			<Node Name="n269"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L15_V1P0_S0_2">
+			<Node Name="n304"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L17_V1P0_S0_2">
+			<Node Name="n233"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L18_V1P0_S0_2">
+			<Node Name="n316"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L20_V1P0_S0_2">
+			<Node Name="n289"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L24_V1P0_S0_2">
+			<Node Name="n356"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L26_V1P0_S0_2">
+			<Node Name="n235"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L28_V1P0_S0_2">
+			<Node Name="n306"/>
+		</PinGroup>
+		<PinGroup Name="Group_C83410-012_C3L29_V1P0_S0_2">
+			<Node Name="n280"/>
+		</PinGroup>
+		<PinGroup Name="Group_C97875-001_C3B11_V1P0_S0_2">
+			<Node Name="n680"/>
+		</PinGroup>
+		<PinGroup Name="Group_C97875-001_C3B9_V1P0_S0_2">
+			<Node Name="n652"/>
+		</PinGroup>
+		<PinGroup Name="Group_E16347-001_C2B12_V1P0_S0_2">
+			<Node Name="n455"/>
+		</PinGroup>
+		<PinGroup Name="Group_E16347-001_C3B17_V1P0_S0_2">
+			<Node Name="n542"/>
+		</PinGroup>
+		<PinGroup Name="XW_V1P0_S0_SINK_">
+			<Node Name="n811"/>
+		</PinGroup>
+		<PinGroup Name="XW_GND_SINK_">
+			<Node Name="n795"/>
+		</PinGroup>
+		<PinGroup Name="SUPER_PORT_PIN_GROUP_IPD031-201_U2A5">
+			<Node Name="U2A5_GND_Group"/>
+		</PinGroup>
+	</PinGroups_Section>
+	<Components_Section>
+		<Component Name="602433-081_C2B2" Part="602433-081">
+			<Node Name="n458"/>
+			<Node Name="n457"/>
+		</Component>
+		<Component Name="602433-081_C3B10" Part="602433-081">
+			<Node Name="n588"/>
+			<Node Name="n578"/>
+		</Component>
+		<Component Name="A36096-108_C3L22" Part="A36096-108">
+			<Node Name="n269"/>
+			<Node Name="n217"/>
+		</Component>
+		<Component Name="C83410-012_C3L15" Part="C83410-012">
+			<Node Name="n304"/>
+			<Node Name="n272"/>
+		</Component>
+		<Component Name="C83410-012_C3L17" Part="C83410-012">
+			<Node Name="n233"/>
+			<Node Name="n234"/>
+		</Component>
+		<Component Name="C83410-012_C3L18" Part="C83410-012">
+			<Node Name="n316"/>
+			<Node Name="n317"/>
+		</Component>
+		<Component Name="C83410-012_C3L20" Part="C83410-012">
+			<Node Name="n289"/>
+			<Node Name="n288"/>
+		</Component>
+		<Component Name="C83410-012_C3L24" Part="C83410-012">
+			<Node Name="n356"/>
+			<Node Name="n355"/>
+		</Component>
+		<Component Name="C83410-012_C3L26" Part="C83410-012">
+			<Node Name="n235"/>
+			<Node Name="n223"/>
+		</Component>
+		<Component Name="C83410-012_C3L28" Part="C83410-012">
+			<Node Name="n306"/>
+			<Node Name="n320"/>
+		</Component>
+		<Component Name="C83410-012_C3L29" Part="C83410-012">
+			<Node Name="n280"/>
+			<Node Name="n265"/>
+		</Component>
+		<Component Name="C97875-001_C3B11" Part="C97875-001">
+			<Node Name="n680"/>
+			<Node Name="n681"/>
+		</Component>
+		<Component Name="C97875-001_C3B9" Part="C97875-001">
+			<Node Name="n652"/>
+			<Node Name="n653"/>
+		</Component>
+		<Component Name="E16347-001_C2B12" Part="E16347-001">
+			<Node Name="n455"/>
+			<Node Name="n456"/>
+		</Component>
+		<Component Name="E16347-001_C3B17" Part="E16347-001">
+			<Node Name="n542"/>
+			<Node Name="n543"/>
+		</Component>
+		<Component Name="IPD031-201_U2A5" Part="IPD031-201">
+			<Node Name="n488"/>
+			<Node Name="n491"/>
+			<Node Name="n413"/>
+			<Node Name="n492"/>
+			<Node Name="n462"/>
+			<Node Name="n489"/>
+			<Node Name="n490"/>
+			<Node Name="n480"/>
+			<Node Name="n449"/>
+			<Node Name="n154"/>
+			<Node Name="n322"/>
+			<Node Name="n374"/>
+			<Node Name="n311"/>
+			<Node Name="n393"/>
+			<Node Name="n370"/>
+			<Node Name="n190"/>
+			<Node Name="n153"/>
+			<Node Name="n191"/>
+			<Node Name="n192"/>
+			<Node Name="n130"/>
+			<Node Name="n273"/>
+			<Node Name="n321"/>
+			<Node Name="n303"/>
+			<Node Name="n230"/>
+			<Node Name="n394"/>
+			<Node Name="n425"/>
+			<Node Name="n392"/>
+			<Node Name="n408"/>
+			<Node Name="n391"/>
+			<Node Name="n352"/>
+			<Node Name="n388"/>
+			<Node Name="n421"/>
+			<Node Name="n152"/>
+			<Node Name="n441"/>
+			<Node Name="n460"/>
+			<Node Name="n369"/>
+			<Node Name="n481"/>
+			<Node Name="n373"/>
+			<Node Name="n472"/>
+			<Node Name="n437"/>
+			<Node Name="n450"/>
+			<Node Name="n451"/>
+			<Node Name="n459"/>
+			<Node Name="n473"/>
+			<Node Name="n140"/>
+			<Node Name="n354"/>
+			<Node Name="n90"/>
+			<Node Name="n81"/>
+			<Node Name="n48"/>
+			<Node Name="n60"/>
+			<Node Name="n82"/>
+			<Node Name="n47"/>
+			<Node Name="n114"/>
+			<Node Name="n189"/>
+			<Node Name="n277"/>
+			<Node Name="n313"/>
+			<Node Name="n231"/>
+			<Node Name="n498"/>
+			<Node Name="n463"/>
+			<Node Name="n312"/>
+			<Node Name="n229"/>
+			<Node Name="n228"/>
+			<Node Name="n276"/>
+			<Node Name="n275"/>
+			<Node Name="n496"/>
+			<Node Name="n287"/>
+			<Node Name="n433"/>
+			<Node Name="n314"/>
+			<Node Name="n337"/>
+			<Node Name="n497"/>
+			<Node Name="n274"/>
+			<Node Name="n150"/>
+			<Node Name="n149"/>
+			<Node Name="n195"/>
+			<Node Name="n353"/>
+			<Node Name="n442"/>
+			<Node Name="n494"/>
+			<Node Name="n495"/>
+			<Node Name="n390"/>
+			<Node Name="n315"/>
+			<Node Name="n59"/>
+			<Node Name="n193"/>
+			<Node Name="n196"/>
+			<Node Name="n493"/>
+			<Node Name="n426"/>
+			<Node Name="n461"/>
+			<Node Name="n389"/>
+			<Node Name="n58"/>
+			<Node Name="n49"/>
+			<Node Name="n89"/>
+			<Node Name="n240"/>
+			<Node Name="n222"/>
+			<Node Name="n226"/>
+			<Node Name="n279"/>
+			<Node Name="n232"/>
+			<Node Name="n155"/>
+			<Node Name="n50"/>
+			<Node Name="n109"/>
+			<Node Name="n194"/>
+			<Node Name="n239"/>
+			<Node Name="n125"/>
+			<Node Name="n225"/>
+			<Node Name="n115"/>
+			<Node Name="n91"/>
+			<Node Name="n227"/>
+			<Node Name="n41"/>
+			<Node Name="n278"/>
+			<Node Name="n336"/>
+		</Component>
+		<Component Name="XW_XW" Part="XW">
+			<Node Name="n795"/>
+			<Node Name="n811"/>
+		</Component>
+	</Components_Section>
+	<Ports_Section/>
+</TPS_group>

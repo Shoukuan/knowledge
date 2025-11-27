@@ -1,0 +1,35 @@
+$begin 'ProfileUpdate'
+	Id=''
+	Type='Task'
+	$begin 'ProfileItem'
+		Name='Solve setup'
+		RealTime=1
+		RealTimeUsecs=0
+		CpuTime=0
+		CpuTimeUsecs=0
+		MemoryInK=108356
+		HasData=true
+		UseData=true
+	$end 'ProfileItem'
+	Parents[1: 'Generating solver input']
+	GroupOptions=0
+	TaskDataOptions()
+$end 'ProfileUpdate'
+$begin 'ProfileUpdate'
+	Id=''
+	Type='Stop'
+	$begin 'ProfileItem'
+		Name=''
+		RealTime=0
+		RealTimeUsecs=0
+		CpuTime=0
+		CpuTimeUsecs=0
+		MemoryInK=0
+		I(0, '')
+		HasData=false
+		UseData=true
+	$end 'ProfileItem'
+	Parents[1: 'Generating solver input']
+	GroupOptions=0
+	TaskDataOptions()
+$end 'ProfileUpdate'

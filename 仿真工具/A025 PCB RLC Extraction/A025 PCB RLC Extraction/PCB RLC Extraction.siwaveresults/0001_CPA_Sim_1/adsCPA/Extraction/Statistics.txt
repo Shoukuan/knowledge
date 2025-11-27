@@ -1,0 +1,48 @@
+* NetName    Min-R    Max-R    Avg-R    Median-R    Min-L     Max-L    Avg-L    Median-L
+BST_V1P0_S0 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 2.869079e-09 2.869079e-09  2.869079e-09  2.869079e-09
+GND 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 4.905186e-09 4.905186e-09  4.905186e-09  4.905186e-09
+V1P0_S0 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 1.065648e-08 1.065648e-08  1.065648e-08  1.065648e-08
+
+
+
+
+Histogram of 1 intervals for Net = BST_V1P0_S0
+Total pins = 2
+1
+0.000000e+00  2.869079e+03
+Percentage   Rdata     Ldata
+0.0100   2    2.869080e+03   2
+
+
+
+
+Histogram of 1 intervals for Net = GND
+Total pins = 9
+1
+0.000000e+00  4.905186e+03
+Percentage   Rdata     Ldata
+0.0100   9    4.905187e+03   9
+
+
+
+
+Histogram of 1 intervals for Net = V1P0_S0
+Total pins = 13
+1
+0.000000e+00  1.065648e+04
+Percentage   Rdata     Ldata
+0.0100   13    1.065649e+04   13
+
+
+
+
+Via Distribution
+3
+LAYER_Via_Distribution TOP 2
+GND 180
+V1P0_S0 25
+LAYER_Via_Distribution PWR 2
+GND 32
+V1P0_S0 24
+LAYER_Via_Distribution GND 1
+GND 180

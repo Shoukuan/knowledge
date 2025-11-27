@@ -1,0 +1,98 @@
+mm
+32
+2
+"RXDATA0+"  "RXDATA0+_sbd_B11" -1
+"RXDATA0+"  "RXDATA0+_sbu_B18" -1
+2
+"RXDATA0-"  "RXDATA0-_sbd_B12" -1
+"RXDATA0-"  "RXDATA0-_sbu_C18" -1
+2
+"RXDATA1+"  "RXDATA1+_sbd_C12" -1
+"RXDATA1+"  "RXDATA1+_sbu_E18" -1
+2
+"RXDATA1-"  "RXDATA1-_sbd_C11" -1
+"RXDATA1-"  "RXDATA1-_sbu_D18" -1
+2
+"RXDATA2+"  "RXDATA2+_sbd_E12" -1
+"RXDATA2+"  "RXDATA2+_sbu_G18" -1
+2
+"RXDATA2-"  "RXDATA2-_sbd_D12" -1
+"RXDATA2-"  "RXDATA2-_sbu_F18" -1
+2
+"RXDATA3+"  "RXDATA3+_sbd_G12" -1
+"RXDATA3+"  "RXDATA3+_sbu_J18" -1
+2
+"RXDATA3-"  "RXDATA3-_sbd_F12" -1
+"RXDATA3-"  "RXDATA3-_sbu_H18" -1
+2
+"RXDATA4+"  "RXDATA4+_sbd_J12" -1
+"RXDATA4+"  "RXDATA4+_sbu_L18" -1
+2
+"RXDATA4-"  "RXDATA4-_sbd_H12" -1
+"RXDATA4-"  "RXDATA4-_sbu_K18" -1
+2
+"RXDATA5+"  "RXDATA5+_sbd_K12" -1
+"RXDATA5+"  "RXDATA5+_sbu_M18" -1
+2
+"RXDATA5-"  "RXDATA5-_sbd_L12" -1
+"RXDATA5-"  "RXDATA5-_sbu_N18" -1
+2
+"RXDATA6+"  "RXDATA6+_sbd_J11" -1
+"RXDATA6+"  "RXDATA6+_sbu_P18" -1
+2
+"RXDATA6-"  "RXDATA6-_sbd_K11" -1
+"RXDATA6-"  "RXDATA6-_sbu_R18" -1
+2
+"RXDATA7+"  "RXDATA7+_sbd_L11" -1
+"RXDATA7+"  "RXDATA7+_sbu_T18" -1
+2
+"RXDATA7-"  "RXDATA7-_sbd_L10" -1
+"RXDATA7-"  "RXDATA7-_sbu_U18" -1
+2
+"TXDATA0+"  "TXDATA0+_sbd_B2" -1
+"TXDATA0+"  "TXDATA0+_sbu_B1" -1
+2
+"TXDATA0-"  "TXDATA0-_sbd_B1" -1
+"TXDATA0-"  "TXDATA0-_sbu_C1" -1
+2
+"TXDATA1+"  "TXDATA1+_sbd_C2" -1
+"TXDATA1+"  "TXDATA1+_sbu_D1" -1
+2
+"TXDATA1-"  "TXDATA1-_sbd_C1" -1
+"TXDATA1-"  "TXDATA1-_sbu_E1" -1
+2
+"TXDATA2+"  "TXDATA2+_sbd_D1" -1
+"TXDATA2+"  "TXDATA2+_sbu_F1" -1
+2
+"TXDATA2-"  "TXDATA2-_sbd_E1" -1
+"TXDATA2-"  "TXDATA2-_sbu_G1" -1
+2
+"TXDATA3+"  "TXDATA3+_sbd_F1" -1
+"TXDATA3+"  "TXDATA3+_sbu_H1" -1
+2
+"TXDATA3-"  "TXDATA3-_sbd_G1" -1
+"TXDATA3-"  "TXDATA3-_sbu_J1" -1
+2
+"TXDATA4+"  "TXDATA4+_sbd_H1" -1
+"TXDATA4+"  "TXDATA4+_sbu_K1" -1
+2
+"TXDATA4-"  "TXDATA4-_sbd_J1" -1
+"TXDATA4-"  "TXDATA4-_sbu_L1" -1
+2
+"TXDATA5+"  "TXDATA5+_sbd_K1" -1
+"TXDATA5+"  "TXDATA5+_sbu_M1" -1
+2
+"TXDATA5-"  "TXDATA5-_sbd_L1" -1
+"TXDATA5-"  "TXDATA5-_sbu_N1" -1
+2
+"TXDATA6+"  "TXDATA6+_sbd_J2" -1
+"TXDATA6+"  "TXDATA6+_sbu_P1" -1
+2
+"TXDATA6-"  "TXDATA6-_sbd_K2" -1
+"TXDATA6-"  "TXDATA6-_sbu_R1" -1
+2
+"TXDATA7+"  "TXDATA7+_sbd_L3" -1
+"TXDATA7+"  "TXDATA7+_sbu_U1" -1
+2
+"TXDATA7-"  "TXDATA7-_sbd_L2" -1
+"TXDATA7-"  "TXDATA7-_sbu_T1" -1
