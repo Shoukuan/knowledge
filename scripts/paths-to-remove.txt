@@ -1,0 +1,77 @@
+﻿ARM/Core/arm_cortex_a78ae_core_trm_101779_0003_08_en.pdf
+ARM/Core/arm_cortex_r52_processor_trm_100026_0104_00_en.pdf
+ARM/Core/DEN0024A_v8_architecture_PG.pdf
+ARM/coresight/arm_coresight_system-on-chip_soc-600_technical_reference_manual_100806_0600_15_en.pdf
+ARM/coresight/IHI0029F_coresight_v3_0_architecture_specification.pdf
+ARM/coresight/IHI0074D_debug_interface_v6_0_architecture_specification.pdf
+ARM/GIC/GIC600/corelink_gic600_generic_interrupt_controller_technical_reference_manual_100336_0106_00_en.pdf
+ARM/GIC/IHI0069E_gic_architecture_specification.pdf
+Linux/Linux鍐呮牳瀹屽叏娉ㄩ噴V3.0涔︾鐗?pdf
+RiscV/涓柇/clic.pdf
+RTOS/FreeRTOS/freertos-pg.pdf
+RTOS/FreeRTOS/freertos-ug.pdf
+RTOS/ThreadX/ThreadX FileX鏂囦欢绯荤粺鐢ㄦ埛鎵嬪唽锛堜腑鏂囩増锛?pdf
+RTOS/ThreadX/ThreadX GUIX鍥惧舰鐣岄潰鐢ㄦ埛鎵嬪唽锛堜腑鏂囩増锛?pdf
+RTOS/ThreadX/ThreadX NetXDUO缃戠粶鍗忚鏍堢敤鎴锋墜鍐岋紙涓枃鐗堬級.pdf
+RTOS/ThreadX/ThreadX NetX缃戠粶鍗忚鏍堢敤鎴锋墜鍐岋紙涓枃鐗堬級.pdf
+RTOS/ThreadX/ThreadX TraceX鐢ㄦ埛鎵嬪唽锛堜腑鏂囩増锛?pdf
+RTOS/ThreadX/ThreadX USBX鐢ㄦ埛鎵嬪唽锛堜腑鏂囩増锛?pdf
+RTOS/ThreadX/ThreadX鍐呮牳鐢ㄦ埛鎵嬪唽锛屽惈SMP澶氭牳锛堜腑鏂囩増锛?pdf
+Trace32/app_arm_coresight.pdf
+Trace32/app_t32start.pdf
+Trace32/debugger_arm.pdf
+Trace32/error.pdf
+Trace32/general_ref_c.pdf
+Trace32/general_ref_d.pdf
+Trace32/general_ref_s.pdf
+Trace32/general_ref_t.pdf
+Trace32/ide_ref.pdf
+Trace32/per_prog.pdf
+Trace32/practice_ref.pdf
+Trace32/training_debugger.pdf
+Trace32/training_debugger_smp.pdf
+Trace32/training_menu.pdf
+Trace32/training_practice.pdf
+Trace32/training_rtos_linux.pdf
+Trace32/vdebug.pdf
+涓棿浠禱RpMSG/virtio-v1.3-csd01.pdf
+涓撲笟涔︾睄/銆婂熀浜嶢NSYS鐨勪俊鍙峰拰鐢垫簮瀹屾暣鎬ц璁′笌鍒嗘瀽銆?pdf
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/6.Debug.pdf
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/Cadence Emulation Platform 202307.pdf
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/Creating a Dual Subsystem Virtual Platform.pptx
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/Helium Platform Assembly (NDA).pptx
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/Helium SW Debug Training.pptx
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/helium_mc_user_guide.pdf
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/helium_user_guide.pdf
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/vxecmdref.pdf
+楠岃瘉宸ュ叿/palladium+helium/鏂囨。/vxeUserGuide2106.pdf
+楠岃瘉宸ュ叿/TessentSystemInsightUserGuide.pdf
+浠跨湡宸ュ叿/2022 SIwave Getting Started Guide.pdf
+浠跨湡宸ュ叿/2025 R2 High Frequency Electromagnetics.pdf
+浠跨湡宸ュ叿/A006 CPA灏佽鍙傛暟鎻愬彇 2.zip
+浠跨湡宸ュ叿/A006 CPA灏佽鍙傛暟鎻愬彇 2/A006 CPA灏佽鍙傛暟鎻愬彇/A006 CPA灏佽鍙傛暟鎻愬彇.pdf
+浠跨湡宸ュ叿/A006 CPA灏佽鍙傛暟鎻愬彇 2/A006 CPA灏佽鍙傛暟鎻愬彇/CPA PKG RLC.siwaveresults/0000_CPA_Sim_1/adsCPA/Extraction/rlgcFreq.rlgcdata
+浠跨湡宸ュ叿/A006 CPA灏佽鍙傛暟鎻愬彇 2/A006 CPA灏佽鍙傛暟鎻愬彇/CPA PKG RLC.siwaveresults/0000_CPA_Sim_1/adsCPA/Extraction/rlgcFreq.rlgcdata_cmat
+浠跨湡宸ュ叿/A006 CPA灏佽鍙傛暟鎻愬彇 2/A006 CPA灏佽鍙傛暟鎻愬彇/CPA PKG RLC.siwaveresults/0000_CPA_Sim_1/adsCPA/Extraction/rlgcFreq.rlgcdata_gmat
+浠跨湡宸ュ叿/A006 CPA灏佽鍙傛暟鎻愬彇 2/A006 CPA灏佽鍙傛暟鎻愬彇/CPA PKG RLC.siwaveresults/0000_CPA_Sim_1/adsCPA/Extraction/rlgcFreq.rlgcdata_lmat
+浠跨湡宸ュ叿/A006 CPA灏佽鍙傛暟鎻愬彇 2/A006 CPA灏佽鍙傛暟鎻愬彇/CPA PKG RLC.siwaveresults/0000_CPA_Sim_1/adsCPA/Extraction/rlgcFreq.rlgcdata_rmat
+浠跨湡宸ュ叿/A025 PCB RLC Extraction.zip
+浠跨湡宸ュ叿/A025 PCB RLC Extraction/A025 PCB RLC Extraction/A025 PCB RLC Extraction.pdf
+浠跨湡宸ュ叿/A025 PCB RLC Extraction/A025 PCB RLC Extraction/PCB RLC Extraction.siw
+浠跨湡宸ュ叿/A025 PCB RLC Extraction/A025 PCB RLC Extraction/PCB RLC Extraction.siwaveresults/0000_CPA_Sim_2/0000_CPA_Sim_2.siw
+浠跨湡宸ュ叿/A025 PCB RLC Extraction/A025 PCB RLC Extraction/PCB RLC Extraction.siwaveresults/0001_CPA_Sim_1/0001_CPA_Sim_1.siw
+浠跨湡宸ュ叿/A025 PCB RLC Extraction/A025 PCB RLC Extraction/PCB RLC Extraction.siwaveresults/0002_CPA_Sim_3/0002_CPA_Sim_3.siw
+浠跨湡宸ュ叿/A025 PCB RLC Extraction/A025 PCB RLC Extraction/PCB RLC Extraction.siwaveresults/0002_CPA_Sim_3/adsCPA/Extraction/rlgcFreq.rlgcdata
+浠跨湡宸ュ叿/A025 PCB RLC Extraction/A025 PCB RLC Extraction/PCB.aedb/edb.def
+浠跨湡宸ュ叿/A031 PKG Power RLC extraction for Redhawk.zip
+浠跨湡宸ュ叿/A031 PKG Power RLC extraction for Redhawk/A031 PKG Power RLC extraction for Redhawk/A031 PKG Power RLC extraction for Redhawk.pdf
+浠跨湡宸ュ叿/ANSYS SIwave杞欢搴旂敤鍩硅.pdf
+浠跨湡宸ュ叿/Circuit Design TxLine Mixer Channel.pdf
+浠跨湡宸ュ叿/SIwave Getting Started Guide.pdf
+浠跨湡宸ュ叿/SIwave.pdf
+浠跨湡宸ュ叿/Training Low Noise Amplifier Part 1.pdf
+浠跨湡宸ュ叿/Training Low Noise Amplifier Part 2.pdf
+鏅鸿兘鎵嬭〃/GR5525-Smart-Watch-master.zip
+鏅鸿兘鎵嬭〃/GR5526-Smart-Watch-master.zip
+鏅鸿兘鎵嬭〃/H-Watch-main.zip
+纭欢鎺ュ彛/USB/DesignWare Cores Enhanced SuperSpeed USB 3.1 Controller.pdf
