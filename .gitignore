@@ -1,0 +1,25 @@
+# Generated from .gitignore.suggested on 2026-01-17
+# Suggested .gitignore for `knowledge` repo (merged)
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore common archives and large binary exports (consider storing elsewhere)
+*.zip
+*.tar.gz
+*.tgz
+
+# Ignore generated reports and local outputs
+reports/
+
+# Ignore editor/IDE files
+.vscode/
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Keep PDFs if they are source materials, otherwise consider moving to releases/
+# End of suggested ignores
