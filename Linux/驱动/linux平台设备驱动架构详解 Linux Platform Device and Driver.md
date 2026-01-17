@@ -1,4 +1,14 @@
 # linux平台设备驱动架构详解 Linux Platform Device and Driver
+<!-- TOC -->
+
+  - [platform总线下的驱动编写流程](#platform)
+  - [以GPIO驱动为例](#gpio)
+  - [设备树解析过程](#)
+    - [Platform_devce数据结构如下](#platform_devce)
+    - [解析设备树以及生成platform_device的过程如下所示](#platform_device)
+
+<!-- TOC END -->
+
 
 [linux平台设备驱动架构详解 Linux Platform Device and Driver](https://blog.csdn.net/STN_LCD/article/details/78743422)
 
@@ -128,17 +138,17 @@ static void __exit xxxdriver_exit(void)
 ```
 
 ```C
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/gpio.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/cdev.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+# include <linux/module.h>
+# include <linux/platform_device.h>
+# include <linux/gpio.h>
+# include <linux/fs.h>
+# include <linux/uaccess.h>
+# include <linux/cdev.h>
+# include <linux/of.h>
+# include <linux/of_device.h>
 
-#define DEVICE_NAME "gpio_example"
-#define CLASS_NAME "gpio_class"
+# define DEVICE_NAME "gpio_example"
+# define CLASS_NAME "gpio_class"
 
 static int gpio_pin;
 static int major_number;
@@ -504,3 +514,4 @@ static struct platform_device *of_platform_device_create_pdata(
 至此，为所有设备树中符合条件的node都创建了platform_device结构体，node下描述的资源也解析到了platform_device 中，并通过i dev成员 将该node描述的设备加入了统一设备模型。
 
 在统一设备模型中，每次device或者driver加入bus中，都会调用对应bus的match函数(如platform_match)对driver或者device 链表进行遍历，如有匹配项，则进入driver的probe函数。
+

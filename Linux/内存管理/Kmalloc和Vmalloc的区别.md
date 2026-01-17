@@ -1,4 +1,12 @@
 # Kmalloc和Vmalloc的区别
+<!-- TOC -->
+
+- [kmalloc()和vmalloc()介绍](#kmallocvmalloc)
+  - [kmalloc()](#kmalloc)
+  - [vmalloc()](#vmalloc)
+
+<!-- TOC END -->
+
 
 [Kmalloc和Vmalloc的区别](https://www.cnblogs.com/wuchanming/p/4465155.html)
 
@@ -33,3 +41,4 @@ GFP_DMA | GFP_ATOMIC：用于DMA的内存，不可以睡眠
 2. void *vmalloc(unsigned long size) 分配的内存虚拟地址上连续，物理地址不连续  
 3. 一般情况下，只有硬件设备才需要物理地址连续的内存，因为硬件设备往往存在于MMU之外，根本不了解虚拟地址；但为了性能上的考虑，内核中一般使用 kmalloc()，而只有在需要获得大块内存时才使用vmalloc()，例如当模块被动态加载到内核当中时，就把模块装载到由vmalloc()分配 的内存上。  
 4.void vfree(void *addr)，这个函数可以睡眠，因此不能从中断上下文调用。  
+

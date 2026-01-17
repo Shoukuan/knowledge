@@ -1,4 +1,9 @@
 # Linux内核启动流程
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 [Linux内核启动流程](https://www.cnblogs.com/lcw/p/3337937.html)
 ![Linux_kernel启动过程](Linux_kernel启动过程.png)
@@ -20,3 +25,4 @@ void start_kernel(void)
  rest_init();
 }
 ```
+

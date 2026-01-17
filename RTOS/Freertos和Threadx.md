@@ -1,4 +1,12 @@
 # FreeRTOS和ThreadX
+<!-- TOC -->
+
+- [FreeRTOS的特点](#freertos)
+- [ThreadX的特点](#threadx)
+- [总结](#)
+
+<!-- TOC END -->
+
 
 FreeRTOS和ThreadX是两种流行的嵌入式操作系统，常用于嵌入式系统开发。它们各自具有独特的特点和优势。
 
@@ -45,3 +53,4 @@ FreeRTOS和ThreadX是两种流行的嵌入式操作系统，常用于嵌入式�
 
 FreeRTOS适合预算有限或希望使用开源解决方案的开发者，具有良好的社区支持和广泛的硬件兼容性。
 ThreadX则更适合对实时性能和商业支持有较高要求的应用，提供更专业的技术支持和丰富的工具链。
+

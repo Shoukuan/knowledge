@@ -1,4 +1,9 @@
 # scripts
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 包含用于仓库维护的小脚本。
 
@@ -11,3 +16,4 @@ python scripts/find_large_files.py --path . --threshold 1 --out reports/large_fi
 ```
 
 这会在 `reports/` 下生成 `large_files.csv` 和 `large_files.md`。
+

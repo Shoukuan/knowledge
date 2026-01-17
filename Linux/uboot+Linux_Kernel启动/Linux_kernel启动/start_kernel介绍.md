@@ -1,4 +1,9 @@
 # start_kernel介绍
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 [start_kernel介绍](https://www.cnblogs.com/lifexy/p/7366782.html)
 
@@ -279,7 +284,7 @@ lockdep_info();
 
   
 
-#ifdef CONFIG_BLK_DEV_INITRD  
+# ifdef CONFIG_BLK_DEV_INITRD
 if (initrd_start && !initrd_below_start_ok && 
    page_to_pfn(virt_to_page((void *)initrd_start)) < min_low_pfn) { 
 printk(KERN_CRIT "initrd overwritten (0x%08lx < 0x%08lx) - " 
@@ -287,7 +292,7 @@ printk(KERN_CRIT "initrd overwritten (0x%08lx < 0x%08lx) - "
    min_low_pfn); 
 initrd_start = 0; 
 } 
-#endif
+# endif
 
  
  /* 虚拟文件系统的初始化 */
@@ -330,10 +335,10 @@ prio_tree_init();
 anon_vma_init();
 
     
-#ifdef CONFIG_X86  
+# ifdef CONFIG_X86
 if (efi_enabled) 
 efi_enter_virtual_mode(); 
-#endif 
+# endif
 
 //根据物理内存大小计算允许创建进程的数量  
 //http://www.jollen.org/blog/2006/11/jollen_linux_3_fork_init.html  
@@ -371,9 +376,9 @@ signals_init();
 //回写相关的初始化  
 //http://blog.csdn.net/yangp01/archive/2010/04/06/5454822.aspx  \page_writeback_init();   
 
-#ifdef CONFIG_PROC_FS  
+# ifdef CONFIG_PROC_FS
    proc_root_init(); 
-#endif  
+# endif
 
 //http://blogold.chinaunix.net/u1/51562/showart_1777937.html  
 cpuset_init();
@@ -395,3 +400,4 @@ acpi_early_init(); /* before LAPIC and SMP init */
 rest_init(); 
 }
 ```
+

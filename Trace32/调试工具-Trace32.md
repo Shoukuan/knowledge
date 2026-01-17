@@ -1,4 +1,14 @@
 # 调试工具（三）：trace32
+<!-- TOC -->
+
+- [Peripheral Files Programming](#peripheral-files-programming)
+- [1. TPIU (Trace Port Interface Unit)](#1-tpiu-trace-port-interface-unit)
+- [2. ETM (Embedded Trace Macrocell)](#2-etm-embedded-trace-macrocell)
+- [3. STM (System Trace Macrocell)](#3-stm-system-trace-macrocell)
+- [在 Trace32 中的使用场景](#-trace32-)
+
+<!-- TOC END -->
+
 
 [调试工具（三）：trace32](https://www.dumpstack.cn/index.php/2022/02/25/398.html#37)
 
@@ -101,3 +111,4 @@ STM 系统总线和外设 系统事件、总线活动 系统级性能分析、�
 ETM 数据：通过 Trace32 的指令跟踪功能（如 ETMVIEW）可视化程序执行路径。  
 STM 数据：使用 Trace32 的系统跟踪工具（如 STREAM 或 SYSTEMVIEW）分析总线活动或外设行为。  
 TPIU 配置：需在 Trace32 中设置时钟、触发条件和数据捕获方式（如 SYStem.Option.TPIUClock）。  
+

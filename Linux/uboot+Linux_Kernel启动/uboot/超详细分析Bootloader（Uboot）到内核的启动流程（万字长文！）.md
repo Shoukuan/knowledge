@@ -1,4 +1,13 @@
 # 超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）
+<!-- TOC -->
+
+- [在跳转到内核以前，uboot需要做好以下三件事情](#uboot)
+- [如何给内核传递参数？](#)
+- [uboot跳转到Linux内核](#ubootlinux)
+- [uboot中bootm命令实现](#ubootbootm)
+
+<!-- TOC END -->
+
 
 [超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）](https://cloud.tencent.com/developer/article/1826711)
 
@@ -62,3 +71,4 @@
 > 在image压缩后的文件的前端附加了一部分解压缩代码。构成了一个压缩格式的镜像就叫zImage
 
 ![Linux内核生成过程](Linux内核生成过程.png)
+

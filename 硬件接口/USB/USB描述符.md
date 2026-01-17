@@ -1,4 +1,20 @@
 # USB描述符
+<!-- TOC -->
+
+- [主要USB描述符类型](#usb)
+  - [配置描述符（Configuration Descriptor）](#configuration-descriptor)
+  - [接口描述符（Interface Descriptor）](#interface-descriptor)
+  - [端点描述符（Endpoint Descriptor）](#endpoint-descriptor)
+  - [字符串描述符（String Descriptor）](#string-descriptor)
+  - [完整的描述符集合](#)
+- [USB声卡描述符](#usb)
+  - [设备描述符](#)
+  - [配置描述符和相关接口描述符](#)
+  - [字符串描述符](#)
+- [USB HID报告描述符](#usb-hid)
+
+<!-- TOC END -->
+
 
 USB描述符是USB设备用来向主机描述自身特性的数据结构。USB描述符有多种类型，包括设备描述符、配置描述符、接口描述符、端点描述符、字符串描述符等。
 
@@ -1122,3 +1138,4 @@ HID 报告描述符字段解释
 0x95, 0x08：报告计数（Report Count），表示有8个修改键。
 0x81, 0x02：输入（Input），表示数据（Data）、变量（Variable）、绝对值（Absolute）。
 类似的解释适用于报告中的其他字段。这些字段共同定义了HID设备如何向主机报告数据，以及如何解析这些数据。通过这种方式，主机可以正确识别和处理来自HID设备的输入。
+

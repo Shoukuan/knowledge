@@ -1,4 +1,9 @@
 # Git使用
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 # 新增修改过程
 
@@ -43,3 +48,4 @@ git reset --soft // 回退到指定commit，该commit之后的提交内容，保
 git reset --hard // 回退到指定commit，该commit之后的提交内容，工作区和暂存区的内容都被抹掉
 
 git reset 或 git reset --mixed // 不带参数,或带参数–mixed(默认参数)，与git reset --soft 不同，它将会把差异放到工作区
+
