@@ -1,4 +1,11 @@
 # RPMSG Lite
+<!-- TOC -->
+
+- [Usage](#usage)
+- [Configuration options](#configuration-options)
+
+<!-- TOC END -->
+
 
 [RPMSG Lite](https://github.com/Shoukuan/rpmsg-lite)
 
@@ -52,21 +59,21 @@ avialible ring 和 used ring初始化在函数rpmsg_lite_master_init 和rpmsg_li
 ```C
             if (vqs[j] == rpmsg_lite_dev->rvq)
             {
-#if defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1)
+# if defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1)
                 status =
                     virtqueue_fill_avail_buffers(vqs[j], buffer, (uint32_t)(shmem_config.buffer_payload_size + 16UL));
-#else
+# else
                 status = virtqueue_fill_avail_buffers(vqs[j], buffer, (uint32_t)RL_BUFFER_SIZE);
-#endif /* defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1) */
+# endif /* defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1) */
             }
             else if (vqs[j] == rpmsg_lite_dev->tvq)
             {
-#if defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1)
+# if defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1)
                 status =
                     virtqueue_fill_used_buffers(vqs[j], buffer, (uint32_t)(shmem_config.buffer_payload_size + 16UL));
-#else
+# else
                 status = virtqueue_fill_used_buffers(vqs[j], buffer, (uint32_t)RL_BUFFER_SIZE);
-#endif /* defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1) */
+# endif /* defined(RL_ALLOW_CUSTOM_SHMEM_CONFIG) && (RL_ALLOW_CUSTOM_SHMEM_CONFIG == 1) */
             }
             else
             {
@@ -126,3 +133,4 @@ struct vring_used {
 };
 //在初始化已用环结构体时，通常会将 flags 和 idx 字段的初始值设置为零，并根据具体的需求和设计，可能会初始化 ring 数组中的元素。在实际使用中，idx 字段会被用来跟踪已用环中的下一个可用索引位置，而 ring 数组则用于存储已使用的描述符信息，通常是描述符的索引和长度。
 ```
+

@@ -1,4 +1,12 @@
 # GIC
+<!-- TOC -->
+
+- [GIC各版本间差别](#gic)
+- [支持的中断类型](#)
+- [中断状态](#)
+
+<!-- TOC END -->
+
 
 ## GIC各版本间差别
 
@@ -37,3 +45,4 @@
 2. 写入**GICC_EOIR**寄存器，通知CPU interface中断处理完成，让中断从active状态进入到inactive状态
 
 3. handle_domain_irq: 对于gic中断控制器会执行gic_of_init初始化，它会创建并注册irq_domain.第一个参数gic->domain就是gic初始化时创建的，它代表了中断控制器。。irqnr为硬中断号，通过硬 中断号可以知道软中断号，然后以软中断号为索引可以获取到irq_desc，进一步获取到irq_data并获取到irqaction进行处理
+

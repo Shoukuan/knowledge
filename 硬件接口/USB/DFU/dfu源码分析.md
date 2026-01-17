@@ -1,4 +1,14 @@
 # DFU源码分析
+<!-- TOC -->
+
+- [Host端](#host)
+  - [Download](#download)
+  - [Upload](#upload)
+- [Device端](#device)
+  - [描述符](#)
+
+<!-- TOC END -->
+
 
 ![Dfu交互过程](Dfu交互过程.png)
 
@@ -320,3 +330,4 @@ const uint8_t DFU_StringDescriptor[] = {
 标准设备描述符：定义设备的基本信息，如USB版本、设备类、厂商ID、产品ID等。
 配置描述符：定义设备的配置，包括接口描述符和DFU功能描述符。
 字符串描述符：提供设备的字符串信息，如语言、厂商名称、产品名称和序列号。
+

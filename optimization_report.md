@@ -1,4 +1,9 @@
 # 仓库优化最终报告
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 概览：扫描仓库 763 个文件，发现 77 个 >= 1MB，总计约 499.80MB。已添加用于分析与清理的脚本，并建议将大型二进制/文档迁移到 releases 或外部存储。
 
@@ -67,3 +72,4 @@ powershell .\scripts\run_git_filter_repo.ps1 -RepoUrl "<repo_url>" -Execute
 - 生成 BFG 对应脚本用于对比；
 - 在你确认后，在本地镜像上执行 `git filter-repo`（仍不会自动推送）；
 - 对 Markdown 文档批量格式化与添加目录索引。
+

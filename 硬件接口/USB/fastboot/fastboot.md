@@ -1,4 +1,25 @@
 # Fastboot
+<!-- TOC -->
+
+- [基本概念](#)
+- [Fastboot 操作流程](#fastboot-)
+- [Fastboot 命令示例](#fastboot-)
+- [Fastboot 源码](#fastboot-)
+- [Fastboot 设备端源码分析](#fastboot-)
+  - [1. Fastboot 设备端源码主要目录](#1-fastboot-)
+  - [2. Fastboot 设备端核心模块](#2-fastboot-)
+    - [2.1 USB 通信层](#21-usb-)
+    - [2.2 Fastboot 协议解析与命令分发](#22-fastboot-)
+    - [2.3 分区/存储操作](#23-)
+    - [2.4 典型命令处理流程](#24-)
+  - [3. 关键结构体与函数](#3-)
+    - [3.1 命令注册与分发](#31-)
+    - [3.2 数据收发](#32-)
+  - [4. 设备端常见命令实现](#4-)
+  - [5. 参考流程图](#5-)
+
+<!-- TOC END -->
+
 
 Fastboot 是一种用于 Android 设备的协议，允许用户通过 USB 连接与设备进行通信，执行各种操作，如刷入系统镜像、解锁引导加载程序等。以下是 Fastboot 的基本概念和操作流程。  
 
@@ -209,3 +230,4 @@ void fastboot_okay(const char *msg) {
 ```plaintext
 [USB初始化] → [命令接收] → [命令解析] → [命令处理] → [分区/存储操作] → [响应主机]
 ```
+

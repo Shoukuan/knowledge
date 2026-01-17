@@ -1,4 +1,15 @@
 # Linux内存管理初始化
+<!-- TOC -->
+
+- [物理内存初始化文章目录](#)
+- [分页机制文章目录](#)
+- [paging_init文章目录](#paging_init)
+- [mm_init函数分析文章目录](#mm_init)
+- [start_kernel](#start_kernel)
+- [setup_arch](#setup_arch)
+
+<!-- TOC END -->
+
 
 [Linux内存初始化](https://blog.csdn.net/u013836909/category_11623173.html)
 
@@ -165,10 +176,10 @@ struct cma {
  unsigned int order_per_bit; /* Order of pages represented by one bit */
  
  struct mutex    lock;
-#ifdef CONFIG_CMA_DEBUGFS
+# ifdef CONFIG_CMA_DEBUGFS
  struct hlist_head mem_head;
  spinlock_t mem_head_lock;
-#endif
+# endif
 
  //CMA 区域的名字
  const char *name;
@@ -325,3 +336,4 @@ setup_arch
 
 ---->free_area_init_nodes: 建立完备的内核数据结构
 ```
+

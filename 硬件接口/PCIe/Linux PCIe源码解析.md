@@ -1,4 +1,19 @@
 # Linux PCIe源码解析
+<!-- TOC -->
+
+- [0. 源码目录结构](#0-)
+- [1. **PCIe驱动的基本结构**](#1-pcie)
+- [2. **设备探测（Probe）**](#2-probe)
+- [3. **设备移除（Remove）**](#3-remove)
+- [4. **中断处理**](#4-)
+- [5. **数据传输**](#5-)
+  - [**MMIO**](#mmio)
+  - [**DMA**](#dma)
+- [6. **内核源码中的PCIe驱动示例**](#6-pcie)
+- [7. **调试和测试**](#7-)
+
+<!-- TOC END -->
+
 
 在Linux内核中，PCIe驱动的实现主要涉及以下几个核心部分：PCIe设备的枚举、驱动注册、设备探测、资源管理、数据传输和中断处理等。下面将详细解析Linux PCIe驱动的源码实现。
 
@@ -45,7 +60,7 @@ dma_alloc_coherent()：分配DMA缓冲区。
 PCIe驱动的核心是 `struct pci_driver`，它定义了驱动的名称、设备ID表、探测函数、移除函数等。
 
 ```c
-#include <linux/pci.h>
+# include <linux/pci.h>
 
 static const struct pci_device_id my_pci_tbl[] = {
     { PCI_DEVICE(VENDOR_ID, DEVICE_ID) }, // 设备ID表
@@ -250,3 +265,4 @@ Linux内核源码中有许多PCIe驱动的实现，可以参考以下目录：
 - 使用 `cat /proc/interrupts` 查看中断信息。
 
 ---
+

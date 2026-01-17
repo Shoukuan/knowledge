@@ -1,4 +1,12 @@
 # 锁步核（lock-step）-软件冗余-可分核（split-step）
+<!-- TOC -->
+
+- [1. lock-step core(锁步核)](#1-lock-step-core)
+- [2. Redundant execution(冗余执行)](#2-redundant-execution)
+- [3. Split-Lock(可分核)](#3-split-lock)
+
+<!-- TOC END -->
+
 
 >为了满足汽车功能安全（如ISO26262），有许多有用的措施来规避E/E系统异常崩溃造成的不必要伤害。
 
@@ -19,3 +27,4 @@
 
 以上两种方案可有优劣，ARM在 Cortex-A76AE上集成了一种叫 ‘Split-Lock’的技术来集成上述两种方案的优点。‘Split-Lock’可以被配置成两种模式：‘split mode’，两个CPU可以独立执行不同的程序或任务； ‘lock mode’ ，两个CPU执行锁步模式。
 这种技术可以支持如果两个CPU中的一个损坏，可以在降级模式下继续运行，即只运行好的那个CPU。这对自动驾驶系统是很重要的能力。
+

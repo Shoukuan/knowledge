@@ -1,4 +1,9 @@
 # ***不断学习，让生活变得更美好，让工作变得更轻松***
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 本文旨在记录和总结在生活和工作中遇到的问题以及知识，以便于不断学习
 
@@ -6,3 +11,4 @@
 ![性能优化](linux_observability_tools.png)
 ![Linux Kernel Map](Linux_Kernel_Map.jpg)
 [Linux_Kernel_Map](https://makelinux.github.io/kernel/map/)
+

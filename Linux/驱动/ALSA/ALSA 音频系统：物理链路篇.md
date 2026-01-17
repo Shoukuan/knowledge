@@ -1,4 +1,9 @@
 # ALSA 音频系统：物理链路篇
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 [ALSA 音频系统：物理链路篇](https://blog.csdn.net/zyuanyun/article/details/59170418)
 
@@ -23,3 +28,4 @@
 **snd_soc_dai_link**：音频链路描述及板级操作函数
 
 ![goni_wm8994 整个音频驱动](goni_wm8994整个音频驱动.png)
+

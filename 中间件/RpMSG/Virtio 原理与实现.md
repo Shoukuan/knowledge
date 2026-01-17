@@ -1,4 +1,9 @@
 # Virtio 原理与实现
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 [Virtio 原理与实现](https://zhuanlan.zhihu.com/p/639301753)
 
@@ -42,3 +47,4 @@ vring 包含三个部分，描述符数组 desc，可用的 available ring 和�
 - 因为是第二次处理buffer，所以vring_used中idx的值由1变为2
 - 第二次处理buffer的描述符index是从描述符表中的4，所以vring_used中ring[idx]的index值是4，其中len为5
 - 因为第二次的buffer已经被使用，所以vring_used中last_avail_idx是2
+

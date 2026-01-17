@@ -1,4 +1,9 @@
 # 【原创】linux设备模型之kset/kobj/ktype分析
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 [【原创】linux设备模型之kset/kobj/ktype分析](https://www.cnblogs.com/LoyenWang/p/13334196.html)
 
@@ -13,10 +18,10 @@ sysfs中的设备组织结构很大程度上根据kset组织的，/sys/bus目录
 kobj_type用于表征kobject的类型，指定了删除kobject时要调用的函数
 
 ```C
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kobject.h>
+# include <linux/kernel.h>
+# include <linux/module.h>
+# include <linux/slab.h>
+# include <linux/kobject.h>
 
 //自定义一个结构，包含了struct kobject子结构
 struct test_kobj {
@@ -171,3 +176,4 @@ MODULE_AUTHOR("LoyenWang");
 MODULE_LICENSE("GPL");
 
 ```
+

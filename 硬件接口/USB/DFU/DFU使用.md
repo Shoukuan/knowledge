@@ -1,4 +1,21 @@
 # DFU使用
+<!-- TOC -->
+
+- [DFU-UTIL](#dfu-util)
+- [NAME](#name)
+- [SYNOPSIS](#synopsis)
+- [DESCRIPTION](#description)
+- [OPTIONS](#options)
+- [Examples](#examples)
+- [EXAMPLES](#examples)
+- [BUGS](#bugs)
+- [SEE ALSO](#see-also)
+- [HISTORY](#history)
+- [LICENCE](#licence)
+- [COPYRIGHT](#copyright)
+
+<!-- TOC END -->
+
 
 [DFU使用](https://dfu-util.sourceforge.net/dfu-util.1.html)
 
@@ -167,3 +184,4 @@ dfu-util is covered by the GNU General Public License (GPL), version 2 or later.
 ## COPYRIGHT
 
 This manual page was originally written by Uwe Hermann <uwe@hermann-uwe.de>, and is now part of the dfu-util project.
+

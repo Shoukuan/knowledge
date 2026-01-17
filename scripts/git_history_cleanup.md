@@ -1,4 +1,9 @@
 # Git 历史清理指南（安全步骤）
+<!-- TOC -->
+
+
+<!-- TOC END -->
+
 
 目的：从 Git 历史中移除已提交的“大文件”以缩小仓库体积。该文档给出使用 `git filter-repo` 或 BFG 的安全流程与示例命令。执行前务必备份并与团队协调。
 
@@ -67,3 +72,4 @@ git push
 回滚策略：如果出问题，使用备份镜像或备份分支恢复。
 
 小结：我同时提供一个 PowerShell 脚本 `remove_large_files.ps1`，用于从 `reports/large_files.csv` 提取路径并创建 `paths-to-remove.txt`，以及演示在镜像仓库中运行 `git filter-repo` 的命令（该脚本不会自动执行危险的 push）。请在同意并确认备份后运行过滤操作。
+
