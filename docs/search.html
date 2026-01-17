@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>仓库搜索</title>
+  <style>
+    body{font-family:Segoe UI,Arial, sans-serif;padding:20px}
+    input{width:100%;padding:10px;margin-bottom:10px}
+    .result{padding:8px;border-bottom:1px solid #eee}
+    .path{color:#666;font-size:0.9em}
+  </style>
+<head>
+<body>
+  <h1>仓库文档搜索</h1>
+  <input id="q" placeholder="输入关键字搜索标题或路径（回车）" />
+  <div id="results"></div>
+
+  <script>
+    let index = [];
+    fetch('search_index.json').then(r=>r.json()).then(j=>{ index=j; });
+    const q = document.getElementById('q');
+    const out = document.getElementById('results');
+    function render(results){
+      out.innerHTML = '';
+      if(results.length===0){ out.innerHTML = '<p>无结果</p>'; return }
+      for(const r of results.slice(0,200)){
+        const d = document.createElement('div'); d.className='result';
+        d.innerHTML = `<div><a href='${r.path}'>${r.title || r.path}</a></div><div class='path'>${r.path}</div><div>${r.snippet||''}</div>`;
+        out.appendChild(d);
+      }
+    }
+    q.addEventListener('keyup', (e)=>{ if(e.key==='Enter'){ doQuery(q.value) } });
+    function doQuery(t){
+      const s = t.trim().toLowerCase();
+      if(!s){ render([]); return }
+      const res = index.filter(i=> (i.title||'').toLowerCase().includes(s) || i.path.toLowerCase().includes(s));
+      render(res);
+    }
+  </script>
+</body>
+</html>

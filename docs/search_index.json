@@ -1,0 +1,507 @@
+[
+  {
+    "title": "锁步核（lock-step）-软件冗余-可分核（split-step）",
+    "path": "ARM/Core/锁步核（lock-step）-软件冗余-可分核（split-step）.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Coresight",
+    "path": "ARM/coresight/coresight.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "GIC 600",
+    "path": "ARM/GIC/GIC600/gic_600.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "GIC",
+    "path": "ARM/GIC/GIC.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "AHB总线",
+    "path": "ARM/总线/AHB总线.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "APB总线",
+    "path": "ARM/总线/APB总线.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "AXI总线",
+    "path": "ARM/总线/AXI总线.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "ARM寄存器简介",
+    "path": "ARM/架构/ARM寄存器简介.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "异常和中断处理",
+    "path": "ARM/架构/异常和中断处理.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "ARM64汇编",
+    "path": "ARM/汇编指令/ARM64汇编.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "仓库目录索引",
+    "path": "docs/REPO_INDEX.md",
+    "snippet": "- **ARM/**   - **Core/**     - [arm_cortex_a78ae_core_trm_101779_0003_08_en.pdf](ARM/Core/arm_cortex_a78ae_core_trm_101779_0003_08_en.pdf)     - [arm_cortex_r52_processor_trm_100026_0104_00_en.pdf](ARM/Core/arm_cortex_r52_processor_trm_1000"
+  },
+  {
+    "title": "buildroot 构建指南",
+    "path": "Linux/buildroot/buildroot 构建指南.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "buildroot使用介绍",
+    "path": "Linux/buildroot/buildroot使用介绍.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "buildroot概述及使用",
+    "path": "Linux/buildroot/buildroot概述及使用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "The Buildroot user manual",
+    "path": "Linux/buildroot/The Buildroot user manual.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux工具",
+    "path": "Linux/Linux工具/Linux工具.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux 启动时间优化实战，2.41 秒启动应用",
+    "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/Linux 启动时间优化实战，2.41 秒启动应用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux内核启动流程",
+    "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/Linux内核启动流程.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "start_kernel介绍",
+    "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel介绍.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "start_kernel详解系列之【setup_arch】",
+    "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel详解系列之【setup_arch】.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "嵌入式linux启动时间优化",
+    "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/嵌入式linux启动时间优化.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "【ARM】Uboot代码分析-阿里云开发者社区",
+    "path": "Linux/uboot+Linux_Kernel启动/uboot/【ARM】Uboot代码分析-阿里云开发者社区.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）",
+    "path": "Linux/uboot+Linux_Kernel启动/uboot/超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "linux3.10 中断处理过程（一）中断初始化及irq处理详解（汇编部分）",
+    "path": "Linux/中断/linux3.10 中断处理过程（一）中断初始化及irq处理详解（汇编部分）.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux内核中的软中断、tasklet和工作队列详解",
+    "path": "Linux/中断/Linux内核中的软中断、tasklet和工作队列详解.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "bin的技术小屋关于内存管理的分享",
+    "path": "Linux/内存管理/bin的技术小屋--聊聊Linux内核.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Kmalloc和Vmalloc的区别",
+    "path": "Linux/内存管理/Kmalloc和Vmalloc的区别.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux内存管理初始化",
+    "path": "Linux/内存管理/Linux内存管理初始化.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "NUMA 架构",
+    "path": "Linux/内存管理/NUMA 架构.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "内存管理总结",
+    "path": "Linux/内存管理/内存管理总结.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "细说mmap系统调用",
+    "path": "Linux/内存管理/细说mmap系统调用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux调试工具",
+    "path": "Linux/调试/Linux调试工具.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "深入理解linux系统下proc文件系统内容",
+    "path": "Linux/调试/深入理解linux系统下proc文件系统内容.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux CFS 调度器：原理、设计与内核实现（2023）",
+    "path": "Linux/进程调度/Linux CFS 调度器：原理、设计与内核实现（2023）.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "linux进程调度",
+    "path": "Linux/进程调度/linux进程调度.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "万字长文，锤它！揭秘Linux进程调度器",
+    "path": "Linux/进程调度/万字长文，锤它！揭秘Linux进程调度器.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "深入理解Linux内核进程的管理与调度(最详细)",
+    "path": "Linux/进程调度/深入理解Linux内核进程的管理与调度(最详细).md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "ALSA 音频系统：物理链路篇",
+    "path": "Linux/驱动/ALSA/ALSA 音频系统：物理链路篇.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "ALSA架构中DMA的使用",
+    "path": "Linux/驱动/ALSA/ALSA架构中DMA的使用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "DMA-BUF",
+    "path": "Linux/驱动/DMA-BUF/概念.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Device Tree：基本概念",
+    "path": "Linux/驱动/DTS/Device Tree：基本概念.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux 设备树语法（.dts）及如何从设备树获取节点信息",
+    "path": "Linux/驱动/DTS/Linux 设备树语法（.dts）及如何从设备树获取节点信息.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux设备树--设备树格式和使用",
+    "path": "Linux/驱动/DTS/Linux设备树--设备树格式和使用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "I2C驱动",
+    "path": "Linux/驱动/I2C/i2c驱动.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "v4l2的学习建议和流程解析",
+    "path": "Linux/驱动/V4L2/v4l2的学习建议和流程解析.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux字符设备驱动",
+    "path": "Linux/驱动/Linux字符设备.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "linux平台设备驱动架构详解 Linux Platform Device and Driver",
+    "path": "Linux/驱动/linux平台设备驱动架构详解 Linux Platform Device and Driver.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux驱动常用API整理",
+    "path": "Linux/驱动/Linux驱动常用API整理.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "【原创】linux设备模型之kset/kobj/ktype分析",
+    "path": "Linux/驱动/【原创】linux设备模型之kset_kobj_ktype分析.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "linux_kernel_wiki",
+    "path": "Linux/linux_kernel_wiki.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux 内核",
+    "path": "Linux/Linux内核.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux嵌入式系统开发",
+    "path": "Linux/Linux嵌入式系统开发.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Read-Copy Update (RCU) Publications",
+    "path": "Linux/Read-Copy-Update(RCU).md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Vmware+gdb调试Linux内核",
+    "path": "Linux/Vmware+gdb调试Linux内核.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "一文搞懂select、poll和epoll区别",
+    "path": "Linux/一文搞懂select、poll和epoll区别.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Large files report",
+    "path": "reports/large_files.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "PLIC CLINT",
+    "path": "RiscV/中断/plic_clint.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "(RISCV) RISC-V System, Booting, And Interrupts",
+    "path": "RiscV/(RISCV) RISC-V System, Booting, And Interrupts.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Riscv_DV",
+    "path": "RiscV/riscv_dv.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "基础指令集",
+    "path": "RiscV/基础指令集.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Freertos使用",
+    "path": "RTOS/FreeRTOS/Freertos使用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "内存管理",
+    "path": "RTOS/FreeRTOS/内存管理.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "NuttX简介",
+    "path": "RTOS/NuttX/NuttX简介.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "ThreadX 文档",
+    "path": "RTOS/ThreadX/ThreadX文档.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "FreeRTOS和ThreadX",
+    "path": "RTOS/Freertos和Threadx.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Git 历史清理指南（安全步骤）",
+    "path": "scripts/git_history_cleanup.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "scripts",
+    "path": "scripts/README.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "调试工具（三）：trace32",
+    "path": "Trace32/调试工具-Trace32.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "万字长文解读AUTOSAR完整架构及AP特性",
+    "path": "中间件/AutoSAR/万字长文解读AUTOSAR完整架构及AP特性.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "分布式实时通信—DDS概述",
+    "path": "中间件/DDS/分布式实时通信—DDS概述.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "分布式实时通信—DDS进阶",
+    "path": "中间件/DDS/分布式实时通信—DDS进阶.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "OpenAMP",
+    "path": "中间件/OpenAMP/OpenAMP.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "IPC",
+    "path": "中间件/QNX/IPC.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "分布式通信技术之远程调用：RPC",
+    "path": "中间件/RPC/分布式通信技术之远程调用：RPC.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "RPMSG Lite",
+    "path": "中间件/RpMSG/RpMSG Lite.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Virtio 原理与实现",
+    "path": "中间件/RpMSG/Virtio 原理与实现.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "DDRSDRAM工作原理",
+    "path": "存储/DDRSDRAM工作原理.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "DDR的固件",
+    "path": "存储/DDR固件.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "CAN协议",
+    "path": "硬件接口/CAN/CAN协议.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "chiplet 芯粒间互联接口与通信结构",
+    "path": "硬件接口/chiplet/chiplet 芯粒间互联接口与通信结构.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "I2C总线",
+    "path": "硬件接口/I2C/I2C总线.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Linux PCIe源码解析",
+    "path": "硬件接口/PCIe/Linux PCIe源码解析.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "PCIe",
+    "path": "硬件接口/PCIe/PCIe.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "SPI总线",
+    "path": "硬件接口/SPI/SPI总线.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "DFU使用",
+    "path": "硬件接口/USB/DFU/DFU使用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "DFU源码分析",
+    "path": "硬件接口/USB/DFU/dfu源码分析.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Fastboot",
+    "path": "硬件接口/USB/fastboot/fastboot.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "USB协议",
+    "path": "硬件接口/USB/USB协议.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "USB描述符",
+    "path": "硬件接口/USB/USB描述符.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "USB枚举",
+    "path": "硬件接口/USB/USB枚举.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "基于cherryUSB的USB驱动实现详解",
+    "path": "硬件接口/USB/usb驱动.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "算法",
+    "path": "算法/算法.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "dpi-tutorial",
+    "path": "验证工具/DPI_Direct_program_interface/systemverilog-dpi-tutorial.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "使用记录",
+    "path": "验证工具/palladium+helium/使用记录.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "TCL语言学习",
+    "path": "验证工具/TCL语言/TCL语言学习.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Git使用记录",
+    "path": "验证工具/ZEBU+VDK/使用记录.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Git使用",
+    "path": "Git使用.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "Markdown语法参考",
+    "path": "Markdown语法参考.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "仓库优化最终报告",
+    "path": "optimization_report.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "***不断学习，让生活变得更美好，让工作变得更轻松***",
+    "path": "README.md",
+    "snippet": "<!-- TOC -->"
+  },
+  {
+    "title": "VIM使用",
+    "path": "VIM使用.md",
+    "snippet": "<!-- TOC -->"
+  }
+]
