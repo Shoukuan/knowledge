@@ -19,7 +19,11 @@ The repo is being upgraded from flat "notes in directories" into a **searchable,
 | `wiki/queries/` | Q&A, comparisons, summaries |
 | `scripts/` | Python automation scripts |
 | `docs/` | Generated docs: search index, repo index, GitHub Pages deployment |
-| Root category dirs | Linux/, ARM/, RTOS/, RiscV/, 存储/, 硬件接口/, 中间件/, 验证工具/, Trace32/ — flat markdown notes |
+| `工程实践/` | Engineering practice notes: Git, VIM, Markdown, tools |
+| `专业书籍/` | Reference books (PDFs stored locally, not in git) |
+| `仿真工具/` | SI/PI simulation tools: SIwave, HFSS (PDFs/ZIPs local only) |
+| `智能手表/` | Smartwatch reference projects (ZIPs local only) |
+| Root category dirs | Linux/, ARM/, RTOS/, RiscV/, 存储/, 算法/, 硬件接口/, 中间件/, 验证工具/, Trace32/ — flat markdown notes |
 
 ## Frontmatter Schema
 
@@ -79,6 +83,8 @@ Main technical domains covered:
 - **Middleware**: OpenAMP, AutoSAR, DDS, RPC, QNX IPC, RpMSG/Virtio, DMA-BUF
 - **Verification Tools**: ZEBU+VDK, Palladium+Helium, TCL, Trace32
 - **Storage**: DDR/SDRAM, DDR firmware
+- **Simulation**: SI/PI simulation (SIwave, HFSS), package/PCB extraction
+- **Engineering Practice**: Git, VIM, Markdown, performance optimization
 
 ## Development Workflow
 
@@ -111,3 +117,4 @@ Main technical domains covered:
 - **Links**: Use standard Markdown links. `[[wikilinks]]` are being gradually introduced.
 - **H1**: Each page has exactly one H1 heading, aligned with `title` in frontmatter.
 - **Raw materials**: Content in `raw/` should be treated as read-only originals.
+- **Binary files**: PDFs and ZIPs are excluded from git tracking via `.gitignore`. Store them externally (NAS, cloud drive) or locally outside the repo. Images (PNG/JPG) used in documentation are tracked.
