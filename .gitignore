@@ -5,16 +5,13 @@
 __pycache__/
 *.py[cod]
 
-# Ignore common archives and large binary exports (store externally)
+# Ignore large binary exports and archives (store externally)
 *.zip
 *.tar.gz
 *.tgz
 *.pdf
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
+
+# Images are tracked — they are integral to documentation content
 
 # Ignore generated reports and local outputs
 reports/
