@@ -1,11 +1,13 @@
+---
+title: linux进程调度
+type: note
+status: active
+tags: ["Linux", "进程调度", "调度器"]
+aliases: ["Linux 调度", "Linux scheduler", "进程调度"]
+sources: ["https://dreamgoing.github.io/linux%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6.html"]
+updated_at: 2026-04-28
+---
 # linux进程调度
-<!-- TOC -->
-
-- [上下文切换](#)
-
-<!-- TOC END -->
-
-
 [linux进程调度](https://dreamgoing.github.io/linux%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6.html)
 
 进程的上下文不仅包括了 虚拟内存、栈、全局变量等用户空间的资源 ，还包括了 内核堆栈、寄存器等内核空间的状态
@@ -74,4 +76,3 @@ context_switch(struct rq *rq, struct task_struct *prev,
     return finish_task_switch(prev);
 }
 ```
-

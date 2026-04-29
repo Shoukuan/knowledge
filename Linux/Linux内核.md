@@ -1,12 +1,13 @@
+---
+title: Linux 内核
+type: note
+status: active
+tags: ["Linux", "内核"]
+aliases: ["Linux kernel", "Linux Kernel", "Kernel"]
+sources: ["https://linux-kernel-labs-zh.xyz/lectures/intro.html"]
+updated_at: 2026-04-28
+---
 # Linux 内核
-<!-- TOC -->
-
-- [什么是中断？](#)
-  - [Linux 可延迟操作的速查表](#linux-)
-
-<!-- TOC END -->
-
-
 [Linux 内核 5.10.14](https://linux-kernel-labs-zh.xyz/lectures/intro.html)
 
 典型操作系统架构：
@@ -123,4 +124,3 @@ GFP_ATOMIC：软中断
 GFP_ATOMIC：Tasklet  
 GFP_DMA | GFP_KERNEL：用于DMA的内存，可以睡眠  
 GFP_DMA | GFP_ATOMIC：用于DMA的内存，不可以睡眠  
-

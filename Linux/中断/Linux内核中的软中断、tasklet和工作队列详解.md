@@ -1,13 +1,13 @@
+---
+title: Linux内核中的软中断、tasklet和工作队列详解
+type: note
+status: seed
+tags: ["Linux", "中断"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # Linux内核中的软中断、tasklet和工作队列详解
-<!-- TOC -->
-
-  - [软中断特性包括](#)
-  - [tasklet特性包括](#tasklet)
-  - [工作队列](#)
-
-<!-- TOC END -->
-
-
 [Linux内核中的软中断、tasklet和工作队列详解](https://zhuanlan.zhihu.com/p/265705850)
 
 [Linux内核中的软中断、tasklet和工作队列详解（超详细~）]<https://blog.csdn.net/heli200482128/article/details/126078721>)
@@ -35,4 +35,3 @@ tasklet是利用软中断实现的一种下半部机制，本质上是软中断�
 ### 工作队列
 
 工作队列可以把工作推后，交由一个内核线程去执行—这个下半部分总是会在进程上下文执行，但由于是内核线程，**其不能访问用户空间**。最重要特点的就是工作队列**允许重新调度甚至是睡眠**。
-

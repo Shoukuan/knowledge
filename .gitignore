@@ -5,10 +5,16 @@
 __pycache__/
 *.py[cod]
 
-# Ignore common archives and large binary exports (consider storing elsewhere)
+# Ignore common archives and large binary exports (store externally)
 *.zip
 *.tar.gz
 *.tgz
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
 
 # Ignore generated reports and local outputs
 reports/
@@ -21,5 +27,5 @@ reports/
 .DS_Store
 Thumbs.db
 
-# Keep PDFs if they are source materials, otherwise consider moving to releases/
+# Binary/media files are excluded from git; store externally (NAS, cloud drive, Git LFS)
 # End of suggested ignores

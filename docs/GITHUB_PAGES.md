@@ -1,3 +1,12 @@
+---
+title: 使用 GitHub Pages 部署 `docs/`
+type: reference
+status: active
+tags: []
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # 使用 GitHub Pages 部署 `docs/`
 
 此说明将 `docs/` 目录部署到 GitHub Pages（`gh-pages` 分支），通过仓库内的 Actions 自动化实现。

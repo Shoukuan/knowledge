@@ -1,22 +1,13 @@
+---
+title: DFU使用
+type: note
+status: seed
+tags: ["硬件接口", "USB", "DFU"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # DFU使用
-<!-- TOC -->
-
-- [DFU-UTIL](#dfu-util)
-- [NAME](#name)
-- [SYNOPSIS](#synopsis)
-- [DESCRIPTION](#description)
-- [OPTIONS](#options)
-- [Examples](#examples)
-- [EXAMPLES](#examples)
-- [BUGS](#bugs)
-- [SEE ALSO](#see-also)
-- [HISTORY](#history)
-- [LICENCE](#licence)
-- [COPYRIGHT](#copyright)
-
-<!-- TOC END -->
-
-
 [DFU使用](https://dfu-util.sourceforge.net/dfu-util.1.html)
 
 ## DFU-UTIL
@@ -184,4 +175,3 @@ dfu-util is covered by the GNU General Public License (GPL), version 2 or later.
 ## COPYRIGHT
 
 This manual page was originally written by Uwe Hermann <uwe@hermann-uwe.de>, and is now part of the dfu-util project.
-

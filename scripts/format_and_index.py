@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Format Markdown files, insert per-file TOC, and generate a repository index up to N folder levels.
+Normalize Markdown headings and generate a repository index up to N folder levels.
 
 Usage:
     python scripts/format_and_index.py --root . --max-depth 5 --index docs/REPO_INDEX.md
@@ -8,66 +8,19 @@ Usage:
 Behavior:
 - Normalize headings to ATX style (#)
 - Ensure a single H1 title at top (from filename if missing)
-- Insert or update TOC between <!-- TOC --> and <!-- TOC END --> based on headings H2-H4
 - Generate repository index markdown linking files and folders up to given depth
 """
 import argparse
 import re
 from pathlib import Path
-from typing import List
 
-
-def slugify(text: str) -> str:
-    t = text.strip().lower()
-    t = re.sub(r"[\s]+", "-", t)
-    t = re.sub(r"[^a-z0-9\-_]", "", t)
-    return t
-
-
-def parse_headings(lines: List[str]):
-    headings = []
-    for i, ln in enumerate(lines):
-        m = re.match(r'^(#{1,6})\s+(.*)$', ln)
-        if m:
-            level = len(m.group(1))
-            text = m.group(2).strip()
-            headings.append((i, level, text))
-    return headings
-
-
-def ensure_h1(lines: List[str], title: str) -> List[str]:
-    # If first non-empty line is H1, keep. Else insert H1.
-    for i, ln in enumerate(lines):
-        if ln.strip() == '':
-            continue
-        if re.match(r'^#\s+.+', ln):
-            return lines
-        else:
-            return ['# ' + title, '\n'] + lines
-    return ['# ' + title, '\n']
-
-
-def generate_toc(headings):
-    toc_lines = ['<!-- TOC -->', '']
-    for _, level, text in headings:
-        if level == 1:
-            continue
-        if level > 4:
-            continue
-        indent = '  ' * (level - 2)
-        anchor = slugify(text)
-        toc_lines.append(f'{indent}- [{text}](#{anchor})')
-    toc_lines.append('')
-    toc_lines.append('<!-- TOC END -->')
-    toc_lines.append('')
-    return toc_lines
+from frontmatter_utils import dump_frontmatter, ensure_h1, split_frontmatter, title_from_body
 
 
 def update_file(path: Path):
     s = path.read_text(encoding='utf-8')
-    # normalize line endings
-    s = s.replace('\r\n', '\n').replace('\r', '\n')
-    lines = s.split('\n')
+    meta, body = split_frontmatter(s)
+    lines = body.split('\n')
 
     # normalize headings: ensure single space after #
     for i, ln in enumerate(lines):
@@ -78,21 +31,11 @@ def update_file(path: Path):
             lines[i] = f"{hashes} {text}"
 
     # Ensure H1
-    title = path.stem.replace('_', ' ').replace('-', ' ').title()
-    lines = ensure_h1(lines, title)
-
-    # parse headings
-    headings = parse_headings(lines)
-    # build toc from headings
-    toc = generate_toc(headings)
-
-    # insert or replace TOC
-    joined = '\n'.join(lines) + '\n'
-    if '<!-- TOC -->' in joined and '<!-- TOC END -->' in joined:
-        joined = re.sub(r'<!-- TOC -->.*?<!-- TOC END -->', '\n'.join(toc), joined, flags=re.S)
-    else:
-        # insert after H1
-        joined = re.sub(r'^(#\s+.*?\n)', r"\1" + '\n'.join(toc) + '\n', joined, count=1, flags=re.M)
+    joined = '\n'.join(lines)
+    title = str(meta.get('title', '')).strip() or title_from_body(joined, path)
+    joined = ensure_h1(joined, title)
+    if meta:
+        joined = dump_frontmatter(meta) + '\n' + joined
 
     # ensure trailing newline
     if not joined.endswith('\n'):

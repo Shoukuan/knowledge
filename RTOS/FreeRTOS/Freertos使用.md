@@ -1,15 +1,13 @@
+---
+title: Freertos使用
+type: note
+status: active
+tags: ["RTOS", "FreeRTOS"]
+aliases: ["FreeRTOS", "freertos", "RTOS"]
+sources: ["https://doc.embedfire.com/rtos/freertos/zh/latest/index.html", "https://freertos.org/zh-cn-cmn-s/a00106.html"]
+updated_at: 2026-04-28
+---
 # Freertos使用
-<!-- TOC -->
-
-- [创建项目](#)
-- [流缓冲区](#)
-  - [xstreamBufferSend()](#xstreambuffersend)
-- [消息缓冲区](#)
-- [线程调度](#)
-
-<!-- TOC END -->
-
-
 [[野火]FreeRTOS 内核实现与应用开发实战—基于STM32](https://doc.embedfire.com/rtos/freertos/zh/latest/index.html)
 
 [Freertos API引用](https://freertos.org/zh-cn-cmn-s/a00106.html)
@@ -120,4 +118,3 @@ List_t * const pxConstList = ( pxList );             \
  ( pxTCB ) = ( pxConstList )->pxIndex->pvOwner;           \
 }
 ```
-

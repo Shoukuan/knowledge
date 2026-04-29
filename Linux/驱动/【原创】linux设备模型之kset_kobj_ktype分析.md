@@ -1,10 +1,13 @@
+---
+title: 【原创】linux设备模型之kset/kobj/ktype分析
+type: note
+status: seed
+tags: ["Linux", "驱动"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # 【原创】linux设备模型之kset/kobj/ktype分析
-<!-- TOC -->
-
-
-<!-- TOC END -->
-
-
 [【原创】linux设备模型之kset/kobj/ktype分析](https://www.cnblogs.com/LoyenWang/p/13334196.html)
 
 kobject代表内核对象，结构体本身不单独使用，而是嵌套在其他高层结构中，用于组织成拓扑关系；
@@ -176,4 +179,3 @@ MODULE_AUTHOR("LoyenWang");
 MODULE_LICENSE("GPL");
 
 ```
-

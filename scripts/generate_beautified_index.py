@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate a beautified REPO_INDEX.md with collapsible sections by top-level folder
-and produce a search index JSON for a simple client-side search page.
+Generate a frontmatter-aware repository index and search index.
 
 Usage:
   python scripts/generate_beautified_index.py --root . --out docs/REPO_INDEX.md --search docs/search_index.json
@@ -9,7 +8,8 @@ Usage:
 import argparse
 import json
 from pathlib import Path
-import re
+
+from frontmatter_utils import split_frontmatter, strip_markup_for_snippet, title_from_body
 
 
 def title_from_md(path: Path):
@@ -17,14 +17,11 @@ def title_from_md(path: Path):
         s = path.read_text(encoding='utf-8')
     except Exception:
         return path.stem
-    m = re.search(r'^#\s+(.+)', s, flags=re.M)
-    if m:
-        return m.group(1).strip()
-    # fallback first non-empty line
-    for ln in s.splitlines():
-        if ln.strip():
-            return ln.strip()[:80]
-    return path.stem
+    meta, body = split_frontmatter(s)
+    title = str(meta.get('title', '')).strip()
+    if title:
+        return title
+    return title_from_body(body, path)
 
 
 def snippet_from_md(path: Path):
@@ -32,14 +29,35 @@ def snippet_from_md(path: Path):
         s = path.read_text(encoding='utf-8')
     except Exception:
         return ''
-    # remove headings and code blocks then take first paragraph
-    s = re.sub(r'```.*?```', '', s, flags=re.S)
-    s = re.sub(r'^#+.*$', '', s, flags=re.M)
-    for p in s.split('\n\n'):
-        t = p.strip()
-        if t:
-            return t.replace('\n',' ')[:240]
-    return ''
+    _, body = split_frontmatter(s)
+    return strip_markup_for_snippet(body)
+
+
+def metadata_from_md(path: Path):
+    try:
+        s = path.read_text(encoding='utf-8')
+    except Exception:
+        return {}
+    meta, _ = split_frontmatter(s)
+    return meta
+
+
+def should_skip(path: Path, out_md: Path, search_json: Path) -> bool:
+    resolved = path.resolve()
+    return resolved in {out_md.resolve(), search_json.resolve()}
+
+
+def format_meta_suffix(meta: dict) -> str:
+    parts = []
+    page_type = str(meta.get('type', '')).strip()
+    tags = meta.get('tags', [])
+    if page_type:
+        parts.append(f'type: `{page_type}`')
+    if isinstance(tags, list) and tags:
+        parts.append('tags: ' + ', '.join(str(tag) for tag in tags[:4]))
+    if not parts:
+        return ''
+    return ' · ' + ' · '.join(parts)
 
 
 def build_index(root: Path, out_md: Path, search_json: Path, max_depth=5):
@@ -57,6 +75,8 @@ def build_index(root: Path, out_md: Path, search_json: Path, max_depth=5):
         lines = []
         for it in items:
             rel = it.relative_to(root).as_posix()
+            if should_skip(it, out_md, search_json):
+                continue
             if it.is_dir():
                 # details block per directory
                 lines.append('<details>')
@@ -67,14 +87,24 @@ def build_index(root: Path, out_md: Path, search_json: Path, max_depth=5):
                 lines.append('</details>')
             else:
                 display = it.name
-                lines.append(f'- [{display}]({rel})')
+                meta = metadata_from_md(it) if it.suffix.lower() == '.md' else {}
+                lines.append(f'- [{display}]({rel}){format_meta_suffix(meta)}')
                 if it.suffix.lower() == '.md':
                     title = title_from_md(it)
                     snippet = snippet_from_md(it)
-                    search_entries.append({'title': title, 'path': rel, 'snippet': snippet})
+                    search_entries.append({
+                        'title': title,
+                        'path': rel,
+                        'snippet': snippet,
+                        'type': meta.get('type', ''),
+                        'tags': meta.get('tags', []),
+                        'aliases': meta.get('aliases', []),
+                    })
         return lines
 
     for e in entries:
+        if should_skip(e, out_md, search_json):
+            continue
         if e.is_dir():
             md_lines.append(f'## {e.name}')
             md_lines.append('')
@@ -82,11 +112,19 @@ def build_index(root: Path, out_md: Path, search_json: Path, max_depth=5):
             md_lines.append('')
         else:
             rel = e.relative_to(root).as_posix()
-            md_lines.append(f'- [{e.name}]({rel})')
+            meta = metadata_from_md(e) if e.suffix.lower() == '.md' else {}
+            md_lines.append(f'- [{e.name}]({rel}){format_meta_suffix(meta)}')
             if e.suffix.lower() == '.md':
                 title = title_from_md(e)
                 snippet = snippet_from_md(e)
-                search_entries.append({'title': title, 'path': rel, 'snippet': snippet})
+                search_entries.append({
+                    'title': title,
+                    'path': rel,
+                    'snippet': snippet,
+                    'type': meta.get('type', ''),
+                    'tags': meta.get('tags', []),
+                    'aliases': meta.get('aliases', []),
+                })
 
     out_md.parent.mkdir(parents=True, exist_ok=True)
     out_md.write_text('\n'.join(md_lines) + '\n', encoding='utf-8')

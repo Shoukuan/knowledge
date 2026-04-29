@@ -1,11 +1,13 @@
+---
+title: 【ARM】Uboot代码分析-阿里云开发者社区
+type: note
+status: seed
+tags: ["Linux", "uboot+Linux Kernel启动", "uboot"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # 【ARM】Uboot代码分析-阿里云开发者社区
-<!-- TOC -->
-
-- [UBoot启动过程](#uboot)
-
-<!-- TOC END -->
-
-
 [【ARM】Uboot代码分析-阿里云开发者社区](https://developer.aliyun.com/article/23878)
 
 [Uboot启动](https://www.cnblogs.com/jzcn/p/16966628.html)
@@ -67,4 +69,3 @@ MMU必须关闭
 指令Cache可以打开也可以关闭
 
 数据Cache必须关闭
-

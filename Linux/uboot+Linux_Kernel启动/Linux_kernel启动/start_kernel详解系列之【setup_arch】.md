@@ -1,11 +1,13 @@
+---
+title: start_kernel详解系列之【setup_arch】
+type: note
+status: seed
+tags: ["Linux", "uboot+Linux Kernel启动", "Linux kernel启动"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # start_kernel详解系列之【setup_arch】
-<!-- TOC -->
-
-- [文章目录](#)
-
-<!-- TOC END -->
-
-
 [start_kernel详解系列之【setup_arch】](https://blog.csdn.net/iriczhao/article/details/124083152)
 
 ## 文章目录
@@ -26,4 +28,3 @@ start_kernel详解系列之【setup_arch】
 （2-11）对称多处理器下的初始化
 （2-12）架构早期初始化
 三、结尾
-

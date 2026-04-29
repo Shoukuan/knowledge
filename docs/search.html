@@ -8,11 +8,13 @@
     input{width:100%;padding:10px;margin-bottom:10px}
     .result{padding:8px;border-bottom:1px solid #eee}
     .path{color:#666;font-size:0.9em}
+    .meta{color:#444;font-size:0.9em;margin:4px 0}
+    .pill{display:inline-block;border:1px solid #ddd;border-radius:999px;padding:2px 8px;margin-right:6px;font-size:0.85em}
   </style>
 <head>
 <body>
   <h1>仓库文档搜索</h1>
-  <input id="q" placeholder="输入关键字搜索标题或路径（回车）" />
+  <input id="q" placeholder="输入关键字搜索标题、路径、标签、别名（回车）" />
   <div id="results"></div>
 
   <script>
@@ -25,7 +27,9 @@
       if(results.length===0){ out.innerHTML = '<p>无结果</p>'; return }
       for(const r of results.slice(0,200)){
         const d = document.createElement('div'); d.className='result';
-        d.innerHTML = `<div><a href='${r.path}'>${r.title || r.path}</a></div><div class='path'>${r.path}</div><div>${r.snippet||''}</div>`;
+        const tags = Array.isArray(r.tags) ? r.tags.map(t => `<span class='pill'>${t}</span>`).join('') : '';
+        const type = r.type ? `<span class='pill'>${r.type}</span>` : '';
+        d.innerHTML = `<div><a href='${r.path}'>${r.title || r.path}</a></div><div class='path'>${r.path}</div><div class='meta'>${type}${tags}</div><div>${r.snippet||''}</div>`;
         out.appendChild(d);
       }
     }
@@ -33,7 +37,21 @@
     function doQuery(t){
       const s = t.trim().toLowerCase();
       if(!s){ render([]); return }
-      const res = index.filter(i=> (i.title||'').toLowerCase().includes(s) || i.path.toLowerCase().includes(s));
+      const res = index
+        .map(i => {
+          const aliases = Array.isArray(i.aliases) ? i.aliases.join(' ') : '';
+          const tags = Array.isArray(i.tags) ? i.tags.join(' ') : '';
+          const haystack = `${i.title||''} ${i.path||''} ${i.type||''} ${aliases} ${tags}`.toLowerCase();
+          let score = 0;
+          if((i.title||'').toLowerCase().includes(s)) score += 5;
+          if((i.path||'').toLowerCase().includes(s)) score += 3;
+          if((i.type||'').toLowerCase().includes(s)) score += 2;
+          if(tags.toLowerCase().includes(s)) score += 4;
+          if(aliases.toLowerCase().includes(s)) score += 4;
+          return haystack.includes(s) ? {...i, score} : null;
+        })
+        .filter(Boolean)
+        .sort((a, b) => b.score - a.score || a.path.localeCompare(b.path, 'zh-CN'));
       render(res);
     }
   </script>

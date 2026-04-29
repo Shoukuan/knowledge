@@ -1,10 +1,13 @@
+---
+title: start_kernel介绍
+type: source
+status: active
+tags: ["Linux", "uboot+Linux Kernel启动", "Linux kernel启动"]
+aliases: []
+sources: ["https://www.cnblogs.com/lifexy/p/7366782.html", "http://blog.csdn.net/universus/archive/2010/05/25/5623971.aspx", "http://blogold.chinaunix.net/u3/97642/showart_2050200.html", "http://book.chinaunix.net/special/ebook/PrenticeHall/PrenticeHallPTRTheLinuxKernelPrimer/0131181637/ch08lev1sec5.html", "http://www.cublog.cn/u3/94690/showart_2238008.html"]
+updated_at: 2026-04-28
+---
 # start_kernel介绍
-<!-- TOC -->
-
-
-<!-- TOC END -->
-
-
 [start_kernel介绍](https://www.cnblogs.com/lifexy/p/7366782.html)
 
 ```C
@@ -400,4 +403,3 @@ acpi_early_init(); /* before LAPIC and SMP init */
 rest_init(); 
 }
 ```
-

@@ -2,506 +2,2564 @@
   {
     "title": "锁步核（lock-step）-软件冗余-可分核（split-step）",
     "path": "ARM/Core/锁步核（lock-step）-软件冗余-可分核（split-step）.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": ">为了满足汽车功能安全（如ISO26262），有许多有用的措施来规避E/E系统异常崩溃造成的不必要伤害。",
+    "type": "note",
+    "tags": [
+      "ARM",
+      "Core"
+    ],
+    "aliases": []
   },
   {
     "title": "Coresight",
     "path": "ARM/coresight/coresight.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "数据流示例：ETM → ATB → Trace Funnel → ATB → TPIU → 外部调试器。",
+    "type": "note",
+    "tags": [
+      "ARM",
+      "coresight"
+    ],
+    "aliases": []
   },
   {
     "title": "GIC 600",
     "path": "ARM/GIC/GIC600/gic_600.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "",
+    "type": "note",
+    "tags": [
+      "ARM",
+      "GIC",
+      "GIC600"
+    ],
+    "aliases": []
   },
   {
     "title": "GIC",
     "path": "ARM/GIC/GIC.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "**SGI**私有软件触发中断 0~15 用于核间通信 通常用于多核通信",
+    "type": "note",
+    "tags": [
+      "ARM",
+      "GIC",
+      "中断"
+    ],
+    "aliases": [
+      "Generic Interrupt Controller",
+      "ARM GIC"
+    ]
   },
   {
     "title": "AHB总线",
     "path": "ARM/总线/AHB总线.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "AHB总线",
+    "type": "source",
+    "tags": [
+      "ARM",
+      "总线"
+    ],
+    "aliases": []
   },
   {
     "title": "APB总线",
     "path": "ARM/总线/APB总线.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "APB总线协议学习笔记",
+    "type": "source",
+    "tags": [
+      "ARM",
+      "总线"
+    ],
+    "aliases": []
   },
   {
     "title": "AXI总线",
     "path": "ARM/总线/AXI总线.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "理解AXI4协议",
+    "type": "source",
+    "tags": [
+      "ARM",
+      "总线"
+    ],
+    "aliases": []
   },
   {
     "title": "ARM寄存器简介",
     "path": "ARM/架构/ARM寄存器简介.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "ARM 寄存器简介",
+    "type": "source",
+    "tags": [
+      "ARM",
+      "架构"
+    ],
+    "aliases": []
   },
   {
     "title": "异常和中断处理",
     "path": "ARM/架构/异常和中断处理.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "ARM架构（二）异常和中断处理",
+    "type": "source",
+    "tags": [
+      "ARM",
+      "架构"
+    ],
+    "aliases": []
   },
   {
     "title": "ARM64汇编",
     "path": "ARM/汇编指令/ARM64汇编.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "ARM64汇编",
+    "type": "source",
+    "tags": [
+      "ARM",
+      "汇编指令"
+    ],
+    "aliases": []
   },
   {
-    "title": "仓库目录索引",
-    "path": "docs/REPO_INDEX.md",
-    "snippet": "- **ARM/**   - **Core/**     - [arm_cortex_a78ae_core_trm_101779_0003_08_en.pdf](ARM/Core/arm_cortex_a78ae_core_trm_101779_0003_08_en.pdf)     - [arm_cortex_r52_processor_trm_100026_0104_00_en.pdf](ARM/Core/arm_cortex_r52_processor_trm_1000"
+    "title": "使用 GitHub Pages 部署 `docs/`",
+    "path": "docs/GITHUB_PAGES.md",
+    "snippet": "此说明将 `docs/` 目录部署到 GitHub Pages（`gh-pages` 分支），通过仓库内的 Actions 自动化实现。",
+    "type": "reference",
+    "tags": [],
+    "aliases": []
   },
   {
     "title": "buildroot 构建指南",
     "path": "Linux/buildroot/buildroot 构建指南.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "buildroot 构建指南",
+    "type": "source",
+    "tags": [
+      "Linux",
+      "buildroot"
+    ],
+    "aliases": []
   },
   {
     "title": "buildroot使用介绍",
     "path": "Linux/buildroot/buildroot使用介绍.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "buildroot使用介绍",
+    "type": "source",
+    "tags": [
+      "Linux",
+      "buildroot"
+    ],
+    "aliases": []
   },
   {
     "title": "buildroot概述及使用",
     "path": "Linux/buildroot/buildroot概述及使用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "buildroot概述及使用",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "buildroot",
+      "Buildroot",
+      "构建系统"
+    ],
+    "aliases": [
+      "Buildroot",
+      "buildroot"
+    ]
   },
   {
     "title": "The Buildroot user manual",
     "path": "Linux/buildroot/The Buildroot user manual.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "The Buildroot user manual",
+    "type": "source",
+    "tags": [
+      "Linux",
+      "buildroot"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux工具",
     "path": "Linux/Linux工具/Linux工具.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "工具参考",
+    "type": "source",
+    "tags": [
+      "Linux",
+      "Linux工具"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux 启动时间优化实战，2.41 秒启动应用",
     "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/Linux 启动时间优化实战，2.41 秒启动应用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux 启动时间优化实战，2.41 秒启动应用！",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux内核启动流程",
     "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/Linux内核启动流程.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux内核启动流程",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动",
+      "启动",
+      "boot"
+    ],
+    "aliases": [
+      "Linux boot flow",
+      "start_kernel",
+      "Linux 启动流程"
+    ]
   },
   {
     "title": "start_kernel介绍",
     "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel介绍.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "start_kernel介绍",
+    "type": "source",
+    "tags": [
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动"
+    ],
+    "aliases": []
   },
   {
     "title": "start_kernel详解系列之【setup_arch】",
     "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel详解系列之【setup_arch】.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "start_kernel详解系列之【setup_arch】",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动"
+    ],
+    "aliases": []
   },
   {
     "title": "嵌入式linux启动时间优化",
     "path": "Linux/uboot+Linux_Kernel启动/Linux_kernel启动/嵌入式linux启动时间优化.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "嵌入式linux启动时间优化",
+    "type": "source",
+    "tags": [
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动"
+    ],
+    "aliases": []
   },
   {
     "title": "【ARM】Uboot代码分析-阿里云开发者社区",
     "path": "Linux/uboot+Linux_Kernel启动/uboot/【ARM】Uboot代码分析-阿里云开发者社区.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "【ARM】Uboot代码分析-阿里云开发者社区",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "uboot"
+    ],
+    "aliases": []
   },
   {
     "title": "超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）",
     "path": "Linux/uboot+Linux_Kernel启动/uboot/超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "uboot"
+    ],
+    "aliases": []
   },
   {
     "title": "linux3.10 中断处理过程（一）中断初始化及irq处理详解（汇编部分）",
     "path": "Linux/中断/linux3.10 中断处理过程（一）中断初始化及irq处理详解（汇编部分）.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "linux3.10 中断处理过程（一）中断初始化及irq处理详解（汇编部分）",
+    "type": "source",
+    "tags": [
+      "Linux",
+      "中断"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux内核中的软中断、tasklet和工作队列详解",
     "path": "Linux/中断/Linux内核中的软中断、tasklet和工作队列详解.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux内核中的软中断、tasklet和工作队列详解",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "中断"
+    ],
+    "aliases": []
   },
   {
     "title": "bin的技术小屋关于内存管理的分享",
     "path": "Linux/内存管理/bin的技术小屋--聊聊Linux内核.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": []
   },
   {
     "title": "Kmalloc和Vmalloc的区别",
     "path": "Linux/内存管理/Kmalloc和Vmalloc的区别.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Kmalloc和Vmalloc的区别",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux内存管理初始化",
     "path": "Linux/内存管理/Linux内存管理初始化.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux内存初始化",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": []
   },
   {
     "title": "NUMA 架构",
     "path": "Linux/内存管理/NUMA 架构.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "NUMA 架构",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": []
   },
   {
     "title": "内存管理总结",
     "path": "Linux/内存管理/内存管理总结.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "| 用户态/内核态 |                API                |             物理地址连续 |                     大小限制                      |                    单位 |                             场景                             | | :------------ | :-------------------",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": [
+      "Linux 内存管理",
+      "Memory Management"
+    ]
   },
   {
     "title": "细说mmap系统调用",
     "path": "Linux/内存管理/细说mmap系统调用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "细说mmap系统调用",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux调试工具",
     "path": "Linux/调试/Linux调试工具.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux调试工具",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "调试",
+      "工具"
+    ],
+    "aliases": [
+      "Linux debugging tools",
+      "gdb",
+      "perf",
+      "ftrace"
+    ]
   },
   {
     "title": "深入理解linux系统下proc文件系统内容",
     "path": "Linux/调试/深入理解linux系统下proc文件系统内容.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "深入理解linux系统下proc文件系统内容",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "调试"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux CFS 调度器：原理、设计与内核实现（2023）",
     "path": "Linux/进程调度/Linux CFS 调度器：原理、设计与内核实现（2023）.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux CFS 调度器：原理、设计与内核实现（2023）",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "进程调度"
+    ],
+    "aliases": []
   },
   {
     "title": "linux进程调度",
     "path": "Linux/进程调度/linux进程调度.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "linux进程调度",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "进程调度",
+      "调度器"
+    ],
+    "aliases": [
+      "Linux 调度",
+      "Linux scheduler",
+      "进程调度"
+    ]
   },
   {
     "title": "万字长文，锤它！揭秘Linux进程调度器",
     "path": "Linux/进程调度/万字长文，锤它！揭秘Linux进程调度器.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "万字长文，锤它！揭秘Linux进程调度器",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "进程调度"
+    ],
+    "aliases": []
   },
   {
     "title": "深入理解Linux内核进程的管理与调度(最详细)",
     "path": "Linux/进程调度/深入理解Linux内核进程的管理与调度(最详细).md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "深入理解Linux内核进程的管理与调度(最详细)",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "进程调度"
+    ],
+    "aliases": []
   },
   {
     "title": "ALSA 音频系统：物理链路篇",
     "path": "Linux/驱动/ALSA/ALSA 音频系统：物理链路篇.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "ALSA 音频系统：物理链路篇",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "ALSA"
+    ],
+    "aliases": []
   },
   {
     "title": "ALSA架构中DMA的使用",
     "path": "Linux/驱动/ALSA/ALSA架构中DMA的使用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "ALSA架构中DMA的使用",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "ALSA"
+    ],
+    "aliases": []
   },
   {
     "title": "DMA-BUF",
     "path": "Linux/驱动/DMA-BUF/概念.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "dma-buf 由浅入深",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "DMA BUF"
+    ],
+    "aliases": []
   },
   {
     "title": "Device Tree：基本概念",
     "path": "Linux/驱动/DTS/Device Tree：基本概念.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Device Tree：基本概念",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "DTS",
+      "设备树"
+    ],
+    "aliases": [
+      "Device Tree",
+      "设备树",
+      "DT"
+    ]
   },
   {
     "title": "Linux 设备树语法（.dts）及如何从设备树获取节点信息",
     "path": "Linux/驱动/DTS/Linux 设备树语法（.dts）及如何从设备树获取节点信息.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux 设备树语法（.dts）及如何从设备树获取节点信息",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "DTS"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux设备树--设备树格式和使用",
     "path": "Linux/驱动/DTS/Linux设备树--设备树格式和使用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux设备树--设备树格式和使用",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "DTS"
+    ],
+    "aliases": []
   },
   {
     "title": "I2C驱动",
     "path": "Linux/驱动/I2C/i2c驱动.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "I2C总线对应这/bus下的一条总线，这个I2C总线结构体管理着I2C设备与I2C驱动的匹配，删除等操作，当设备或者驱动注册到总线时，I2C总线会调用i2c_device_match函数查看I2C设备和驱动是否匹配，如果匹配则调用i2c_device_probe函数 ，进而调用I2C驱动的probe函数。",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "I2C"
+    ],
+    "aliases": []
   },
   {
     "title": "v4l2的学习建议和流程解析",
     "path": "Linux/驱动/V4L2/v4l2的学习建议和流程解析.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "v4l2的学习建议和流程解析",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动",
+      "V4L2"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux字符设备驱动",
     "path": "Linux/驱动/Linux字符设备.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux字符设备驱动",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动"
+    ],
+    "aliases": []
   },
   {
     "title": "linux平台设备驱动架构详解 Linux Platform Device and Driver",
     "path": "Linux/驱动/linux平台设备驱动架构详解 Linux Platform Device and Driver.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "linux平台设备驱动架构详解 Linux Platform Device and Driver",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux驱动常用API整理",
     "path": "Linux/驱动/Linux驱动常用API整理.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux驱动常用API整理",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动"
+    ],
+    "aliases": []
   },
   {
     "title": "【原创】linux设备模型之kset/kobj/ktype分析",
     "path": "Linux/驱动/【原创】linux设备模型之kset_kobj_ktype分析.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "【原创】linux设备模型之kset/kobj/ktype分析",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "驱动"
+    ],
+    "aliases": []
   },
   {
     "title": "linux_kernel_wiki",
     "path": "Linux/linux_kernel_wiki.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "linux_kernel_wiki",
+    "type": "source",
+    "tags": [
+      "Linux"
+    ],
+    "aliases": []
   },
   {
     "title": "Linux 内核",
     "path": "Linux/Linux内核.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Linux 内核 5.10.14",
+    "type": "note",
+    "tags": [
+      "Linux",
+      "内核"
+    ],
+    "aliases": [
+      "Linux kernel",
+      "Linux Kernel",
+      "Kernel"
+    ]
   },
   {
     "title": "Linux嵌入式系统开发",
     "path": "Linux/Linux嵌入式系统开发.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "bick开发笔记--Linux嵌入式系统开发",
+    "type": "note",
+    "tags": [
+      "Linux"
+    ],
+    "aliases": []
   },
   {
     "title": "Read-Copy Update (RCU) Publications",
     "path": "Linux/Read-Copy-Update(RCU).md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Read-Copy Update (RCU) Publications",
+    "type": "source",
+    "tags": [
+      "Linux"
+    ],
+    "aliases": []
   },
   {
     "title": "Vmware+gdb调试Linux内核",
     "path": "Linux/Vmware+gdb调试Linux内核.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Vmware+gdb调试Linux内核",
+    "type": "source",
+    "tags": [
+      "Linux"
+    ],
+    "aliases": []
   },
   {
     "title": "一文搞懂select、poll和epoll区别",
     "path": "Linux/一文搞懂select、poll和epoll区别.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "一文搞懂select、poll和epoll区别",
+    "type": "source",
+    "tags": [
+      "Linux"
+    ],
+    "aliases": []
   },
   {
-    "title": "Large files report",
-    "path": "reports/large_files.md",
-    "snippet": "<!-- TOC -->"
+    "title": "外链体检报告",
+    "path": "reports/external_links_audit.md",
+    "snippet": "- 扫描仓库: `/Users/yibiao/Public/shoukuan_github/knowledge` - Markdown 文件数: `194` - 含外链文件数: `98` - 生成时间: `2026-04-28 22:08:52` - 说明: 当前报告只做仓库内结构扫描与分类，不做网页在线可达性检查。",
+    "type": "",
+    "tags": [],
+    "aliases": []
   },
   {
     "title": "PLIC CLINT",
     "path": "RiscV/中断/plic_clint.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "CLINT is a name we have used at SiFive to cover the local interrupts described in the privileged architecture standard v1.10, including the software interrupts, the timer interrupts, the external interrupt (which is usually in turn connecte",
+    "type": "note",
+    "tags": [
+      "RiscV",
+      "中断"
+    ],
+    "aliases": []
   },
   {
     "title": "(RISCV) RISC-V System, Booting, And Interrupts",
     "path": "RiscV/(RISCV) RISC-V System, Booting, And Interrupts.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "(RISCV) RISC-V System, Booting, And Interrupts",
+    "type": "note",
+    "tags": [
+      "RiscV"
+    ],
+    "aliases": []
   },
   {
     "title": "Riscv_DV",
     "path": "RiscV/riscv_dv.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Riscv_DV是一个开源的Riscv验证环境，它提供了一套完整的Riscv验证工具，包括指令集测试、中断测试、异常测试、调试测试等。Riscv_DV还提供了一套完整的Riscv模拟器，可以用于验证Riscv指令集的正确性。",
+    "type": "note",
+    "tags": [
+      "RiscV"
+    ],
+    "aliases": []
   },
   {
     "title": "基础指令集",
     "path": "RiscV/基础指令集.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "指令数量：仅 47 条指令（基础整数操作）。 指令长度：32 位固定长度（支持可选的 C 扩展 压缩为 16 位）。 寄存器：32 个通用寄存器（x0–x31），32 位（RV32I）或 64 位（RV64I）。 寻址空间： RV32I：32 位地址空间（4GB）。 RV64I：64 位地址空间（但实际实现可能限制为 48 位或更少）。",
+    "type": "note",
+    "tags": [
+      "RiscV",
+      "指令集",
+      "ISA"
+    ],
+    "aliases": [
+      "RISC-V ISA",
+      "RV32I",
+      "RV64I"
+    ]
   },
   {
     "title": "Freertos使用",
     "path": "RTOS/FreeRTOS/Freertos使用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "[[野火]FreeRTOS 内核实现与应用开发实战—基于STM32](https://doc.embedfire.com/rtos/freertos/zh/latest/index.html)",
+    "type": "note",
+    "tags": [
+      "RTOS",
+      "FreeRTOS"
+    ],
+    "aliases": [
+      "FreeRTOS",
+      "freertos",
+      "RTOS"
+    ]
   },
   {
     "title": "内存管理",
     "path": "RTOS/FreeRTOS/内存管理.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "内存管理",
+    "type": "source",
+    "tags": [
+      "RTOS",
+      "FreeRTOS"
+    ],
+    "aliases": []
   },
   {
     "title": "NuttX简介",
     "path": "RTOS/NuttX/NuttX简介.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "NuttX简介",
+    "type": "note",
+    "tags": [
+      "RTOS",
+      "NuttX"
+    ],
+    "aliases": [
+      "NuttX",
+      "Apache NuttX"
+    ]
   },
   {
     "title": "ThreadX 文档",
     "path": "RTOS/ThreadX/ThreadX文档.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "ThreadX文档",
+    "type": "note",
+    "tags": [
+      "RTOS",
+      "ThreadX"
+    ],
+    "aliases": []
   },
   {
     "title": "FreeRTOS和ThreadX",
     "path": "RTOS/Freertos和Threadx.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "FreeRTOS和ThreadX是两种流行的嵌入式操作系统，常用于嵌入式系统开发。它们各自具有独特的特点和优势。",
+    "type": "note",
+    "tags": [
+      "RTOS"
+    ],
+    "aliases": []
   },
   {
     "title": "Git 历史清理指南（安全步骤）",
     "path": "scripts/git_history_cleanup.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "目的：从 Git 历史中移除已提交的“大文件”以缩小仓库体积。该文档给出使用 `git filter-repo` 或 BFG 的安全流程与示例命令。执行前务必备份并与团队协调。",
+    "type": "guide",
+    "tags": [],
+    "aliases": []
   },
   {
     "title": "scripts",
     "path": "scripts/README.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "包含用于仓库维护的小脚本。",
+    "type": "guide",
+    "tags": [],
+    "aliases": []
   },
   {
     "title": "调试工具（三）：trace32",
     "path": "Trace32/调试工具-Trace32.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "调试工具（三）：trace32",
+    "type": "note",
+    "tags": [
+      "Trace32",
+      "调试工具"
+    ],
+    "aliases": [
+      "TRACE32",
+      "Lauterbach Trace32",
+      "Lauterbach"
+    ]
+  },
+  {
+    "title": "CAN",
+    "path": "wiki/concepts/can.md",
+    "snippet": "CAN 是工业与汽车电子场景中极高频的总线协议，当前知识库已经有协议结构和帧格式相关入口。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "CAN",
+      "总线"
+    ],
+    "aliases": [
+      "Controller Area Network",
+      "CAN bus"
+    ]
+  },
+  {
+    "title": "GIC",
+    "path": "wiki/concepts/gic.md",
+    "snippet": "GIC 是 ARM 平台里的核心中断控制架构，当前知识库涵盖版本差异、中断类型、状态转换和 GIC-600 相关资料。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "GIC",
+      "ARM"
+    ],
+    "aliases": [
+      "Generic Interrupt Controller",
+      "ARM GIC"
+    ]
+  },
+  {
+    "title": "I2C",
+    "path": "wiki/concepts/i2c.md",
+    "snippet": "I2C 是嵌入式系统里最基础也最常见的低速串行总线之一，当前知识库已经兼顾协议与 Linux 驱动视角。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "I2C",
+      "总线"
+    ],
+    "aliases": [
+      "Inter-Integrated Circuit",
+      "I2C bus"
+    ]
+  },
+  {
+    "title": "IPC",
+    "path": "wiki/concepts/ipc.md",
+    "snippet": "IPC 在当前知识库里跨本地 OS 通信、分布式调用和异构多核消息传递三类场景。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "IPC",
+      "中间件"
+    ],
+    "aliases": [
+      "Inter Process Communication",
+      "进程间通信",
+      "消息通信"
+    ]
+  },
+  {
+    "title": "PCIe",
+    "path": "wiki/concepts/pcie.md",
+    "snippet": "PCIe 是当前高速总线主题的主入口，内容从基础概念延伸到配置空间、协议层和 Linux 驱动框架。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "PCIe",
+      "总线"
+    ],
+    "aliases": [
+      "PCI Express",
+      "Root Complex",
+      "Endpoint"
+    ]
+  },
+  {
+    "title": "RPC",
+    "path": "wiki/concepts/rpc.md",
+    "snippet": "RPC 是分布式通信里最经典的抽象之一，适合和本地 IPC、DDS 这类消息模型一起对照理解。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "RPC",
+      "通信"
+    ],
+    "aliases": [
+      "Remote Procedure Call",
+      "远程调用"
+    ]
+  },
+  {
+    "title": "USB",
+    "path": "wiki/concepts/usb.md",
+    "snippet": "USB 是当前接口类资料里最完整的一条主线，已经覆盖协议、描述符、枚举和驱动视角。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "USB",
+      "协议"
+    ],
+    "aliases": [
+      "USB protocol",
+      "通用串行总线",
+      "USB 2.0"
+    ]
+  },
+  {
+    "title": "中断",
+    "path": "wiki/concepts/中断.md",
+    "snippet": "中断是当前知识库跨 Linux、ARM 与 RISC-V 的公共基础概念，涉及异常类型、控制器架构和内核处理路径。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "中断",
+      "IRQ"
+    ],
+    "aliases": [
+      "Interrupt",
+      "IRQ",
+      "异常与中断"
+    ]
+  },
+  {
+    "title": "内存管理",
+    "path": "wiki/concepts/内存管理.md",
+    "snippet": "内存管理是 Linux 知识分支中的高密度主题，当前资料覆盖初始化、分配、虚拟内存与 NUMA。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "内存管理",
+      "MM"
+    ],
+    "aliases": [
+      "Memory Management",
+      "MM",
+      "mmap",
+      "NUMA"
+    ]
+  },
+  {
+    "title": "启动流程",
+    "path": "wiki/concepts/启动流程.md",
+    "snippet": "启动流程把 Bootloader、内核入口、早期初始化和用户态拉通，是当前 Linux 系统理解链路中的重要主线。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "启动",
+      "boot"
+    ],
+    "aliases": [
+      "Boot Flow",
+      "Boot Process",
+      "系统启动"
+    ]
+  },
+  {
+    "title": "实时操作系统",
+    "path": "wiki/concepts/实时操作系统.md",
+    "snippet": "实时操作系统是嵌入式系统的关键主线，当前知识库已经形成 FreeRTOS、ThreadX、NuttX 和 QNX 的对照素材。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "RTOS",
+      "实时系统"
+    ],
+    "aliases": [
+      "RTOS",
+      "Real-Time Operating System"
+    ]
+  },
+  {
+    "title": "设备树",
+    "path": "wiki/concepts/设备树.md",
+    "snippet": "设备树是嵌入式 Linux 中描述硬件拓扑和驱动绑定关系的核心机制，当前知识库已经积累概念、语法和使用路径。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "设备树",
+      "DTS"
+    ],
+    "aliases": [
+      "Device Tree",
+      "DT",
+      "DTS"
+    ]
+  },
+  {
+    "title": "调试工具",
+    "path": "wiki/concepts/调试工具.md",
+    "snippet": "调试工具这条线连接了 Linux 用户态/内核态调试和芯片级调试，是把现象定位到根因的关键方法集合。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "调试",
+      "工具"
+    ],
+    "aliases": [
+      "Debugging Tools",
+      "调试方法",
+      "Observability"
+    ]
+  },
+  {
+    "title": "进程调度",
+    "path": "wiki/concepts/进程调度.md",
+    "snippet": "进程调度是理解 Linux 运行时行为的关键主题，当前知识库已覆盖上下文切换、CFS 和调度器设计。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "进程调度",
+      "CFS"
+    ],
+    "aliases": [
+      "Process Scheduling",
+      "Linux scheduler",
+      "CFS"
+    ]
+  },
+  {
+    "title": "驱动模型",
+    "path": "wiki/concepts/驱动模型.md",
+    "snippet": "驱动模型是 Linux 内核与硬件交互的组织骨架，当前资料覆盖平台设备、设备模型对象和常用驱动 API。",
+    "type": "concept",
+    "tags": [
+      "concept",
+      "驱动模型",
+      "Linux"
+    ],
+    "aliases": [
+      "Driver Model",
+      "设备驱动",
+      "Platform Device",
+      "Device Model"
+    ]
+  },
+  {
+    "title": "ARM",
+    "path": "wiki/entities/arm.md",
+    "snippet": "ARM 是当前仓库里与 SoC、异常处理、总线、GIC 和调试链路高度关联的一条主线。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "ARM",
+      "architecture"
+    ],
+    "aliases": [
+      "ARM Architecture",
+      "ARMv8",
+      "ARM64"
+    ]
+  },
+  {
+    "title": "AUTOSAR",
+    "path": "wiki/entities/autosar.md",
+    "snippet": "AUTOSAR 是汽车软件架构领域的重要对象，当前知识库已经有一篇较系统的结构综述作为入口。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "AUTOSAR",
+      "汽车软件"
+    ],
+    "aliases": [
+      "AUTOSAR AP",
+      "AUTOSAR CP",
+      "Adaptive Platform",
+      "Classic Platform"
+    ]
+  },
+  {
+    "title": "Buildroot",
+    "path": "wiki/entities/buildroot.md",
+    "snippet": "Buildroot 是嵌入式 Linux 构建链条中的关键工具，当前知识库已积累概述、构建指南和官方手册入口。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "Buildroot",
+      "构建系统"
+    ],
+    "aliases": [
+      "buildroot"
+    ]
+  },
+  {
+    "title": "DDS",
+    "path": "wiki/entities/dds.md",
+    "snippet": "DDS 是实时分布式通信领域的重要中间件对象，当前知识库已经覆盖概述和进阶两层资料。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "DDS",
+      "中间件"
+    ],
+    "aliases": [
+      "Data Distribution Service",
+      "RTPS",
+      "DDS Middleware"
+    ]
+  },
+  {
+    "title": "FreeRTOS",
+    "path": "wiki/entities/freertos.md",
+    "snippet": "FreeRTOS 是当前 RTOS 分支中的主要对象，重点围绕任务、内存管理和与 ThreadX 的比较。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "FreeRTOS",
+      "RTOS"
+    ],
+    "aliases": [
+      "freertos",
+      "RTOS"
+    ]
+  },
+  {
+    "title": "Linux",
+    "path": "wiki/entities/linux.md",
+    "snippet": "Linux 是当前知识库中的核心技术主线，覆盖内核结构、启动流程、调试、驱动、内存管理和调度等多个主题。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "Linux",
+      "kernel"
+    ],
+    "aliases": [
+      "Linux 内核",
+      "Linux kernel"
+    ]
+  },
+  {
+    "title": "NuttX",
+    "path": "wiki/entities/nuttx.md",
+    "snippet": "NuttX 是当前 RTOS 分支中的另一条操作系统主线，适合与 FreeRTOS、ThreadX 一起形成嵌入式 OS 对照视图。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "NuttX",
+      "RTOS"
+    ],
+    "aliases": [
+      "Apache NuttX",
+      "NuttX RTOS"
+    ]
+  },
+  {
+    "title": "OpenAMP",
+    "path": "wiki/entities/openamp.md",
+    "snippet": "OpenAMP 是异构多核系统中的通信框架，在知识库中与 RPMsg、Virtio 和远程处理器通信密切相关。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "OpenAMP",
+      "IPC"
+    ],
+    "aliases": [
+      "RemoteProc",
+      "RPMsg",
+      "Open Asymmetric Multi Processing"
+    ]
+  },
+  {
+    "title": "QNX",
+    "path": "wiki/entities/qnx.md",
+    "snippet": "QNX 在当前知识库中主要以实时操作系统和消息驱动 IPC 模型为切入点，适合和 Linux、RTOS 分支形成对照。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "QNX",
+      "RTOS"
+    ],
+    "aliases": [
+      "QNX Neutrino",
+      "QNX SDP"
+    ]
+  },
+  {
+    "title": "RISC-V",
+    "path": "wiki/entities/risc-v.md",
+    "snippet": "RISC-V 在知识库中主要覆盖基础指令集、启动流程和中断控制相关内容。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "RiscV",
+      "ISA"
+    ],
+    "aliases": [
+      "RiscV",
+      "RISC-V ISA"
+    ]
+  },
+  {
+    "title": "ThreadX",
+    "path": "wiki/entities/threadx.md",
+    "snippet": "ThreadX 在知识库中作为 RTOS 对照对象存在，适合和 FreeRTOS 一起比较接口、调度和使用方式。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "ThreadX",
+      "RTOS"
+    ],
+    "aliases": [
+      "Azure RTOS ThreadX",
+      "threadx"
+    ]
+  },
+  {
+    "title": "Trace32",
+    "path": "wiki/entities/trace32.md",
+    "snippet": "Trace32 是当前知识库中代表性的芯片级调试工具，内容聚焦寄存器视图、脚本语法和调试工作流。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "Trace32",
+      "调试工具"
+    ],
+    "aliases": [
+      "TRACE32",
+      "Lauterbach Trace32",
+      "Lauterbach"
+    ]
+  },
+  {
+    "title": "U-Boot",
+    "path": "wiki/entities/u-boot.md",
+    "snippet": "U-Boot 是启动链路中的关键对象，当前知识库已经具备从 Bootloader 到内核切换路径的材料。",
+    "type": "entity",
+    "tags": [
+      "entity",
+      "U-Boot",
+      "bootloader"
+    ],
+    "aliases": [
+      "Uboot",
+      "Bootloader",
+      "Das U-Boot"
+    ]
+  },
+  {
+    "title": "GIC 600（资料摘要）",
+    "path": "wiki/sources/ARM/GIC/GIC600/gic_600.md",
+    "snippet": "这是对 `ARM/GIC/GIC600/gic_600.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "ARM",
+      "GIC",
+      "GIC600"
+    ],
+    "aliases": [
+      "GIC 600"
+    ]
+  },
+  {
+    "title": "GIC（资料摘要）",
+    "path": "wiki/sources/ARM/GIC/GIC.md",
+    "snippet": "这是对 `ARM/GIC/GIC.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "ARM",
+      "GIC",
+      "中断"
+    ],
+    "aliases": [
+      "GIC"
+    ]
+  },
+  {
+    "title": "ARM寄存器简介（资料摘要）",
+    "path": "wiki/sources/ARM/架构/ARM寄存器简介.md",
+    "snippet": "这是对 `ARM/架构/ARM寄存器简介.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "ARM",
+      "架构"
+    ],
+    "aliases": [
+      "ARM寄存器简介"
+    ]
+  },
+  {
+    "title": "异常和中断处理（资料摘要）",
+    "path": "wiki/sources/ARM/架构/异常和中断处理.md",
+    "snippet": "这是对 `ARM/架构/异常和中断处理.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "ARM",
+      "架构"
+    ],
+    "aliases": [
+      "异常和中断处理"
+    ]
+  },
+  {
+    "title": "ARM64汇编（资料摘要）",
+    "path": "wiki/sources/ARM/汇编指令/ARM64汇编.md",
+    "snippet": "这是对 `ARM/汇编指令/ARM64汇编.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "ARM",
+      "汇编指令"
+    ],
+    "aliases": [
+      "ARM64汇编"
+    ]
+  },
+  {
+    "title": "buildroot使用介绍（资料摘要）",
+    "path": "wiki/sources/Linux/buildroot/buildroot使用介绍.md",
+    "snippet": "这是对 `Linux/buildroot/buildroot使用介绍.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "buildroot"
+    ],
+    "aliases": [
+      "buildroot使用介绍"
+    ]
+  },
+  {
+    "title": "buildroot概述及使用（资料摘要）",
+    "path": "wiki/sources/Linux/buildroot/buildroot概述及使用.md",
+    "snippet": "这是对 `Linux/buildroot/buildroot概述及使用.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "buildroot",
+      "Buildroot",
+      "构建系统"
+    ],
+    "aliases": [
+      "buildroot概述及使用"
+    ]
+  },
+  {
+    "title": "The Buildroot user manual（资料摘要）",
+    "path": "wiki/sources/Linux/buildroot/The Buildroot user manual.md",
+    "snippet": "这是对 `Linux/buildroot/The Buildroot user manual.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "buildroot"
+    ],
+    "aliases": [
+      "The Buildroot user manual"
+    ]
+  },
+  {
+    "title": "Linux内核启动流程（资料摘要）",
+    "path": "wiki/sources/Linux/uboot+Linux_Kernel启动/Linux_kernel启动/Linux内核启动流程.md",
+    "snippet": "这是对 `Linux/uboot+Linux_Kernel启动/Linux_kernel启动/Linux内核启动流程.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动",
+      "启动",
+      "boot"
+    ],
+    "aliases": [
+      "Linux内核启动流程"
+    ]
+  },
+  {
+    "title": "start_kernel介绍（资料摘要）",
+    "path": "wiki/sources/Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel介绍.md",
+    "snippet": "这是对 `Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel介绍.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动"
+    ],
+    "aliases": [
+      "start_kernel介绍"
+    ]
+  },
+  {
+    "title": "start_kernel详解系列之【setup_arch】（资料摘要）",
+    "path": "wiki/sources/Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel详解系列之【setup_arch】.md",
+    "snippet": "这是对 `Linux/uboot+Linux_Kernel启动/Linux_kernel启动/start_kernel详解系列之【setup_arch】.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "Linux kernel启动"
+    ],
+    "aliases": [
+      "start_kernel详解系列之【setup_arch】"
+    ]
+  },
+  {
+    "title": "【ARM】Uboot代码分析-阿里云开发者社区（资料摘要）",
+    "path": "wiki/sources/Linux/uboot+Linux_Kernel启动/uboot/【ARM】Uboot代码分析-阿里云开发者社区.md",
+    "snippet": "这是对 `Linux/uboot+Linux_Kernel启动/uboot/【ARM】Uboot代码分析-阿里云开发者社区.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "uboot"
+    ],
+    "aliases": [
+      "【ARM】Uboot代码分析-阿里云开发者社区"
+    ]
+  },
+  {
+    "title": "超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）（资料摘要）",
+    "path": "wiki/sources/Linux/uboot+Linux_Kernel启动/uboot/超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）.md",
+    "snippet": "这是对 `Linux/uboot+Linux_Kernel启动/uboot/超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "uboot+Linux Kernel启动",
+      "uboot"
+    ],
+    "aliases": [
+      "超详细分析Bootloader（Uboot）到内核的启动流程（万字长文！）"
+    ]
+  },
+  {
+    "title": "Linux内核中的软中断、tasklet和工作队列详解（资料摘要）",
+    "path": "wiki/sources/Linux/中断/Linux内核中的软中断、tasklet和工作队列详解.md",
+    "snippet": "这是对 `Linux/中断/Linux内核中的软中断、tasklet和工作队列详解.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "中断"
+    ],
+    "aliases": [
+      "Linux内核中的软中断、tasklet和工作队列详解"
+    ]
+  },
+  {
+    "title": "Linux内存管理初始化（资料摘要）",
+    "path": "wiki/sources/Linux/内存管理/Linux内存管理初始化.md",
+    "snippet": "这是对 `Linux/内存管理/Linux内存管理初始化.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": [
+      "Linux内存管理初始化"
+    ]
+  },
+  {
+    "title": "NUMA 架构（资料摘要）",
+    "path": "wiki/sources/Linux/内存管理/NUMA 架构.md",
+    "snippet": "这是对 `Linux/内存管理/NUMA 架构.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": [
+      "NUMA 架构"
+    ]
+  },
+  {
+    "title": "内存管理总结（资料摘要）",
+    "path": "wiki/sources/Linux/内存管理/内存管理总结.md",
+    "snippet": "这是对 `Linux/内存管理/内存管理总结.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": [
+      "内存管理总结"
+    ]
+  },
+  {
+    "title": "细说mmap系统调用（资料摘要）",
+    "path": "wiki/sources/Linux/内存管理/细说mmap系统调用.md",
+    "snippet": "这是对 `Linux/内存管理/细说mmap系统调用.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "内存管理"
+    ],
+    "aliases": [
+      "细说mmap系统调用"
+    ]
+  },
+  {
+    "title": "Linux调试工具（资料摘要）",
+    "path": "wiki/sources/Linux/调试/Linux调试工具.md",
+    "snippet": "这是对 `Linux/调试/Linux调试工具.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "调试",
+      "工具"
+    ],
+    "aliases": [
+      "Linux调试工具"
+    ]
+  },
+  {
+    "title": "Linux CFS 调度器：原理、设计与内核实现（2023）（资料摘要）",
+    "path": "wiki/sources/Linux/进程调度/Linux CFS 调度器：原理、设计与内核实现（2023）.md",
+    "snippet": "这是对 `Linux/进程调度/Linux CFS 调度器：原理、设计与内核实现（2023）.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "进程调度"
+    ],
+    "aliases": [
+      "Linux CFS 调度器：原理、设计与内核实现（2023）"
+    ]
+  },
+  {
+    "title": "linux进程调度（资料摘要）",
+    "path": "wiki/sources/Linux/进程调度/linux进程调度.md",
+    "snippet": "这是对 `Linux/进程调度/linux进程调度.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "进程调度",
+      "调度器"
+    ],
+    "aliases": [
+      "linux进程调度"
+    ]
+  },
+  {
+    "title": "深入理解Linux内核进程的管理与调度(最详细)（资料摘要）",
+    "path": "wiki/sources/Linux/进程调度/深入理解Linux内核进程的管理与调度(最详细).md",
+    "snippet": "这是对 `Linux/进程调度/深入理解Linux内核进程的管理与调度(最详细).md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "进程调度"
+    ],
+    "aliases": [
+      "深入理解Linux内核进程的管理与调度(最详细)"
+    ]
+  },
+  {
+    "title": "Device Tree：基本概念（资料摘要）",
+    "path": "wiki/sources/Linux/驱动/DTS/Device Tree：基本概念.md",
+    "snippet": "这是对 `Linux/驱动/DTS/Device Tree：基本概念.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "驱动",
+      "DTS",
+      "设备树"
+    ],
+    "aliases": [
+      "Device Tree：基本概念"
+    ]
+  },
+  {
+    "title": "Linux 设备树语法（.dts）及如何从设备树获取节点信息（资料摘要）",
+    "path": "wiki/sources/Linux/驱动/DTS/Linux 设备树语法（.dts）及如何从设备树获取节点信息.md",
+    "snippet": "这是对 `Linux/驱动/DTS/Linux 设备树语法（.dts）及如何从设备树获取节点信息.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "驱动",
+      "DTS"
+    ],
+    "aliases": [
+      "Linux 设备树语法（.dts）及如何从设备树获取节点信息"
+    ]
+  },
+  {
+    "title": "Linux设备树--设备树格式和使用（资料摘要）",
+    "path": "wiki/sources/Linux/驱动/DTS/Linux设备树--设备树格式和使用.md",
+    "snippet": "这是对 `Linux/驱动/DTS/Linux设备树--设备树格式和使用.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "驱动",
+      "DTS"
+    ],
+    "aliases": [
+      "Linux设备树--设备树格式和使用"
+    ]
+  },
+  {
+    "title": "I2C驱动（资料摘要）",
+    "path": "wiki/sources/Linux/驱动/I2C/i2c驱动.md",
+    "snippet": "这是对 `Linux/驱动/I2C/i2c驱动.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "驱动",
+      "I2C"
+    ],
+    "aliases": [
+      "I2C驱动"
+    ]
+  },
+  {
+    "title": "linux平台设备驱动架构详解 Linux Platform Device and Driver（资料摘要）",
+    "path": "wiki/sources/Linux/驱动/linux平台设备驱动架构详解 Linux Platform Device and Driver.md",
+    "snippet": "这是对 `Linux/驱动/linux平台设备驱动架构详解 Linux Platform Device and Driver.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "驱动"
+    ],
+    "aliases": [
+      "linux平台设备驱动架构详解 Linux Platform Device and Driver"
+    ]
+  },
+  {
+    "title": "Linux驱动常用API整理（资料摘要）",
+    "path": "wiki/sources/Linux/驱动/Linux驱动常用API整理.md",
+    "snippet": "这是对 `Linux/驱动/Linux驱动常用API整理.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "驱动"
+    ],
+    "aliases": [
+      "Linux驱动常用API整理"
+    ]
+  },
+  {
+    "title": "【原创】linux设备模型之kset/kobj/ktype分析（资料摘要）",
+    "path": "wiki/sources/Linux/驱动/【原创】linux设备模型之kset_kobj_ktype分析.md",
+    "snippet": "这是对 `Linux/驱动/【原创】linux设备模型之kset_kobj_ktype分析.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "驱动"
+    ],
+    "aliases": [
+      "【原创】linux设备模型之kset/kobj/ktype分析"
+    ]
+  },
+  {
+    "title": "linux_kernel_wiki（资料摘要）",
+    "path": "wiki/sources/Linux/linux_kernel_wiki.md",
+    "snippet": "这是对 `Linux/linux_kernel_wiki.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux"
+    ],
+    "aliases": [
+      "linux_kernel_wiki"
+    ]
+  },
+  {
+    "title": "Linux 内核（资料摘要）",
+    "path": "wiki/sources/Linux/Linux内核.md",
+    "snippet": "这是对 `Linux/Linux内核.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux",
+      "内核"
+    ],
+    "aliases": [
+      "Linux 内核"
+    ]
+  },
+  {
+    "title": "Linux嵌入式系统开发（资料摘要）",
+    "path": "wiki/sources/Linux/Linux嵌入式系统开发.md",
+    "snippet": "这是对 `Linux/Linux嵌入式系统开发.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux"
+    ],
+    "aliases": [
+      "Linux嵌入式系统开发"
+    ]
+  },
+  {
+    "title": "Vmware+gdb调试Linux内核（资料摘要）",
+    "path": "wiki/sources/Linux/Vmware+gdb调试Linux内核.md",
+    "snippet": "这是对 `Linux/Vmware+gdb调试Linux内核.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Linux"
+    ],
+    "aliases": [
+      "Vmware+gdb调试Linux内核"
+    ]
+  },
+  {
+    "title": "PLIC CLINT（资料摘要）",
+    "path": "wiki/sources/RiscV/中断/plic_clint.md",
+    "snippet": "这是对 `RiscV/中断/plic_clint.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RiscV",
+      "中断"
+    ],
+    "aliases": [
+      "PLIC CLINT"
+    ]
+  },
+  {
+    "title": "(RISCV) RISC-V System, Booting, And Interrupts（资料摘要）",
+    "path": "wiki/sources/RiscV/(RISCV) RISC-V System, Booting, And Interrupts.md",
+    "snippet": "这是对 `RiscV/(RISCV) RISC-V System, Booting, And Interrupts.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RiscV"
+    ],
+    "aliases": [
+      "(RISCV) RISC-V System, Booting, And Interrupts"
+    ]
+  },
+  {
+    "title": "基础指令集（资料摘要）",
+    "path": "wiki/sources/RiscV/基础指令集.md",
+    "snippet": "这是对 `RiscV/基础指令集.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RiscV",
+      "指令集",
+      "ISA"
+    ],
+    "aliases": [
+      "基础指令集"
+    ]
+  },
+  {
+    "title": "Freertos使用（资料摘要）",
+    "path": "wiki/sources/RTOS/FreeRTOS/Freertos使用.md",
+    "snippet": "这是对 `RTOS/FreeRTOS/Freertos使用.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RTOS",
+      "FreeRTOS"
+    ],
+    "aliases": [
+      "Freertos使用"
+    ]
+  },
+  {
+    "title": "内存管理（资料摘要）",
+    "path": "wiki/sources/RTOS/FreeRTOS/内存管理.md",
+    "snippet": "这是对 `RTOS/FreeRTOS/内存管理.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RTOS",
+      "FreeRTOS"
+    ],
+    "aliases": [
+      "内存管理"
+    ]
+  },
+  {
+    "title": "NuttX简介（资料摘要）",
+    "path": "wiki/sources/RTOS/NuttX/NuttX简介.md",
+    "snippet": "这是对 `RTOS/NuttX/NuttX简介.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RTOS",
+      "NuttX"
+    ],
+    "aliases": [
+      "NuttX简介"
+    ]
+  },
+  {
+    "title": "ThreadX 文档（资料摘要）",
+    "path": "wiki/sources/RTOS/ThreadX/ThreadX文档.md",
+    "snippet": "这是对 `RTOS/ThreadX/ThreadX文档.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RTOS",
+      "ThreadX"
+    ],
+    "aliases": [
+      "ThreadX 文档"
+    ]
+  },
+  {
+    "title": "FreeRTOS和ThreadX（资料摘要）",
+    "path": "wiki/sources/RTOS/Freertos和Threadx.md",
+    "snippet": "这是对 `RTOS/Freertos和Threadx.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "RTOS"
+    ],
+    "aliases": [
+      "FreeRTOS和ThreadX"
+    ]
+  },
+  {
+    "title": "调试工具（三）：trace32（资料摘要）",
+    "path": "wiki/sources/Trace32/调试工具-Trace32.md",
+    "snippet": "这是对 `Trace32/调试工具-Trace32.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "Trace32",
+      "调试工具"
+    ],
+    "aliases": [
+      "调试工具（三）：trace32"
+    ]
+  },
+  {
+    "title": "万字长文解读AUTOSAR完整架构及AP特性（资料摘要）",
+    "path": "wiki/sources/中间件/AutoSAR/万字长文解读AUTOSAR完整架构及AP特性.md",
+    "snippet": "这是对 `中间件/AutoSAR/万字长文解读AUTOSAR完整架构及AP特性.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "AutoSAR",
+      "AUTOSAR",
+      "汽车软件"
+    ],
+    "aliases": [
+      "万字长文解读AUTOSAR完整架构及AP特性"
+    ]
+  },
+  {
+    "title": "分布式实时通信—DDS概述（资料摘要）",
+    "path": "wiki/sources/中间件/DDS/分布式实时通信—DDS概述.md",
+    "snippet": "这是对 `中间件/DDS/分布式实时通信—DDS概述.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "DDS",
+      "通信中间件"
+    ],
+    "aliases": [
+      "分布式实时通信—DDS概述"
+    ]
+  },
+  {
+    "title": "分布式实时通信—DDS进阶（资料摘要）",
+    "path": "wiki/sources/中间件/DDS/分布式实时通信—DDS进阶.md",
+    "snippet": "这是对 `中间件/DDS/分布式实时通信—DDS进阶.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "DDS"
+    ],
+    "aliases": [
+      "分布式实时通信—DDS进阶"
+    ]
+  },
+  {
+    "title": "OpenAMP（资料摘要）",
+    "path": "wiki/sources/中间件/OpenAMP/OpenAMP.md",
+    "snippet": "这是对 `中间件/OpenAMP/OpenAMP.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "OpenAMP",
+      "IPC"
+    ],
+    "aliases": [
+      "OpenAMP"
+    ]
+  },
+  {
+    "title": "IPC（资料摘要）",
+    "path": "wiki/sources/中间件/QNX/IPC.md",
+    "snippet": "这是对 `中间件/QNX/IPC.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "QNX",
+      "IPC"
+    ],
+    "aliases": [
+      "IPC"
+    ]
+  },
+  {
+    "title": "分布式通信技术之远程调用：RPC（资料摘要）",
+    "path": "wiki/sources/中间件/RPC/分布式通信技术之远程调用：RPC.md",
+    "snippet": "这是对 `中间件/RPC/分布式通信技术之远程调用：RPC.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "RPC",
+      "通信"
+    ],
+    "aliases": [
+      "分布式通信技术之远程调用：RPC"
+    ]
+  },
+  {
+    "title": "RPMSG Lite（资料摘要）",
+    "path": "wiki/sources/中间件/RpMSG/RpMSG Lite.md",
+    "snippet": "这是对 `中间件/RpMSG/RpMSG Lite.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "RpMSG"
+    ],
+    "aliases": [
+      "RPMSG Lite"
+    ]
+  },
+  {
+    "title": "Virtio 原理与实现（资料摘要）",
+    "path": "wiki/sources/中间件/RpMSG/Virtio 原理与实现.md",
+    "snippet": "这是对 `中间件/RpMSG/Virtio 原理与实现.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "中间件",
+      "RpMSG"
+    ],
+    "aliases": [
+      "Virtio 原理与实现"
+    ]
+  },
+  {
+    "title": "CAN协议（资料摘要）",
+    "path": "wiki/sources/硬件接口/CAN/CAN协议.md",
+    "snippet": "这是对 `硬件接口/CAN/CAN协议.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "CAN",
+      "总线"
+    ],
+    "aliases": [
+      "CAN协议"
+    ]
+  },
+  {
+    "title": "I2C总线（资料摘要）",
+    "path": "wiki/sources/硬件接口/I2C/I2C总线.md",
+    "snippet": "这是对 `硬件接口/I2C/I2C总线.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "I2C",
+      "总线"
+    ],
+    "aliases": [
+      "I2C总线"
+    ]
+  },
+  {
+    "title": "Linux PCIe源码解析（资料摘要）",
+    "path": "wiki/sources/硬件接口/PCIe/Linux PCIe源码解析.md",
+    "snippet": "这是对 `硬件接口/PCIe/Linux PCIe源码解析.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "PCIe"
+    ],
+    "aliases": [
+      "Linux PCIe源码解析"
+    ]
+  },
+  {
+    "title": "PCIe（资料摘要）",
+    "path": "wiki/sources/硬件接口/PCIe/PCIe.md",
+    "snippet": "这是对 `硬件接口/PCIe/PCIe.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "PCIe",
+      "总线"
+    ],
+    "aliases": [
+      "PCIe"
+    ]
+  },
+  {
+    "title": "USB协议（资料摘要）",
+    "path": "wiki/sources/硬件接口/USB/USB协议.md",
+    "snippet": "这是对 `硬件接口/USB/USB协议.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "USB",
+      "协议"
+    ],
+    "aliases": [
+      "USB协议"
+    ]
+  },
+  {
+    "title": "USB描述符（资料摘要）",
+    "path": "wiki/sources/硬件接口/USB/USB描述符.md",
+    "snippet": "这是对 `硬件接口/USB/USB描述符.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "USB"
+    ],
+    "aliases": [
+      "USB描述符"
+    ]
+  },
+  {
+    "title": "USB枚举（资料摘要）",
+    "path": "wiki/sources/硬件接口/USB/USB枚举.md",
+    "snippet": "这是对 `硬件接口/USB/USB枚举.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "USB"
+    ],
+    "aliases": [
+      "USB枚举"
+    ]
+  },
+  {
+    "title": "基于cherryUSB的USB驱动实现详解（资料摘要）",
+    "path": "wiki/sources/硬件接口/USB/usb驱动.md",
+    "snippet": "这是对 `硬件接口/USB/usb驱动.md` 的追溯页，用来连接原始笔记与当前知识地图。",
+    "type": "source",
+    "tags": [
+      "source",
+      "硬件接口",
+      "USB"
+    ],
+    "aliases": [
+      "基于cherryUSB的USB驱动实现详解"
+    ]
+  },
+  {
+    "title": "Source Index",
+    "path": "wiki/sources/index.md",
+    "snippet": "这里汇总 `wiki/sources/` 下的资料摘要页，用来追溯 wiki 页面背后的原始笔记。",
+    "type": "index",
+    "tags": [
+      "wiki",
+      "sources",
+      "index"
+    ],
+    "aliases": [
+      "资料索引",
+      "Source Summaries"
+    ]
+  },
+  {
+    "title": "Wiki Index",
+    "path": "wiki/index.md",
+    "snippet": "这是个人知识库的入口页，用于聚合主题、实体、资料摘要和高价值问答。",
+    "type": "index",
+    "tags": [
+      "wiki",
+      "index"
+    ],
+    "aliases": [
+      "知识目录",
+      "知识地图入口"
+    ]
+  },
+  {
+    "title": "Wiki Log",
+    "path": "wiki/log.md",
+    "snippet": "- 初始化第一版知识库骨架：`purpose.md`、`schema.md`、`wiki/`、`raw/`。 - 为现有 Markdown 文档引入统一 frontmatter 规范。 - 升级索引与搜索脚本，使其读取 frontmatter 元数据。",
+    "type": "log",
+    "tags": [
+      "wiki",
+      "log"
+    ],
+    "aliases": [
+      "知识库日志"
+    ]
+  },
+  {
+    "title": "Wiki Overview",
+    "path": "wiki/overview.md",
+    "snippet": "当前知识库以 Linux、ARM、RISC-V、RTOS、硬件接口、中间件和验证工具为主要主题。",
+    "type": "overview",
+    "tags": [
+      "wiki",
+      "overview"
+    ],
+    "aliases": [
+      "知识总览"
+    ]
   },
   {
     "title": "万字长文解读AUTOSAR完整架构及AP特性",
     "path": "中间件/AutoSAR/万字长文解读AUTOSAR完整架构及AP特性.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "万字长文解读AUTOSAR完整架构及AP特性",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "AutoSAR",
+      "AUTOSAR",
+      "汽车软件"
+    ],
+    "aliases": [
+      "AUTOSAR",
+      "AUTOSAR AP",
+      "Classic Platform",
+      "Adaptive Platform"
+    ]
   },
   {
     "title": "分布式实时通信—DDS概述",
     "path": "中间件/DDS/分布式实时通信—DDS概述.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "分布式实时通信—DDS概述",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "DDS",
+      "通信中间件"
+    ],
+    "aliases": [
+      "DDS",
+      "Data Distribution Service"
+    ]
   },
   {
     "title": "分布式实时通信—DDS进阶",
     "path": "中间件/DDS/分布式实时通信—DDS进阶.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "分布式实时通信—DDS进阶",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "DDS"
+    ],
+    "aliases": []
   },
   {
     "title": "OpenAMP",
     "path": "中间件/OpenAMP/OpenAMP.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "OpenAMP",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "OpenAMP",
+      "IPC"
+    ],
+    "aliases": [
+      "Open Asymmetric Multi Processing",
+      "RemoteProc",
+      "RPMsg"
+    ]
   },
   {
     "title": "IPC",
     "path": "中间件/QNX/IPC.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Interprocess Communication (IPC)",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "QNX",
+      "IPC"
+    ],
+    "aliases": [
+      "QNX IPC",
+      "QNX Neutrino IPC",
+      "Interprocess Communication"
+    ]
   },
   {
     "title": "分布式通信技术之远程调用：RPC",
     "path": "中间件/RPC/分布式通信技术之远程调用：RPC.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "分布式通信技术之远程调用：RPC",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "RPC",
+      "通信"
+    ],
+    "aliases": [
+      "Remote Procedure Call",
+      "RPC",
+      "远程调用"
+    ]
   },
   {
     "title": "RPMSG Lite",
     "path": "中间件/RpMSG/RpMSG Lite.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "RPMSG Lite",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "RpMSG"
+    ],
+    "aliases": []
   },
   {
     "title": "Virtio 原理与实现",
     "path": "中间件/RpMSG/Virtio 原理与实现.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Virtio 原理与实现",
+    "type": "note",
+    "tags": [
+      "中间件",
+      "RpMSG"
+    ],
+    "aliases": []
   },
   {
     "title": "DDRSDRAM工作原理",
     "path": "存储/DDRSDRAM工作原理.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "DDRSDRAM工作原理",
+    "type": "note",
+    "tags": [
+      "存储"
+    ],
+    "aliases": []
   },
   {
     "title": "DDR的固件",
     "path": "存储/DDR固件.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "DDR内存中的Firmware通常是指嵌入式固件，它存储在DRAM芯片内部或者其控制电路中。这个固件的作用是管理并控制DDR内存的操作，包括 初始化、配置、错误检测和纠正等任务。它执行底层的内存访问协议，如地址解码、数据通信以及与处理器之间的交互。Firmware确保了DDR 内存能按预期工作，并且在系统启动早期运行，因为它是无操作系统环境下的关键部分。",
+    "type": "note",
+    "tags": [
+      "存储"
+    ],
+    "aliases": []
   },
   {
     "title": "CAN协议",
     "path": "硬件接口/CAN/CAN协议.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "CAN协议，系统结构和帧结构",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "CAN",
+      "总线"
+    ],
+    "aliases": [
+      "Controller Area Network",
+      "CAN bus"
+    ]
   },
   {
     "title": "chiplet 芯粒间互联接口与通信结构",
     "path": "硬件接口/chiplet/chiplet 芯粒间互联接口与通信结构.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "chiplet 芯粒间互联接口与通信结构",
+    "type": "source",
+    "tags": [
+      "硬件接口",
+      "chiplet"
+    ],
+    "aliases": []
   },
   {
     "title": "I2C总线",
     "path": "硬件接口/I2C/I2C总线.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "I2C总线",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "I2C",
+      "总线"
+    ],
+    "aliases": [
+      "Inter-Integrated Circuit",
+      "I2C bus"
+    ]
   },
   {
     "title": "Linux PCIe源码解析",
     "path": "硬件接口/PCIe/Linux PCIe源码解析.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "在Linux内核中，PCIe驱动的实现主要涉及以下几个核心部分：PCIe设备的枚举、驱动注册、设备探测、资源管理、数据传输和中断处理等。下面将详细解析Linux PCIe驱动的源码实现。",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "PCIe"
+    ],
+    "aliases": []
   },
   {
     "title": "PCIe",
     "path": "硬件接口/PCIe/PCIe.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "在 PCIe（Peripheral Component Interconnect Express）体系中，RC（Root Complex）和 EP（Endpoint）是两种关键的设备类型。RC 和 EP 的配置决定了 PCIe 链路的建立和设备间通信的实现。",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "PCIe",
+      "总线"
+    ],
+    "aliases": [
+      "PCI Express",
+      "Peripheral Component Interconnect Express"
+    ]
   },
   {
     "title": "SPI总线",
     "path": "硬件接口/SPI/SPI总线.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "SPI总线",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "SPI"
+    ],
+    "aliases": []
   },
   {
     "title": "DFU使用",
     "path": "硬件接口/USB/DFU/DFU使用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "DFU使用",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "USB",
+      "DFU"
+    ],
+    "aliases": []
   },
   {
     "title": "DFU源码分析",
     "path": "硬件接口/USB/DFU/dfu源码分析.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "DFU设备描述符示例",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "USB",
+      "DFU"
+    ],
+    "aliases": []
   },
   {
     "title": "Fastboot",
     "path": "硬件接口/USB/fastboot/fastboot.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Fastboot 是一种用于 Android 设备的协议，允许用户通过 USB 连接与设备进行通信，执行各种操作，如刷入系统镜像、解锁引导加载程序等。以下是 Fastboot 的基本概念和操作流程。",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "USB",
+      "fastboot"
+    ],
+    "aliases": []
   },
   {
     "title": "USB协议",
     "path": "硬件接口/USB/USB协议.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "USB协议 USB 2.0",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "USB",
+      "协议"
+    ],
+    "aliases": [
+      "USB protocol",
+      "通用串行总线",
+      "USB 2.0"
+    ]
   },
   {
     "title": "USB描述符",
     "path": "硬件接口/USB/USB描述符.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "USB描述符是USB设备用来向主机描述自身特性的数据结构。USB描述符有多种类型，包括设备描述符、配置描述符、接口描述符、端点描述符、字符串描述符等。",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "USB"
+    ],
+    "aliases": []
   },
   {
     "title": "USB枚举",
     "path": "硬件接口/USB/USB枚举.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "USB设备的枚举过程如下：",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "USB"
+    ],
+    "aliases": []
   },
   {
     "title": "基于cherryUSB的USB驱动实现详解",
     "path": "硬件接口/USB/usb驱动.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "cherryUSB 是一款开源、跨平台的 USB 协议栈，支持主机（Host）和设备（Device）模式，适用于多种 MCU/SoC 平台。其驱动实现以模块化、可移植为设计目标，便于适配不同硬件控制器。cherryUSB 驱动主要负责 USB 控制器的初始化、设备枚举、数据传输和中断处理等核心功能。    cherryUSB GitHub 代码库",
+    "type": "note",
+    "tags": [
+      "硬件接口",
+      "USB"
+    ],
+    "aliases": []
   },
   {
     "title": "算法",
     "path": "算法/算法.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "算法",
+    "type": "note",
+    "tags": [
+      "算法"
+    ],
+    "aliases": []
   },
   {
     "title": "dpi-tutorial",
     "path": "验证工具/DPI_Direct_program_interface/systemverilog-dpi-tutorial.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "systemverilog-dpi-tutorial",
+    "type": "source",
+    "tags": [
+      "验证工具",
+      "DPI Direct program interface"
+    ],
+    "aliases": []
   },
   {
     "title": "使用记录",
     "path": "验证工具/palladium+helium/使用记录.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "database -open wave_name -cont -phy \\ xeset timeUnit ns \\ xeset triggerPos 50 \\ xeset traceMemSize 80us \\ xeset fvMaxThread 32",
+    "type": "note",
+    "tags": [
+      "验证工具",
+      "palladium+helium"
+    ],
+    "aliases": []
   },
   {
     "title": "TCL语言学习",
     "path": "验证工具/TCL语言/TCL语言学习.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "TCL语言学习",
+    "type": "note",
+    "tags": [
+      "验证工具",
+      "TCL语言"
+    ],
+    "aliases": []
   },
   {
     "title": "Git使用记录",
     "path": "验证工具/ZEBU+VDK/使用记录.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "",
+    "type": "note",
+    "tags": [
+      "验证工具",
+      "ZEBU+VDK"
+    ],
+    "aliases": []
+  },
+  {
+    "title": "Memory Context",
+    "path": "AGENTS.md",
+    "snippet": "<claude-mem-context>",
+    "type": "note",
+    "tags": [],
+    "aliases": []
   },
   {
     "title": "Git使用",
     "path": "Git使用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "git clone git_url",
+    "type": "note",
+    "tags": [],
+    "aliases": []
   },
   {
     "title": "Markdown语法参考",
     "path": "Markdown语法参考.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "Markdwon官方教程",
+    "type": "note",
+    "tags": [],
+    "aliases": []
   },
   {
     "title": "仓库优化最终报告",
     "path": "optimization_report.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "概览：扫描仓库 763 个文件，发现 77 个 >= 1MB，总计约 499.80MB。已添加用于分析与清理的脚本，并建议将大型二进制/文档迁移到 releases 或外部存储。",
+    "type": "note",
+    "tags": [],
+    "aliases": []
   },
   {
-    "title": "***不断学习，让生活变得更美好，让工作变得更轻松***",
+    "title": "Knowledge Base Purpose",
+    "path": "purpose.md",
+    "snippet": "这个仓库用于沉淀我在软件、系统、芯片、工具链和工程实践中的长期知识资产。",
+    "type": "purpose",
+    "tags": [
+      "knowledge-base",
+      "governance"
+    ],
+    "aliases": [
+      "知识库目标",
+      "仓库目的"
+    ]
+  },
+  {
+    "title": "个人知识库",
     "path": "README.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "这个仓库正在从“按目录存放资料”升级为“可搜索、可关联、可持续维护”的个人知识库。",
+    "type": "hub",
+    "tags": [
+      "knowledge-base",
+      "wiki",
+      "hub"
+    ],
+    "aliases": [
+      "Personal Knowledge Base",
+      "PKB",
+      "知识库首页"
+    ]
+  },
+  {
+    "title": "Knowledge Base Schema",
+    "path": "schema.md",
+    "snippet": "- `raw/sources/`: 原始资料，尽量保持不可变。 - `raw/assets/`: 图片、附件等静态资源。 - `wiki/index.md`: 知识目录与入口页。 - `wiki/log.md`: 结构化变更日志。 - `wiki/overview.md`: 当前知识库全局概览。 - `wiki/entities/`: 人物、组织、产品、工具等实体页。 - `wiki/concepts/`: 概念、机制、方法、协议等主题页。 - `wiki/sources/`",
+    "type": "schema",
+    "tags": [
+      "knowledge-base",
+      "schema",
+      "frontmatter"
+    ],
+    "aliases": [
+      "知识库规范",
+      "仓库规则"
+    ]
   },
   {
     "title": "VIM使用",
     "path": "VIM使用.md",
-    "snippet": "<!-- TOC -->"
+    "snippet": "",
+    "type": "note",
+    "tags": [],
+    "aliases": []
   }
 ]

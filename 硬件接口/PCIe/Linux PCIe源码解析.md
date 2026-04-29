@@ -1,20 +1,13 @@
+---
+title: Linux PCIe源码解析
+type: note
+status: seed
+tags: ["硬件接口", "PCIe"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # Linux PCIe源码解析
-<!-- TOC -->
-
-- [0. 源码目录结构](#0-)
-- [1. **PCIe驱动的基本结构**](#1-pcie)
-- [2. **设备探测（Probe）**](#2-probe)
-- [3. **设备移除（Remove）**](#3-remove)
-- [4. **中断处理**](#4-)
-- [5. **数据传输**](#5-)
-  - [**MMIO**](#mmio)
-  - [**DMA**](#dma)
-- [6. **内核源码中的PCIe驱动示例**](#6-pcie)
-- [7. **调试和测试**](#7-)
-
-<!-- TOC END -->
-
-
 在Linux内核中，PCIe驱动的实现主要涉及以下几个核心部分：PCIe设备的枚举、驱动注册、设备探测、资源管理、数据传输和中断处理等。下面将详细解析Linux PCIe驱动的源码实现。
 
 ---
@@ -265,4 +258,3 @@ Linux内核源码中有许多PCIe驱动的实现，可以参考以下目录：
 - 使用 `cat /proc/interrupts` 查看中断信息。
 
 ---
-

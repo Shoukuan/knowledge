@@ -1,16 +1,13 @@
+---
+title: Linux内存管理初始化
+type: note
+status: seed
+tags: ["Linux", "内存管理"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # Linux内存管理初始化
-<!-- TOC -->
-
-- [物理内存初始化文章目录](#)
-- [分页机制文章目录](#)
-- [paging_init文章目录](#paging_init)
-- [mm_init函数分析文章目录](#mm_init)
-- [start_kernel](#start_kernel)
-- [setup_arch](#setup_arch)
-
-<!-- TOC END -->
-
-
 [Linux内存初始化](https://blog.csdn.net/u013836909/category_11623173.html)
 
 [linux内存管理——内存初始化1---物理内存初始化](https://blog.csdn.net/u013836909/article/details/136051700)
@@ -336,4 +333,3 @@ setup_arch
 
 ---->free_area_init_nodes: 建立完备的内核数据结构
 ```
-

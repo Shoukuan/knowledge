@@ -1,11 +1,13 @@
+---
+title: Coresight
+type: note
+status: seed
+tags: ["ARM", "coresight"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # Coresight
-<!-- TOC -->
-
-
-<!-- TOC END -->
-
-
-
 ![Coresight关键组件](Coresight关键组件.jpg)
 
 数据流示例：ETM → ATB → Trace Funnel → ATB → TPIU → 外部调试器。

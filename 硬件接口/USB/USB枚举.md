@@ -1,10 +1,13 @@
+---
+title: USB枚举
+type: note
+status: seed
+tags: ["硬件接口", "USB"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # USB枚举
-<!-- TOC -->
-
-
-<!-- TOC END -->
-
-
 USB设备的枚举过程如下：
 
 1. USB设备插入USB接口后，主机检测D+/D-线上的电压，确认有设备连接，USB集线器通过中断IN通道，向主机报告有USB设备连接。
@@ -32,4 +35,3 @@ USB设备的枚举过程如下：
 12. 如果还有字符串描述符，系统还会获取字符串描述符。像HID设备还有报告描述符，它也需要单独获取。
 
 ![USB枚举](USB枚举.png)
-

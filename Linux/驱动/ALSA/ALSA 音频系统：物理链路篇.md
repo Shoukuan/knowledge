@@ -1,10 +1,13 @@
+---
+title: ALSA 音频系统：物理链路篇
+type: note
+status: seed
+tags: ["Linux", "驱动", "ALSA"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # ALSA 音频系统：物理链路篇
-<!-- TOC -->
-
-
-<!-- TOC END -->
-
-
 [ALSA 音频系统：物理链路篇](https://blog.csdn.net/zyuanyun/article/details/59170418)
 
 ![ALSA音频系统架构](ALSA音频系统架构.jpg)
@@ -28,4 +31,3 @@
 **snd_soc_dai_link**：音频链路描述及板级操作函数
 
 ![goni_wm8994 整个音频驱动](goni_wm8994整个音频驱动.png)
-

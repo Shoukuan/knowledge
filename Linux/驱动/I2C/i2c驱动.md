@@ -1,14 +1,13 @@
+---
+title: I2C驱动
+type: note
+status: seed
+tags: ["Linux", "驱动", "I2C"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # I2C驱动
-<!-- TOC -->
-
-  - [I2C总线](#i2c)
-  - [I2C驱动](#i2c)
-  - [I2C设备](#i2c)
-  - [I2C适配器](#i2c)
-
-<!-- TOC END -->
-
-
 ### I2C总线
 
 ```C
@@ -93,4 +92,3 @@ I2C驱动有4个重要的东西，I2C总线、I2C驱动、I2C设备、I2C适配�
 ![I2C写时序](I2C写时序.png)
 
 ![I2C读时序](I2C读时序.png)
-

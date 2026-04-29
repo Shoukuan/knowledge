@@ -1,12 +1,13 @@
+---
+title: Riscv_DV
+type: note
+status: seed
+tags: ["RiscV"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # Riscv_DV
-<!-- TOC -->
-
-- [1. 简介](#1-)
-- [2. Riscv_DV的安装](#2-riscv_dv)
-
-<!-- TOC END -->
-
-
 ## 1. 简介
 
 Riscv_DV是一个开源的Riscv验证环境，它提供了一套完整的Riscv验证工具，包括指令集测试、中断测试、异常测试、调试测试等。Riscv_DV还提供了一套完整的Riscv模拟器，可以用于验证Riscv指令集的正确性。

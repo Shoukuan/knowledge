@@ -1,10 +1,13 @@
+---
+title: chiplet 芯粒间互联接口与通信结构
+type: source
+status: active
+tags: ["硬件接口", "chiplet"]
+aliases: []
+sources: ["https://blog.csdn.net/cy413026/article/details/131824203", "https://baijiahao.baidu.com/s?id=1714738118817586711", "https://zhuanlan.zhihu.com/p/528003503", "https://zhuanlan.zhihu.com/p/672749098"]
+updated_at: 2026-04-28
+---
 # chiplet 芯粒间互联接口与通信结构
-<!-- TOC -->
-
-
-<!-- TOC END -->
-
-
 [chiplet 芯粒间互联接口与通信结构](https://blog.csdn.net/cy413026/article/details/131824203)
 
 [Chiplet时代来临，Die-to-Die接口成新挑战](https://baijiahao.baidu.com/s?id=1714738118817586711)
@@ -12,4 +15,3 @@
 [深度解读Chiplet互连标准UCIe](https://zhuanlan.zhihu.com/p/528003503)
 
 [Nvidia GPU互联技术全景图](https://zhuanlan.zhihu.com/p/672749098)
-

@@ -1,12 +1,13 @@
+---
+title: RPMSG Lite
+type: note
+status: seed
+tags: ["中间件", "RpMSG"]
+aliases: []
+sources: []
+updated_at: 2026-04-27
+---
 # RPMSG Lite
-<!-- TOC -->
-
-- [Usage](#usage)
-- [Configuration options](#configuration-options)
-
-<!-- TOC END -->
-
-
 [RPMSG Lite](https://github.com/Shoukuan/rpmsg-lite)
 
 ![rpmsg_lite_arch](rpmsg_lite_arch.png)
@@ -133,4 +134,3 @@ struct vring_used {
 };
 //在初始化已用环结构体时，通常会将 flags 和 idx 字段的初始值设置为零，并根据具体的需求和设计，可能会初始化 ring 数组中的元素。在实际使用中，idx 字段会被用来跟踪已用环中的下一个可用索引位置，而 ring 数组则用于存储已使用的描述符信息，通常是描述符的索引和长度。
 ```
-
