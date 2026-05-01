@@ -20,7 +20,7 @@ FreeRTOS 是当前 RTOS 分支中的主要对象，重点围绕任务、内存�
 ## 相关资料
 
 - [Freertos使用](../../RTOS/FreeRTOS/Freertos使用.md)
-- [内存管理](../../RTOS/FreeRTOS/内存管理.md)
+- [内存管理](https://www.freertos.org/a00111.html)
 - [Freertos和Threadx](../../RTOS/Freertos和Threadx.md)
 
 ## 主题连接

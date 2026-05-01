@@ -19,7 +19,7 @@ NuttX 是当前 RTOS 分支中的另一条操作系统主线，适合与 FreeRTO
 
 ## 相关资料
 
-- [NuttX简介](../../RTOS/NuttX/NuttX简介.md)
+- [NuttX简介](https://juejin.cn/post/7321993405414932531)
 
 ## 主题连接
 

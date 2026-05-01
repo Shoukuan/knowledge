@@ -19,7 +19,7 @@ USB 是当前接口类资料里最完整的一条主线，已经覆盖协议、�
 
 ## 相关资料
 
-- [USB协议](../../硬件接口/USB/USB协议.md)
+- [USB协议](https://www.usbzh.com/article/detail-607.html)
 - [USB描述符](../../硬件接口/USB/USB描述符.md)
 - [USB枚举](../../硬件接口/USB/USB枚举.md)
 - [usb驱动](../../硬件接口/USB/usb驱动.md)

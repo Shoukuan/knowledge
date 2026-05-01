@@ -19,7 +19,7 @@ AUTOSAR 是汽车软件架构领域的重要对象，当前知识库已经有一
 
 ## 相关资料
 
-- [万字长文解读AUTOSAR完整架构及AP特性](../../中间件/AutoSAR/万字长文解读AUTOSAR完整架构及AP特性.md)
+- [万字长文解读AUTOSAR完整架构及AP特性](https://zhuanlan.zhihu.com/p/536367959)
 
 ## 主题连接
 

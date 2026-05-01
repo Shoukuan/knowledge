@@ -19,7 +19,7 @@ QNX 在当前知识库中主要以实时操作系统和消息驱动 IPC 模型�
 
 ## 相关资料
 
-- [IPC](../../中间件/QNX/IPC.md)
+- [IPC](https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.neutrino_sys_arch/ipc.html)
 
 ## 主题连接
 

@@ -19,8 +19,8 @@ RPC 是分布式通信里最经典的抽象之一，适合和本地 IPC、DDS �
 
 ## 相关资料
 
-- [分布式通信技术之远程调用：RPC](../../中间件/RPC/分布式通信技术之远程调用：RPC.md)
-- [分布式实时通信—DDS概述](../../中间件/DDS/分布式实时通信—DDS概述.md)
+- [分布式通信技术之远程调用：RPC](https://cloud.tencent.com/developer/article/1663930)
+- [分布式实时通信—DDS概述](https://blog.yanjingang.com/?p=6716)
 
 ## 主题连接
 

@@ -19,7 +19,7 @@ CAN 是工业与汽车电子场景中极高频的总线协议，当前知识库�
 
 ## 相关资料
 
-- [CAN协议](../../硬件接口/CAN/CAN协议.md)
+- [CAN协议](https://www.cnblogs.com/pejoicen/p/3986587.html)
 
 ## 主题连接
 

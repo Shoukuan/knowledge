@@ -22,7 +22,7 @@ Linux 是当前知识库中的核心技术主线，覆盖内核结构、启动�
 
 - [Linux内核](../../Linux/Linux内核.md)
 - [Linux嵌入式系统开发](../../Linux/Linux嵌入式系统开发.md)
-- [linux_kernel_wiki](../../Linux/linux_kernel_wiki.md)
+- [linux_kernel_wiki](https://github.com/0voice/linux_kernel_wiki/tree/main/%E6%96%87%E7%AB%A0)
 
 ## 主题连接
 

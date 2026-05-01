@@ -19,7 +19,7 @@ OpenAMP 是异构多核系统中的通信框架，在知识库中与 RPMsg、Vir
 
 ## 相关资料
 
-- [OpenAMP](../../中间件/OpenAMP/OpenAMP.md)
+- [OpenAMP](https://github.com/OpenAMP)
 - [RpMSG Lite](../../中间件/RpMSG/RpMSG Lite.md)
 - [Virtio 原理与实现](../../中间件/RpMSG/Virtio 原理与实现.md)
 

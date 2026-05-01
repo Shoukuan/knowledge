@@ -19,9 +19,9 @@ IPC 在当前知识库里跨本地 OS 通信、分布式调用和异构多核消
 
 ## 相关资料
 
-- [IPC](../../中间件/QNX/IPC.md)
-- [分布式通信技术之远程调用：RPC](../../中间件/RPC/分布式通信技术之远程调用：RPC.md)
-- [OpenAMP](../../中间件/OpenAMP/OpenAMP.md)
+- [IPC](https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.neutrino_sys_arch/ipc.html)
+- [分布式通信技术之远程调用：RPC](https://cloud.tencent.com/developer/article/1663930)
+- [OpenAMP](https://github.com/OpenAMP)
 - [RpMSG Lite](../../中间件/RpMSG/RpMSG Lite.md)
 
 ## 主题连接

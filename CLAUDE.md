@@ -15,10 +15,10 @@ The repo is being upgraded from flat "notes in directories" into a **searchable,
 | `wiki/` | Curated wiki pages |
 | `wiki/entities/` | Entity pages: Linux, ARM, RISC-V, FreeRTOS, ThreadX, OpenAMP, AUTOSAR, etc. |
 | `wiki/concepts/` | Concept pages: interrupts, GIC, memory management, USB, PCIe, IPC, DTS, scheduling, etc. |
-| `wiki/sources/` | Traced pages linking wiki content back to original sources |
 | `wiki/queries/` | Q&A, comparisons, summaries |
 | `scripts/` | Python automation scripts |
 | `docs/` | Generated docs: search index, repo index, GitHub Pages deployment |
+| `阅读清单.md` | Consolidated external reading list (replaces 44 scattered stub files) |
 | `工程实践/` | Engineering practice notes: Git, VIM, Markdown, tools |
 | `专业书籍/` | Reference books (PDFs stored locally, not in git) |
 | `仿真工具/` | SI/PI simulation tools: SIwave, HFSS (PDFs/ZIPs local only) |
@@ -57,8 +57,8 @@ All scripts are in `scripts/` (Python):
 | `generate_beautified_index.py` | Generate categorized, collapsible repo index with search |
 | `bootstrap_seed_knowledge.py` | Seed wiki pages from existing flat markdown notes |
 | `build_backlinks.py` | Build reverse links between wiki pages |
-| `build_source_summaries.py` | Generate wiki/sources/ summary pages from source materials |
-| `promote_source_stubs.py` | Promote source stubs to full wiki pages |
+| `build_source_summaries.py` | Generate source trace summaries (outputs to docs/) |
+| `promote_source_stubs.py` | Promote seed notes to full wiki pages |
 | `audit_external_links.py` | Audit external links for broken/dead URLs |
 | `find_large_files.py` | Find large files in the repository |
 

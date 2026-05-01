@@ -19,9 +19,9 @@ Buildroot 是嵌入式 Linux 构建链条中的关键工具，当前知识库已
 
 ## 相关资料
 
-- [buildroot概述及使用](../../Linux/buildroot/buildroot概述及使用.md)
-- [buildroot使用介绍](../../Linux/buildroot/buildroot使用介绍.md)
-- [The Buildroot user manual](../../Linux/buildroot/The Buildroot user manual.md)
+- [buildroot概述及使用](https://blog.51cto.com/knifeedge/5136296)
+- [buildroot使用介绍](https://www.cnblogs.com/arnoldlu/p/9553995.html)
+- [The Buildroot user manual](https://buildroot.org/downloads/manual/manual.html#requirement)
 
 ## 主题连接
 
