@@ -19,7 +19,7 @@ I2C 是嵌入式系统里最基础也最常见的低速串行总线之一，当�
 
 ## 相关资料
 
-- [I2C总线](https://blog.csdn.net/guoguo295/article/details/41479353)
+- [I2C总线](../../硬件接口/I2C/I2C总线.md)
 - [i2c驱动](../../Linux/驱动/I2C/i2c驱动.md)
 
 ## 主题连接
